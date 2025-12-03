@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="make" table="x_cdltd_chargesos_vehicles">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="average_response_time" table="x_cdltd_chargesos_charging_analytics">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Make</column_label>
+        <column_label>Average Response Time</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,16 +26,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>make</element>
+        <element>average_response_time</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">float</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_cdltd_chargesos_vehicles</name>
+        <name>x_cdltd_chargesos_charging_analytics</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -50,15 +50,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>emmynem</sys_created_by>
-        <sys_created_on>2025-12-03 08:39:53</sys_created_on>
-        <sys_name>Make</sys_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-03 14:24:57</sys_created_on>
+        <sys_name>Average Response Time</sys_name>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_chargesos_vehicles_make</sys_update_name>
-        <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-03 14:18:34</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_cdltd_chargesos_charging_analytics_average_response_time</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-03 14:24:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

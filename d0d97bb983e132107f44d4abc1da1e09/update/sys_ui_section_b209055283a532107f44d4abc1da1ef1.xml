@@ -1,228 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="b209055283a532107f44d4abc1da1ef1" sys_domain="global" table="x_cdltd_chargesos_charging_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>fa09055283a532107f44d4abc1da1ef7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>1</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>b209055283a532107f44d4abc1da1ef8</sys_id>
+            <position>0</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>e15e35de83a932107f44d4abc1da1e04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>user</element>
-            <position>2</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3a09055283a532107f44d4abc1da1ef8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>battery_percentage</element>
-            <position>3</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>ba09895283a532107f44d4abc1da1e9b</sys_id>
+            <position>1</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>215e35de83a932107f44d4abc1da1e05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicles</element>
-            <position>4</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3209895283a532107f44d4abc1da1e9c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>request_status</element>
-            <position>5</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>b609895283a532107f44d4abc1da1e9c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_operator</element>
-            <position>6</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3e09895283a532107f44d4abc1da1e9c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_charging_started</element>
-            <position>7</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>b209895283a532107f44d4abc1da1e9d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>8</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3a09895283a532107f44d4abc1da1e9d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_submitted</element>
-            <position>9</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>be09895283a532107f44d4abc1da1e9d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_operator_assigned</element>
-            <position>10</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3609895283a532107f44d4abc1da1e9e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_completed</element>
-            <position>11</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>ba09895283a532107f44d4abc1da1e9e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>payment_status</element>
-            <position>12</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>3209895283a532107f44d4abc1da1e9f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue_flag</element>
-            <position>13</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>8709895283a532107f44d4abc1da1e9f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>14</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>0f09895283a532107f44d4abc1da1e9f</sys_id>
+            <position>2</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>295e35de83a932107f44d4abc1da1e05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>15</position>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 11:40:48</sys_created_on>
-            <sys_id>8309895283a532107f44d4abc1da1ea0</sys_id>
+            <element>request_status</element>
+            <position>3</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>215e35de83a932107f44d4abc1da1e06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 11:40:48</sys_updated_on>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue_flag</element>
+            <position>4</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>295e35de83a932107f44d4abc1da1e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>215e35de83a932107f44d4abc1da1e07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>6</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>295e35de83a932107f44d4abc1da1e07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicles</element>
+            <position>7</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>215e35de83a932107f44d4abc1da1e08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_operator</element>
+            <position>8</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>295e35de83a932107f44d4abc1da1e08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_status</element>
+            <position>9</position>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
+            <sys_id>215e35de83a932107f44d4abc1da1e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

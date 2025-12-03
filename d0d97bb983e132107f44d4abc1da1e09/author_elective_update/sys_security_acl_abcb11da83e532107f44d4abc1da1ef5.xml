@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_cdltd_chargesos_mobile_operator_assignment</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_cdltd_chargesos_mobile_operator_assignments</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-03 13:02:46</sys_created_on>
+        <sys_id>abcb11da83e532107f44d4abc1da1ef5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_mobile_operator_assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_security_acl_abcb11da83e532107f44d4abc1da1ef5</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:03:12</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_security_acl_abcb11da83e532107f44d4abc1da1ef5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_cdltd_chargesos_mobile_operator_assignment</description><local_or_existing>Local</local_or_existing><name>x_cdltd_chargesos_mobile_operator_assignments</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-03 13:02:46</sys_created_on><sys_id>abcb11da83e532107f44d4abc1da1ef5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_cdltd_chargesos_mobile_operator_assignments</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_security_acl_abcb11da83e532107f44d4abc1da1ef5</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-03 13:03:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>503668810</payload_hash>
+        <record_name>x_cdltd_chargesos_mobile_operator_assignments</record_name>
+        <reverted_from/>
+        <source>4865d51283e532107f44d4abc1da1eeb</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-03 13:03:12</sys_created_on>
+        <sys_id>42eb19da83e532107f44d4abc1da1ef3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae44f48290000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:03:12</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>0aeb19da65e5321073ef95fb24b139f2</update_guid>
+        <update_guid_history>0aeb19da65e5321073ef95fb24b139f2:503668810,ebcb95dad4e532103094fd390f4b272a:-1001776036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-03 13:14:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>157b3bd20031474abd9578a45e8e23c4</sys_id>
+        <sys_metadata>abcb11da83e532107f44d4abc1da1ef5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_mobile_operator_assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="">b02a991a83e532107f44d4abc1da1e77</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_abcb11da83e532107f44d4abc1da1ef5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_abcb11da83e532107f44d4abc1da1ef5">42eb19da83e532107f44d4abc1da1ef3</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:14:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

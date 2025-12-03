@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f9a2d92836932107f44d4abc1da1e1a" label="Charging Analytics" max_length="40" name="x_cdltd_chargesos_charging_analytics" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Completed Requests" max_length="40" name="completed_requests" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Hotspot Location 1" max_length="32" name="hotspot_location_1" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Hotspot Location 3" max_length="32" name="hotspot_location_3" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Peak Hours" max_length="40" name="peak_hours" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Requests" max_length="40" name="total_requests" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Average Response Time" max_length="40" name="average_response_time" type="float"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Hotspot Location 2" max_length="32" name="hotspot_location_2" reference="cmn_location" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <index name="index">
+            <element name="hotspot_location_1"/>
+        </index>
+        <index name="index2">
+            <element name="hotspot_location_2"/>
+        </index>
+        <index name="index3">
+            <element name="hotspot_location_3"/>
+        </index>
+    </element>
+</database>
