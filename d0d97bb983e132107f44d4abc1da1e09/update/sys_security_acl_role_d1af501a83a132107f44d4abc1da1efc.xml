@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-03 08:39:55</sys_created_on>
+        <sys_id>d1af501a83a132107f44d4abc1da1efc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_vehicles.x_cdltd_chargesos.user</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_security_acl display_value="x_cdltd_chargesos_vehicles">05af501a83a132107f44d4abc1da1ef6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d1af501a83a132107f44d4abc1da1efc</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-03 08:39:55</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_chargesos.user" name="x_cdltd_chargesos.user">9cd97bb983e132107f44d4abc1da1e7e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
