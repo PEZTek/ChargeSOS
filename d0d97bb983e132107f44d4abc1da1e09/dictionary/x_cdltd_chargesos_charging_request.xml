@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6837345a832532107f44d4abc1da1e9d" label="Charging Request" max_length="40" name="x_cdltd_chargesos_charging_request" type="collection">
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Battery Percentage" max_length="40" name="battery_percentage" type="integer"/>
+        <element label="Time Charging Started" max_length="40" name="time_charging_started" type="glide_date_time"/>
+        <element label="Vehicles" max_length="32" name="vehicles" reference="x_cdltd_chargesos_vehicles" type="reference"/>
+        <element label="Time Submitted" max_length="40" name="time_submitted" type="glide_date_time"/>
+        <element label="Time Operator Assigned" max_length="40" name="time_operator_assigned" type="glide_date_time"/>
+        <element label="Time Completed" max_length="40" name="time_completed" type="glide_date_time"/>
+        <element choice="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Issue Flag" max_length="40" name="issue_flag" type="boolean"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Request status" max_length="40" name="request_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Assigned Operator" max_length="32" name="assigned_operator" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_operator"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+        <index name="index4">
+            <element name="vehicles"/>
+        </index>
+    </element>
+</database>
