@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_cdltd_chargesos_mobile_operator_assignments">x_cdltd_chargesos_mobile_operator_assignments</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>OPA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 13:07:02</sys_created_on>
+        <sys_id>c6cc951e83e532107f44d4abc1da1e8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OPA</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_number_c6cc951e83e532107f44d4abc1da1e8e</sys_update_name>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:07:02</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_number_c6cc951e83e532107f44d4abc1da1e8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_cdltd_chargesos_mobile_operator_assignments">x_cdltd_chargesos_mobile_operator_assignments</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>OPA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>pelin.demiral</sys_created_by><sys_created_on>2025-12-03 13:07:02</sys_created_on><sys_id>c6cc951e83e532107f44d4abc1da1e8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OPA</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_number_c6cc951e83e532107f44d4abc1da1e8e</sys_update_name><sys_updated_by>pelin.demiral</sys_updated_by><sys_updated_on>2025-12-03 13:07:02</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-835208499</payload_hash>
+        <record_name>OPA</record_name>
+        <reverted_from/>
+        <source>43f9c59283a532107f44d4abc1da1e78</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 13:07:03</sys_created_on>
+        <sys_id>decc115e83e532107f44d4abc1da1e11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae452cd370000001</sys_recorded_at>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:07:03</sys_updated_on>
+        <type>Number</type>
+        <update_guid>d2cc115e63e5321022c2d38d4c634d11</update_guid>
+        <update_guid_history>d2cc115e63e5321022c2d38d4c634d11:-835208499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 13:07:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>ac4abcb1143e42ea9c61e0a0535d7b99</sys_id>
+        <sys_metadata>c6cc951e83e532107f44d4abc1da1e8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OPA</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="">f9d9511a83e532107f44d4abc1da1e29</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_number_c6cc951e83e532107f44d4abc1da1e8e</sys_update_name>
+        <sys_update_version display_value="sys_number_c6cc951e83e532107f44d4abc1da1e8e">decc115e83e532107f44d4abc1da1e11</sys_update_version>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:07:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

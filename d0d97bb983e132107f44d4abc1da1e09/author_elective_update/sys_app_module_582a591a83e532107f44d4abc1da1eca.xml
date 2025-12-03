@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Mobile Operator Assignments</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_chargesos_mobile_operator_assignments</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_cdltd_chargesos.mobile_operator_assignments_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 12:55:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>582a591a83e532107f44d4abc1da1eca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile Operator Assignments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_app_module_582a591a83e532107f44d4abc1da1eca</sys_update_name>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 12:55:26</sys_updated_on>
+        <timeline_page/>
+        <title>Mobile Operator Assignments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_app_module_582a591a83e532107f44d4abc1da1eca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Mobile Operator Assignments</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_chargesos_mobile_operator_assignments</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_cdltd_chargesos.mobile_operator_assignments_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>pelin.demiral</sys_created_by><sys_created_on>2025-12-03 12:55:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>582a591a83e532107f44d4abc1da1eca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mobile Operator Assignments</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_app_module_582a591a83e532107f44d4abc1da1eca</sys_update_name><sys_updated_by>pelin.demiral</sys_updated_by><sys_updated_on>2025-12-03 12:55:26</sys_updated_on><timeline_page/><title>Mobile Operator Assignments</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1168261716</payload_hash>
+        <record_name>Mobile Operator Assignments</record_name>
+        <reverted_from/>
+        <source>43f9c59283a532107f44d4abc1da1e78</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 12:55:26</sys_created_on>
+        <sys_id>d42a591a83e532107f44d4abc1da1ecd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae4482d860000001</sys_recorded_at>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 12:55:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d82a591adbe532108327713dbc988ccc</update_guid>
+        <update_guid_history>d82a591adbe532108327713dbc988ccc:-1168261716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mobile Operator Assignments">9fcc515e83e532107f44d4abc1da1e81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-03 13:07:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0214c357b0804ddb80488bdbdc0a29e9</sys_id>
+        <sys_metadata>582a591a83e532107f44d4abc1da1eca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile Operator Assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_app_module_582a591a83e532107f44d4abc1da1eca</sys_update_name>
+        <sys_update_version display_value="sys_app_module_582a591a83e532107f44d4abc1da1eca">d42a591a83e532107f44d4abc1da1ecd</sys_update_version>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-03 13:07:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
