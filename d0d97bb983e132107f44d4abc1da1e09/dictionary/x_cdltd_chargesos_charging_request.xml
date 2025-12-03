@@ -9,7 +9,11 @@
         <element label="Time Operator Assigned" max_length="40" name="time_operator_assigned" type="glide_date_time"/>
         <element label="Time Completed" max_length="40" name="time_completed" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Payment Status" max_length="40" name="payment_status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="1" value="paid"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Issue Flag" max_length="40" name="issue_flag" type="boolean"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
