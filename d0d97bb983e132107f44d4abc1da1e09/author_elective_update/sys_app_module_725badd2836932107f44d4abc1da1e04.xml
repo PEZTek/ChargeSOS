@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_chargesos_operator_assignments</name>
+        <order>440</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_cdltd_chargesos.operator</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 14:12:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>725badd2836932107f44d4abc1da1e04</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>All Operation Assignments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_app_module_725badd2836932107f44d4abc1da1e04</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 15:06:00</sys_updated_on>
+        <timeline_page/>
+        <title>All Operation Assignments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_app_module_725badd2836932107f44d4abc1da1e04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All </mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_chargesos_operator_assignments</name><order>440</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_cdltd_chargesos.operator</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-03 14:12:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>725badd2836932107f44d4abc1da1e04</sys_id><sys_mod_count>4</sys_mod_count><sys_name>All Operation Assignments</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_app_module_725badd2836932107f44d4abc1da1e04</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-03 15:06:00</sys_updated_on><timeline_page/><title>All Operation Assignments</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-50694212</payload_hash>
+        <record_name>All Operation Assignments</record_name>
+        <reverted_from/>
+        <source>29a105d6836532107f44d4abc1da1e56</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 15:06:00</sys_created_on>
+        <sys_id>3808f55683a932107f44d4abc1da1e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae4bfb7470000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 15:06:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fc08f55651a93210bff24d6f9d023e54</update_guid>
+        <update_guid_history>fc08f55651a93210bff24d6f9d023e54:-50694212,8de7f5563aa93210af4c79d6ce017486:-71975319,ec10f9da52693210c1fc6596090eaf4a:-316960241,41eca9969a693210d6c5741e6d83a003:-2049114254,2babedd2e069321036e11c3da40f6900:-1471729583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Operation Assignments">11ad719e83a932107f44d4abc1da1e24</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 15:30:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>11beb3c17cfe48ca829e42bbfa24c724</sys_id>
+        <sys_metadata>725badd2836932107f44d4abc1da1e04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Operation Assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_app_module_725badd2836932107f44d4abc1da1e04</sys_update_name>
+        <sys_update_version display_value="sys_app_module_725badd2836932107f44d4abc1da1e04">3808f55683a932107f44d4abc1da1e55</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 15:30:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

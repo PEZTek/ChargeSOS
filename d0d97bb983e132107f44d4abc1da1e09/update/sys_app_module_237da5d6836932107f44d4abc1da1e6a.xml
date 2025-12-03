@@ -8,34 +8,34 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Charging Fleets</mobile_title>
+        <mobile_title>All Charging Fleet</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_chargesos_charging_fleets</name>
-        <order>500</order>
+        <order>540</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_cdltd_chargesos.operator</roles>
         <sys_class_name>sys_app_module</sys_class_name>
-        <sys_created_by>pelin.demiral</sys_created_by>
-        <sys_created_on>2025-12-03 13:28:27</sys_created_on>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 14:22:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b7a1ad16832932107f44d4abc1da1e05</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Charging Fleets</sys_name>
+        <sys_id>237da5d6836932107f44d4abc1da1e6a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Charging Fleet</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
-        <sys_update_name>sys_app_module_b7a1ad16832932107f44d4abc1da1e05</sys_update_name>
+        <sys_update_name>sys_app_module_237da5d6836932107f44d4abc1da1e6a</sys_update_name>
         <sys_updated_by>zachery.howton</sys_updated_by>
-        <sys_updated_on>2025-12-03 14:30:58</sys_updated_on>
+        <sys_updated_on>2025-12-03 15:07:49</sys_updated_on>
         <timeline_page/>
-        <title>Charging Fleets</title>
+        <title>All Charging Fleet</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

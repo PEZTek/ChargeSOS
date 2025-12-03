@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_chargesos_charging_fleets</name>
+        <order>240</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 14:10:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>362b25d2836932107f44d4abc1da1ece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Charging Fleet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_app_module_362b25d2836932107f44d4abc1da1ece</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 14:10:33</sys_updated_on>
+        <timeline_page/>
+        <title>All Charging Fleet</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_app_module_362b25d2836932107f44d4abc1da1ece</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ChargeSOS">11d1684e83a532107f44d4abc1da1ebf</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All </mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_chargesos_charging_fleets</name><order>240</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-03 14:10:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>362b25d2836932107f44d4abc1da1ece</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Charging Fleet</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_app_module_362b25d2836932107f44d4abc1da1ece</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-03 14:10:33</sys_updated_on><timeline_page/><title>All Charging Fleet</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-616904493</payload_hash>
+        <record_name>All Charging Fleet</record_name>
+        <reverted_from/>
+        <source>29a105d6836532107f44d4abc1da1e56</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 14:10:33</sys_created_on>
+        <sys_id>ac5b2d92836932107f44d4abc1da1e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae48cf0a20000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 14:10:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a05b2d92aa693210963e3ebcc36ac234</update_guid>
+        <update_guid_history>a05b2d92aa693210963e3ebcc36ac234:-616904493</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All Charging Fleet">00dce596836932107f44d4abc1da1e04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-03 14:17:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>29c6d91bdcd94136bfd071f57676f299</sys_id>
+        <sys_metadata>362b25d2836932107f44d4abc1da1ece</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Charging Fleet</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_app_module_362b25d2836932107f44d4abc1da1ece</sys_update_name>
+        <sys_update_version display_value="sys_app_module_362b25d2836932107f44d4abc1da1ece">ac5b2d92836932107f44d4abc1da1e34</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-03 14:17:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

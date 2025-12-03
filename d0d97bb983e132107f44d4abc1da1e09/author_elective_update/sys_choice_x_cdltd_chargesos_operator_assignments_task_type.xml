@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="task_type" table="x_cdltd_chargesos_operator_assignments" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>task_type</element>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-03 13:58:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task_type</sys_name>
+            <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_chargesos_operator_assignments_task_type</sys_update_name>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-03 13:58:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dispatch</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-03 13:58:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-03 13:58:32</sys_updated_on>
+            <value>Dispatch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arrived</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-03 13:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-03 13:58:33</sys_updated_on>
+            <value>Arrived</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Charging</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-03 13:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-03 13:58:33</sys_updated_on>
+            <value>Charging</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Follow Up</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-03 13:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-03 13:58:33</sys_updated_on>
+            <value>Follow Up</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
