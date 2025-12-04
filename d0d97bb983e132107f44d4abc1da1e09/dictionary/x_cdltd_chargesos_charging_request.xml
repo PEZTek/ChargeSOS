@@ -17,7 +17,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Issue Flag" max_length="40" name="issue_flag" type="boolean"/>
         <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Requested" label="Request status" max_length="40" name="request_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Request status" max_length="40" name="request_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
                 <element inactive_on_update="false" label="En Route" sequence="2" value="en-route"/>
