@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description>Default ChargeSOS Application</description>
+        <name>ChargeSOS</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 09:43:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24e731ee836132107f44d4abc1da1e86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChargeSOS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ux_theme_24e731ee836132107f44d4abc1da1e86</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 09:43:55</sys_updated_on>
+        <theme/>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_ux_theme_24e731ee836132107f44d4abc1da1e86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description>Default ChargeSOS Application</description><name>ChargeSOS</name><parent/><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-04 09:43:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>24e731ee836132107f44d4abc1da1e86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ChargeSOS</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_ux_theme_24e731ee836132107f44d4abc1da1e86</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-04 09:43:55</sys_updated_on><theme/></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>-9290570</payload_hash>
+        <record_name>ChargeSOS</record_name>
+        <reverted_from/>
+        <source>e301461683e932107f44d4abc1da1e11</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 09:43:55</sys_created_on>
+        <sys_id>bce7b96283a132107f44d4abc1da1eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae8bf33570000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 09:43:55</sys_updated_on>
+        <type>UX Theme</type>
+        <update_guid>b0e7b96291a13210afcc7308b960f7b4</update_guid>
+        <update_guid_history>b0e7b96291a13210afcc7308b960f7b4:-9290570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 10:09:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>11a90f22e4344b6b8174608895f2ef69</sys_id>
+        <sys_metadata>24e731ee836132107f44d4abc1da1e86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChargeSOS</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_24e731ee836132107f44d4abc1da1e86</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_24e731ee836132107f44d4abc1da1e86">bce7b96283a132107f44d4abc1da1eb4</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 10:09:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
