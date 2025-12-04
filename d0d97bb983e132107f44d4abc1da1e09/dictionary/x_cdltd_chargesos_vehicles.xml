@@ -3,8 +3,26 @@
         <element label="Model" mandatory="true" max_length="40" name="model" type="string"/>
         <element label="License Plate" mandatory="true" max_length="10" name="license_plate" type="string"/>
         <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" reference_qual="u_operator=true^NQu_user=true" reference_qual_condition="u_operator=true^NQu_user=true" type="reference"/>
-        <element label="Year" max_length="40" name="year" type="string">
-            <choice/>
+        <element choice="3" default="2025" label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2017" sequence="7" value="2017"/>
+                <element inactive_on_update="false" label="2021" sequence="11" value="2021"/>
+                <element inactive_on_update="false" label="2025" sequence="15" value="2025"/>
+                <element inactive_on_update="false" label="2013" sequence="3" value="2013"/>
+                <element inactive_on_update="false" label="2022" sequence="12" value="2022"/>
+                <element inactive_on_update="false" label="2026" sequence="16" value="2026"/>
+                <element inactive_on_update="false" label="2014" sequence="4" value="2014"/>
+                <element inactive_on_update="false" label="2018" sequence="8" value="2018"/>
+                <element inactive_on_update="false" label="2011" sequence="1" value="2011"/>
+                <element inactive_on_update="false" label="2010" sequence="0" value="2010"/>
+                <element inactive_on_update="false" label="2015" sequence="5" value="2015"/>
+                <element inactive_on_update="false" label="2019" sequence="9" value="2019"/>
+                <element inactive_on_update="false" label="2023" sequence="13" value="2023"/>
+                <element inactive_on_update="false" label="2016" sequence="6" value="2016"/>
+                <element inactive_on_update="false" label="2020" sequence="10" value="2020"/>
+                <element inactive_on_update="false" label="2024" sequence="14" value="2024"/>
+                <element inactive_on_update="false" label="2012" sequence="2" value="2012"/>
+            </choice>
         </element>
         <element label="Make" mandatory="true" max_length="40" name="make" type="string"/>
         <element label="Battery Capacity (kWh)" mandatory="true" max_length="40" name="battery_capacity" type="integer"/>
