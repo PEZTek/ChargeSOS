@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Availability Status</column_label>
@@ -58,7 +58,7 @@
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_chargesos_charging_fleets_availability_status</sys_update_name>
         <sys_updated_by>pelin.demiral</sys_updated_by>
-        <sys_updated_on>2025-12-03 13:28:27</sys_updated_on>
+        <sys_updated_on>2025-12-04 08:24:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
