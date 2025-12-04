@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_style_asset">
+    <m2m_style_asset action="DELETE">
+        <asset display_value="Source Sans Pro">eab360b1c7102010d447c17cf4c2603f</asset>
+        <properties>{
+  "font-style": "italic",
+  "font-weight": "400"
+}</properties>
+        <style display_value="Typography">02576dea832132107f44d4abc1da1e56</style>
+        <sys_class_name>m2m_style_asset</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 08:31:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66576dea832132107f44d4abc1da1ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>m2m_style_asset_66576dea832132107f44d4abc1da1ebe</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 08:31:41</sys_updated_on>
+    </m2m_style_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>m2m_style_asset_66576dea832132107f44d4abc1da1ebe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_style_asset"><m2m_style_asset action="INSERT_OR_UPDATE"><asset display_value="Source Sans Pro">eab360b1c7102010d447c17cf4c2603f</asset><properties>{
+  "font-style": "italic",
+  "font-weight": "400"
+}</properties><style display_value="Typography">02576dea832132107f44d4abc1da1e56</style><sys_class_name>m2m_style_asset</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-04 08:31:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66576dea832132107f44d4abc1da1ebe</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>m2m_style_asset_66576dea832132107f44d4abc1da1ebe</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-04 08:31:41</sys_updated_on></m2m_style_asset></record_update>]]></payload>
+        <payload_hash>-1933257474</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e601821683e932107f44d4abc1da1e99</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 08:31:41</sys_created_on>
+        <sys_id>6e576dea832132107f44d4abc1da1ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae87d0f8d0000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 08:31:41</sys_updated_on>
+        <type>UX Style Assets</type>
+        <update_guid>62576deae8213210786a2c625a7f0dc0</update_guid>
+        <update_guid_history>62576deae8213210786a2c625a7f0dc0:-1933257474</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">71f643e2836932107f44d4abc1da1e12</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 15:29:26</sys_created_on>
+        <sys_db_object display_value="" name="m2m_style_asset">m2m_style_asset</sys_db_object>
+        <sys_id>004c3e8b243140b48018591bedb0fd41</sys_id>
+        <sys_metadata>66576dea832132107f44d4abc1da1ebe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>m2m_style_asset_66576dea832132107f44d4abc1da1ebe</sys_update_name>
+        <sys_update_version display_value="m2m_style_asset_66576dea832132107f44d4abc1da1ebe">6e576dea832132107f44d4abc1da1ec0</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 15:29:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

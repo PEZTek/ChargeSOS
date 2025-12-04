@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="DELETE">
+        <customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"}],"feedback":[],"groupName":""}</customization>
+        <name>ChargeSOS Theme</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 08:31:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6576dea832132107f44d4abc1da1ee8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ChargeSOS Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_e6576dea832132107f44d4abc1da1ee8</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 08:33:22</sys_updated_on>
+        <theme display_value="ChargeSOS Theme">8a57e9aa832132107f44d4abc1da1e73</theme>
+    </sys_ux_theme_customization>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_ux_theme_customization_e6576dea832132107f44d4abc1da1ee8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization"><sys_ux_theme_customization action="INSERT_OR_UPDATE"><customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"}],"feedback":[],"groupName":""}</customization><name>ChargeSOS Theme</name><sys_class_name>sys_ux_theme_customization</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-04 08:31:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6576dea832132107f44d4abc1da1ee8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ChargeSOS Theme</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_ux_theme_customization_e6576dea832132107f44d4abc1da1ee8</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-04 08:33:22</sys_updated_on><theme display_value="ChargeSOS Theme">8a57e9aa832132107f44d4abc1da1e73</theme></sys_ux_theme_customization></record_update>]]></payload>
+        <payload_hash>-1449214123</payload_hash>
+        <record_name>ChargeSOS Theme</record_name>
+        <reverted_from/>
+        <source>e601821683e932107f44d4abc1da1e99</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 08:33:22</sys_created_on>
+        <sys_id>0bb7652e832132107f44d4abc1da1e8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae87e99d20000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 08:33:22</sys_updated_on>
+        <type>Ux Theme Customization</type>
+        <update_guid>cfb7652e0b213210d99720c82db9148a</update_guid>
+        <update_guid_history>cfb7652e0b213210d99720c82db9148a:-1449214123,bd97a12e96213210da5819ca9d11f0c7:-799731837,62576deada21321028424d55618276ea:748563531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-04 15:29:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_customization">sys_ux_theme_customization</sys_db_object>
+        <sys_id>ab0204e4ac5f46d0bceda5743b38f711</sys_id>
+        <sys_metadata>e6576dea832132107f44d4abc1da1ee8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChargeSOS Theme</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_customization_e6576dea832132107f44d4abc1da1ee8</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_customization_e6576dea832132107f44d4abc1da1ee8">0bb7652e832132107f44d4abc1da1e8b</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-04 15:29:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
