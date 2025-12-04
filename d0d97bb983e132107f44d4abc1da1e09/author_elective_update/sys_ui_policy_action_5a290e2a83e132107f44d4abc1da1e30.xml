@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>owner</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-04 10:59:37</sys_created_on>
+        <sys_id>5a290e2a83e132107f44d4abc1da1e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>owner</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5a290e2a83e132107f44d4abc1da1e30</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-04 10:59:37</sys_updated_on>
+        <table>x_cdltd_chargesos_vehicles</table>
+        <ui_policy display_value="Owner field will be prepopulated with their ID and it should be read only.">fc788ee683e132107f44d4abc1da1e07</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5a290e2a83e132107f44d4abc1da1e30"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_ui_policy_action_5a290e2a83e132107f44d4abc1da1e30</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>owner</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-04 10:59:37</sys_created_on><sys_id>5a290e2a83e132107f44d4abc1da1e30</sys_id><sys_mod_count>0</sys_mod_count><sys_name>owner</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_ui_policy_action_5a290e2a83e132107f44d4abc1da1e30</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-04 10:59:37</sys_updated_on><table>x_cdltd_chargesos_vehicles</table><ui_policy display_value="Owner field will be prepopulated with their ID and it should be read only.">fc788ee683e132107f44d4abc1da1e07</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5a290e2a83e132107f44d4abc1da1e30"/></record_update>]]></payload>
+        <payload_hash>-349392673</payload_hash>
+        <record_name>owner</record_name>
+        <reverted_from/>
+        <source>ac11421683e932107f44d4abc1da1e2c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-04 10:59:37</sys_created_on>
+        <sys_id>65394e2a83e132107f44d4abc1da1e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae9047e500000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-04 10:59:37</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>69394e2afbe132105e65b15565a8fb74</update_guid>
+        <update_guid_history>69394e2afbe132105e65b15565a8fb74:-349392673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-04 11:03:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>c4a5b0f00ca74271aa2b732b5a4e9d81</sys_id>
+        <sys_metadata>5a290e2a83e132107f44d4abc1da1e30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>owner</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="">fc788ee683e132107f44d4abc1da1e07</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5a290e2a83e132107f44d4abc1da1e30</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5a290e2a83e132107f44d4abc1da1e30">65394e2a83e132107f44d4abc1da1e75</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:03:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
