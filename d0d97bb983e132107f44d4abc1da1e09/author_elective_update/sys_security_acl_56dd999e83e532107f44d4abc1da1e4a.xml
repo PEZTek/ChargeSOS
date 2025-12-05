@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_cdltd_chargesos_charging_request.*">assigned_operatorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_operatorISEMPTY^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Show only assigned operator charging request</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_cdltd_chargesos_charging_request.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-03 13:11:41</sys_created_on>
+        <sys_id>56dd999e83e532107f44d4abc1da1e4a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_charging_request.*</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_security_acl_56dd999e83e532107f44d4abc1da1e4a</sys_update_name>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-05 10:02:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_security_acl_56dd999e83e532107f44d4abc1da1e4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_cdltd_chargesos_charging_request.*">assigned_operatorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_operatorISEMPTY^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Show only assigned operator charging request</description><local_or_existing>Local</local_or_existing><name>x_cdltd_chargesos_charging_request.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-03 13:11:41</sys_created_on><sys_id>56dd999e83e532107f44d4abc1da1e4a</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_cdltd_chargesos_charging_request.*</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_security_acl_56dd999e83e532107f44d4abc1da1e4a</sys_update_name><sys_updated_by>kenny.kenny</sys_updated_by><sys_updated_on>2025-12-05 10:02:13</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-370233998</payload_hash>
+        <record_name>x_cdltd_chargesos_charging_request.*</record_name>
+        <reverted_from/>
+        <source>83b70726836932107f44d4abc1da1e01</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-05 10:02:13</sys_created_on>
+        <sys_id>5aa54f3a83a132107f44d4abc1da1ef8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aedf64ecb0000001</sys_recorded_at>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-05 10:02:13</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>12a54f3aa9a13210f2b84092845b80f8</update_guid>
+        <update_guid_history>12a54f3aa9a13210f2b84092845b80f8:-370233998,d595cb3ad3a1321056628ad3447cb9f7:-1145210660,7705c7f6dba1321093fafc2498e95252:-370233998,f2c4cfb6e9a1321054ea0880f03f0926:476515179,0c148b76d4a132100e616ea5b3cf6b9d:-1651216655,7ec3c37670a132108792ccd36e9cfb82:476515179,8ae2cff2f1a132107a72b8179d165227:-1651216655,96dd1d9e1be532104d9b90833a942d7c:1208048002,90604292abe93210ae351f7a8df1db36:-1492390154,96dd1d9e1be532104d9b90833a942d7c:1208048002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-05 14:47:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>cb41dce559b647aeaf978817a0706ac4</sys_id>
+        <sys_metadata>56dd999e83e532107f44d4abc1da1e4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_charging_request.*</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="x_cdltd_chargesos_charging_request">36fd7c52836532107f44d4abc1da1eaa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_56dd999e83e532107f44d4abc1da1e4a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_56dd999e83e532107f44d4abc1da1e4a">5aa54f3a83a132107f44d4abc1da1ef8</sys_update_version>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-05 14:47:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
