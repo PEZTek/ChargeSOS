@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f5bc901683a132107f44d4abc1da1e9b" label="Vehicles" max_length="40" name="x_cdltd_chargesos_vehicles" type="collection">
         <element label="Model" mandatory="true" max_length="40" name="model" type="string"/>
-        <element label="License Plate" mandatory="true" max_length="10" name="license_plate" type="string"/>
+        <element display="true" label="License Plate" mandatory="true" max_length="10" name="license_plate" type="string"/>
         <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" reference_qual="u_operator=true^NQu_user=true" reference_qual_condition="u_operator=true^NQu_user=true" type="reference"/>
         <element choice="3" default="2025" label="Year" max_length="40" name="year" type="choice">
             <choice>

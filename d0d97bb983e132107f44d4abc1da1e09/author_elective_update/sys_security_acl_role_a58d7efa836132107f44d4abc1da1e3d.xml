@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-05 09:28:25</sys_created_on>
+        <sys_id>a58d7efa836132107f44d4abc1da1e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_cdltd_chargesos.user</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_security_acl display_value="">eb7d7efa836132107f44d4abc1da1e35</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a58d7efa836132107f44d4abc1da1e3d</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-05 09:28:25</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_chargesos.user" name="x_cdltd_chargesos.user">9cd97bb983e132107f44d4abc1da1e7e</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_security_acl_role_a58d7efa836132107f44d4abc1da1e3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-05 09:28:25</sys_created_on><sys_id>a58d7efa836132107f44d4abc1da1e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_cdltd_chargesos.user</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_security_acl display_value="">eb7d7efa836132107f44d4abc1da1e35</sys_security_acl><sys_update_name>sys_security_acl_role_a58d7efa836132107f44d4abc1da1e3d</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-05 09:28:25</sys_updated_on><sys_user_role display_value="x_cdltd_chargesos.user" name="x_cdltd_chargesos.user">9cd97bb983e132107f44d4abc1da1e7e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>134182292</payload_hash>
+        <record_name>.x_cdltd_chargesos.user</record_name>
+        <reverted_from/>
+        <source>f5b70726836932107f44d4abc1da1e1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-05 09:28:25</sys_created_on>
+        <sys_id>9fed763e836132107f44d4abc1da1e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aedd75d9d0000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-05 09:28:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>93ed763eec61321017e622776d47979e</update_guid>
+        <update_guid_history>93ed763eec61321017e622776d47979e:134182292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_cdltd_chargesos.user">90b68ccf83e532107f44d4abc1da1e39</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-05 14:46:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>45a093e336c245759414dce6a6ab9069</sys_id>
+        <sys_metadata>a58d7efa836132107f44d4abc1da1e3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_cdltd_chargesos.user</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a58d7efa836132107f44d4abc1da1e3d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a58d7efa836132107f44d4abc1da1e3d">9fed763e836132107f44d4abc1da1e9e</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-05 14:46:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

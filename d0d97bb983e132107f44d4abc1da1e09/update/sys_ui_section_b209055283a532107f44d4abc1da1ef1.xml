@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>e15e35de83a932107f44d4abc1da1e04</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>e462fa3e832132107f44d4abc1da1e0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>battery_percentage</element>
             <position>1</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>215e35de83a932107f44d4abc1da1e05</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>6c62fa3e832132107f44d4abc1da1e0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>location</element>
             <position>2</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>295e35de83a932107f44d4abc1da1e05</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>e062fa3e832132107f44d4abc1da1e10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>request_status</element>
             <position>3</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>215e35de83a932107f44d4abc1da1e06</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>6862fa3e832132107f44d4abc1da1e10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>issue_flag</element>
             <position>4</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>295e35de83a932107f44d4abc1da1e06</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>ec62fa3e832132107f44d4abc1da1e10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>215e35de83a932107f44d4abc1da1e07</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>6462fa3e832132107f44d4abc1da1e11</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>user</element>
             <position>6</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>295e35de83a932107f44d4abc1da1e07</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>e862fa3e832132107f44d4abc1da1e11</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>vehicles</element>
             <position>7</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>215e35de83a932107f44d4abc1da1e08</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>6062fa3e832132107f44d4abc1da1e12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>assigned_operator</element>
             <position>8</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>295e35de83a932107f44d4abc1da1e08</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>e462fa3e832132107f44d4abc1da1e12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>payment_status</element>
             <position>9</position>
             <sys_created_by>emmynem</sys_created_by>
-            <sys_created_on>2025-12-03 15:33:38</sys_created_on>
-            <sys_id>215e35de83a932107f44d4abc1da1e09</sys_id>
+            <sys_created_on>2025-12-05 08:38:00</sys_created_on>
+            <sys_id>6c62fa3e832132107f44d4abc1da1e12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_charging_request" sys_domain="global" view="Default view">b209055283a532107f44d4abc1da1ef1</sys_ui_section>
             <sys_updated_by>emmynem</sys_updated_by>
-            <sys_updated_on>2025-12-03 15:33:38</sys_updated_on>
+            <sys_updated_on>2025-12-05 08:38:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

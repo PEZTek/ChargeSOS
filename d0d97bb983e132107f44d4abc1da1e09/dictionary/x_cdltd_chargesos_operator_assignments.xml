@@ -19,6 +19,5 @@
                 <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
             </choice>
         </element>
-        <element label="Operator ID" mandatory="true" max_length="32" name="operator_id" reference="sys_user" reference_qual="u_operator=true" reference_qual_condition="u_operator=true" type="reference"/>
     </element>
 </database>
