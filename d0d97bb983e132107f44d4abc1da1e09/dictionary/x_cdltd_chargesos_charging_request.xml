@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6837345a832532107f44d4abc1da1e9d" label="Charging Request" max_length="40" name="x_cdltd_chargesos_charging_request" type="collection">
-        <element label="User" max_length="32" name="user" reference="sys_user" reference_qual="u_user=true^NQu_operator=true" reference_qual_condition="u_user=true^NQu_operator=true" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="u_user=true^NQu_operator=true" reference_qual_condition="u_user=true^NQu_operator=true" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Battery Percentage" mandatory="true" max_length="40" name="battery_percentage" type="integer"/>
         <element label="Time Charging Started" max_length="40" name="time_charging_started" type="glide_date_time"/>
@@ -17,14 +17,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Issue Flag" max_length="40" name="issue_flag" type="boolean"/>
         <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Request status" max_length="40" name="request_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Request status" mandatory="true" max_length="40" name="request_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
-                <element inactive_on_update="false" label="En Route" sequence="2" value="en-route"/>
-                <element inactive_on_update="false" label="Charging" sequence="3" value="charging"/>
-                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
+                <element inactive_on_update="false" label="En Route" sequence="3" value="en-route"/>
+                <element inactive_on_update="false" label="Charging" sequence="4" value="charging"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
-                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Assigned" sequence="2" value="assigned"/>
             </choice>
         </element>
         <element label="Assigned Operator" max_length="32" name="assigned_operator" reference="sys_user" reference_qual="u_operator=true" reference_qual_condition="u_operator=true" type="reference"/>

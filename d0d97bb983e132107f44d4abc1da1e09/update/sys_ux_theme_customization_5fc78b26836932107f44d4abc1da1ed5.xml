@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="INSERT_OR_UPDATE">
+        <customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"},{"id":"--now-color_secondary-nav--brand","value":"32, 33, 36","type":"color_hook_overridden"},{"id":"--now-color--neutral","value":"204, 204, 204","type":"color_hook_overridden"},{"id":"--now-color_chrome--brand","value":"52, 168, 83","type":"color_hook_overridden"},{"id":"--now-button--primary--background-color","value":"52,168,83","type":"component_hook_overridden","hook":"now-color_brand--primary"},{"id":"--now-button--primary--color","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button--primary--background-color--hover","value":"44,140,70","type":"component_hook_overridden"},{"id":"--now-button--primary--color--hover","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button--primary--border-color--active","value":"32,33,36","type":"component_hook_overridden"},{"id":"--now-button--primary-positive--border-color--active","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-18"},{"id":"--now-button--secondary--border-color","value":"66,133,244","type":"component_hook_overridden"},{"id":"--now-button--secondary--background-color--hover","value":"66,133,244","type":"component_hook_overridden"},{"id":"--now-button--secondary--color--hover","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button_icon--secondary--color--hover","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button--secondary--background-color--active","value":"51,103,214","type":"component_hook_overridden"},{"id":"--now-button--secondary--color--active","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button_icon--secondary--color--active","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-form-field_label--color","value":"52,168,83","type":"component_hook_overridden","hook":"now-color_brand--primary"},{"id":"--now-avatar--background-color","value":"52,168,83","type":"component_hook_overridden","hook":"now-color_brand--primary"},{"id":"--now-avatar--color","value":"204, 204, 204","type":"component_hook_overridden","hook":"now-color--neutral-0"},{"id":"--now-button--secondary--background-color","value":"52,168,83","type":"component_hook_overridden","hook":"now-color_brand--primary"}],"shapeAndForm":[{"id":"--now-button--primary-positive--border-width","value":"2px","type":"component_hook_overridden"},{"id":"--now-form-field--background-color-alpha","value":"0","type":"component_hook_overridden"}],"feedback":[],"groupName":""}</customization>
+        <name>ChargingSOS Theme</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 15:33:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fc78b26836932107f44d4abc1da1ed5</sys_id>
+        <sys_mod_count>74</sys_mod_count>
+        <sys_name>ChargingSOS Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_5fc78b26836932107f44d4abc1da1ed5</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 19:28:26</sys_updated_on>
+        <theme display_value="ChargingSOS Theme">2ec74726836932107f44d4abc1da1e8d</theme>
+    </sys_ux_theme_customization>
+</record_update>

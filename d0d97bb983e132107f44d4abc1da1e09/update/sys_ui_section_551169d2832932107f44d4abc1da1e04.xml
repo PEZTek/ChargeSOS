@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="551169d2832932107f44d4abc1da1e04" sys_domain="global" table="x_cdltd_chargesos_operator_assignments" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>operator_id</element>
+            <element>assigned_to</element>
             <position>0</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>e818e59e832932107f44d4abc1da1e46</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>1cb7777a83a532107f44d4abc1da1e1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>request_id</element>
             <position>1</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6018e59e832932107f44d4abc1da1e47</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>90b7777a83a532107f44d4abc1da1e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>operator_location</element>
             <position>2</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>e418e59e832932107f44d4abc1da1e47</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>18b7777a83a532107f44d4abc1da1e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>active</element>
             <position>3</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6c18e59e832932107f44d4abc1da1e47</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>9cb7777a83a532107f44d4abc1da1e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>e018e59e832932107f44d4abc1da1e48</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>14b7777a83a532107f44d4abc1da1e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>assignment_time</element>
             <position>5</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6818e59e832932107f44d4abc1da1e48</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>98b7777a83a532107f44d4abc1da1e21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>status</element>
             <position>6</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>ec18e59e832932107f44d4abc1da1e48</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>10b7777a83a532107f44d4abc1da1e22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>task_type</element>
             <position>7</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6418e59e832932107f44d4abc1da1e49</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>94b7777a83a532107f44d4abc1da1e22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>e818e59e832932107f44d4abc1da1e49</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>50b7777a83a532107f44d4abc1da1e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>short_description</element>
             <position>9</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6018e59e832932107f44d4abc1da1e4a</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>d4b7777a83a532107f44d4abc1da1e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>description</element>
             <position>10</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>e418e59e832932107f44d4abc1da1e4a</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>5cb7777a83a532107f44d4abc1da1e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>work_notes</element>
             <position>11</position>
             <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
-            <sys_id>6c18e59e832932107f44d4abc1da1e4a</sys_id>
+            <sys_created_on>2025-12-05 13:40:48</sys_created_on>
+            <sys_id>d0b7777a83a532107f44d4abc1da1e49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_chargesos_operator_assignments" sys_domain="global" view="Default view">551169d2832932107f44d4abc1da1e04</sys_ui_section>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
+            <sys_updated_on>2025-12-05 13:40:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

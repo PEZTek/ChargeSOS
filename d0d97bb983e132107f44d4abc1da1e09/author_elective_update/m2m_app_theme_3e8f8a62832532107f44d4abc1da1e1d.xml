@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_theme">
+    <m2m_app_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_theme</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 11:27:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e8f8a62832532107f44d4abc1da1e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>m2m_app_theme_3e8f8a62832532107f44d4abc1da1e1d</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:27:17</sys_updated_on>
+        <theme display_value="ChargeSOS">11ec466e83e132107f44d4abc1da1e21</theme>
+        <ux_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</ux_app>
+    </m2m_app_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>m2m_app_theme_3e8f8a62832532107f44d4abc1da1e1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_theme"><m2m_app_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_theme</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-04 11:27:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e8f8a62832532107f44d4abc1da1e1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>m2m_app_theme_3e8f8a62832532107f44d4abc1da1e1d</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-04 11:27:17</sys_updated_on><theme display_value="ChargeSOS">11ec466e83e132107f44d4abc1da1e21</theme><ux_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</ux_app></m2m_app_theme></record_update>]]></payload>
+        <payload_hash>-888968759</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0e854fee832932107f44d4abc1da1eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-04 15:23:41</sys_created_on>
+        <sys_id>f9a50f22836932107f44d4abc1da1eed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ae9f642580000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-04 15:23:41</sys_updated_on>
+        <type>UX Parent App Theme</type>
+        <update_guid>f68f8a62912532109323d00cc718dd20</update_guid>
+        <update_guid_history>f68f8a62912532109323d00cc718dd20:-888968759,5b654322556932106fa8ebc18aafa655:290640756,f68f8a62912532109323d00cc718dd20:-888968759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c8efffae836d32107f44d4abc1da1e19</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-04 19:38:05</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_theme">m2m_app_theme</sys_db_object>
+        <sys_id>4f8f404a218f4babbd93949892e55691</sys_id>
+        <sys_metadata>3e8f8a62832532107f44d4abc1da1e1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>m2m_app_theme_3e8f8a62832532107f44d4abc1da1e1d</sys_update_name>
+        <sys_update_version display_value="m2m_app_theme_3e8f8a62832532107f44d4abc1da1e1d">f9a50f22836932107f44d4abc1da1eed</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-04 19:38:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
