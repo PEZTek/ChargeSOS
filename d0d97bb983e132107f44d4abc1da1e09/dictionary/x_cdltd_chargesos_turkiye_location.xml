@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="19d513b7836932107f44d4abc1da1eeb" extends="sys_import_set_row" label="Turkiye Location" max_length="40" name="x_cdltd_chargesos_turkiye_location" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner" label="Owner" max_length="40" name="u_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Licence Plate" label="Licence Plate" max_length="40" name="u_licence_plate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Street" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=District" label="District" max_length="40" name="u_district" type="string"/>
+    </element>
+</database>

@@ -39,18 +39,37 @@
             <element>request_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cancelled</label>
+            <label>Waiting Queue</label>
             <language>en</language>
             <name>x_cdltd_chargesos_charging_request</name>
             <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>zachery.howton</sys_created_by>
+            <sys_created_on>2025-12-08 08:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachery.howton</sys_updated_by>
+            <sys_updated_on>2025-12-08 08:49:11</sys_updated_on>
+            <value>Waiting Queue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_charging_request</name>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>kenny.kenny</sys_created_by>
             <sys_created_on>2025-12-03 14:10:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-05 10:46:38</sys_updated_on>
+            <sys_updated_on>2025-12-08 08:49:12</sys_updated_on>
             <value>cancelled</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,15 +80,15 @@
             <label>Assigned</label>
             <language>en</language>
             <name>x_cdltd_chargesos_charging_request</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>kenny.kenny</sys_created_by>
             <sys_created_on>2025-12-03 14:10:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-05 10:46:38</sys_updated_on>
+            <sys_updated_on>2025-12-08 08:49:12</sys_updated_on>
             <value>assigned</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -80,15 +99,15 @@
             <label>En Route</label>
             <language>en</language>
             <name>x_cdltd_chargesos_charging_request</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>kenny.kenny</sys_created_by>
             <sys_created_on>2025-12-03 14:10:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-05 10:46:38</sys_updated_on>
+            <sys_updated_on>2025-12-08 08:49:12</sys_updated_on>
             <value>en-route</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +118,15 @@
             <label>Charging</label>
             <language>en</language>
             <name>x_cdltd_chargesos_charging_request</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>kenny.kenny</sys_created_by>
             <sys_created_on>2025-12-03 14:10:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-05 10:46:38</sys_updated_on>
+            <sys_updated_on>2025-12-08 08:49:12</sys_updated_on>
             <value>charging</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,15 +137,15 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_cdltd_chargesos_charging_request</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>kenny.kenny</sys_created_by>
             <sys_created_on>2025-12-03 14:10:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-05 10:46:38</sys_updated_on>
+            <sys_updated_on>2025-12-08 08:49:12</sys_updated_on>
             <value>completed</value>
         </sys_choice>
     </sys_choice>

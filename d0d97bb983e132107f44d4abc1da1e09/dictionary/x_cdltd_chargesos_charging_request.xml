@@ -10,21 +10,22 @@
         <element label="Time Completed" max_length="40" name="time_completed" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
                 <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
                 <element inactive_on_update="false" label="Paid" sequence="1" value="paid"/>
-                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Issue Flag" max_length="40" name="issue_flag" type="boolean"/>
         <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Request status" mandatory="true" max_length="40" name="request_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
-                <element inactive_on_update="false" label="En Route" sequence="3" value="en-route"/>
-                <element inactive_on_update="false" label="Charging" sequence="4" value="charging"/>
-                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive_on_update="false" label="En Route" sequence="4" value="en-route"/>
+                <element inactive_on_update="false" label="Charging" sequence="5" value="charging"/>
+                <element inactive_on_update="false" label="Waiting Queue" sequence="1" value="Waiting Queue"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
-                <element inactive_on_update="false" label="Assigned" sequence="2" value="assigned"/>
+                <element inactive_on_update="false" label="Assigned" sequence="3" value="assigned"/>
             </choice>
         </element>
         <element label="Assigned Operator" max_length="32" name="assigned_operator" reference="sys_user" reference_qual="u_operator=true" reference_qual_condition="u_operator=true" type="reference"/>
