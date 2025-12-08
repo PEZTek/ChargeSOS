@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_chargesos.GetLocationDistrict</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Function to get the district of a location via the sys_id</description>
+        <mobile_callable>false</mobile_callable>
+        <name>GetLocationDistrict</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetLocationDistrict = Class.create();
+GetLocationDistrict.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getLocationDistrict: function (){
+		// Get the sys ID of the location 
+		var locationId = this.getParameter("sysparm_location_id");
+		
+		var locationGr = new GlideRecord("cmn_location");
+
+		/*
+		Below is another way to achieve what we want with the while loop and .next() function for the GlideRecord
+
+		locationGr.addQuery("sys_id", locationId);
+		locationGr.query();
+
+		while(locationGr.next()) {
+            var value = locationGr.u_district;
+            return value; // return the source field value
+		}
+		*/
+		
+        if (locationGr.get("sys_id", locationId)) {
+            var value = locationGr.getValue("u_district");
+            return value; // return the source field value
+        }
+        return '';
+	},
+    type: 'GetLocationDistrict'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-08 14:30:47</sys_created_on>
+        <sys_id>df3d937383a932107f44d4abc1da1e90</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>GetLocationDistrict</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_script_include_df3d937383a932107f44d4abc1da1e90</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-08 14:53:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

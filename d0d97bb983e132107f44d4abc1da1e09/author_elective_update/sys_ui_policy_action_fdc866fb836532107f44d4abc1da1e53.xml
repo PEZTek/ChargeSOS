@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>payment_status</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-08 10:30:11</sys_created_on>
+        <sys_id>fdc866fb836532107f44d4abc1da1e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payment_status</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fdc866fb836532107f44d4abc1da1e53</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-08 10:30:11</sys_updated_on>
+        <table>x_cdltd_chargesos_charging_request</table>
+        <ui_policy display_value="Make payment status read only for users">2f48eabb836532107f44d4abc1da1eba</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=fdc866fb836532107f44d4abc1da1e53"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_ui_policy_action_fdc866fb836532107f44d4abc1da1e53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>payment_status</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-08 10:30:11</sys_created_on><sys_id>fdc866fb836532107f44d4abc1da1e53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>payment_status</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_ui_policy_action_fdc866fb836532107f44d4abc1da1e53</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-08 10:30:11</sys_updated_on><table>x_cdltd_chargesos_charging_request</table><ui_policy display_value="Make payment status read only for users">2f48eabb836532107f44d4abc1da1eba</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=fdc866fb836532107f44d4abc1da1e53"/></record_update>]]></payload>
+        <payload_hash>623052605</payload_hash>
+        <record_name>payment_status</record_name>
+        <reverted_from/>
+        <source>dca118cf832932107f44d4abc1da1e8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-08 10:30:11</sys_created_on>
+        <sys_id>95d8a6fb836532107f44d4abc1da1ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19afd82fb560000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-08 10:30:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>99d8a6fb23653210de4cd6d5114d4fba</update_guid>
+        <update_guid_history>99d8a6fb23653210de4cd6d5114d4fba:623052605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-08 10:30:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>9901ddacb23447629ff34d9c5c18c7a4</sys_id>
+        <sys_metadata>fdc866fb836532107f44d4abc1da1e53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payment_status</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_fdc866fb836532107f44d4abc1da1e53</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_fdc866fb836532107f44d4abc1da1e53">95d8a6fb836532107f44d4abc1da1ebb</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-08 10:30:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
