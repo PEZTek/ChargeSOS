@@ -18,22 +18,22 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_cdltd_chargesos.operator</roles>
+        <roles>x_cdltd_chargesos.operator,x_cdltd_chargesos.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>zachery.howton</sys_created_by>
         <sys_created_on>2025-12-03 13:19:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>049f9952832932107f44d4abc1da1e93</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Operator Assignments</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_app_module_049f9952832932107f44d4abc1da1e93</sys_update_name>
-        <sys_updated_by>zachery.howton</sys_updated_by>
-        <sys_updated_on>2025-12-03 14:30:24</sys_updated_on>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-09 13:03:06</sys_updated_on>
         <timeline_page/>
         <title>Operator Assignments</title>
         <uncancelable>false</uncancelable>
