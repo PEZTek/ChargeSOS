@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6837345a832532107f44d4abc1da1e9d" label="Charging Request" max_length="40" name="x_cdltd_chargesos_charging_request" type="collection">
         <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="u_user=true^NQu_operator=true" reference_qual_condition="u_user=true^NQu_operator=true" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Battery Percentage" mandatory="true" max_length="40" name="battery_percentage" type="integer"/>
-        <element label="Time Charging Started" max_length="40" name="time_charging_started" type="glide_date_time"/>
+        <element label="Time Charging Started" max_length="40" name="time_charging_started" read_only="true" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="user" dependent_on_field="user" label="Vehicles" max_length="32" name="vehicles" reference="x_cdltd_chargesos_vehicles" type="reference" use_dependent_field="true"/>
-        <element label="Time Submitted" max_length="40" name="time_submitted" type="glide_date_time"/>
+        <element label="Time Submitted" max_length="40" name="time_submitted" read_only="true" type="glide_date_time"/>
         <element label="District" max_length="40" name="district" read_only="true" type="string"/>
-        <element label="Time Operator Assigned" max_length="40" name="time_operator_assigned" type="glide_date_time"/>
-        <element label="Time Completed" max_length="40" name="time_completed" type="glide_date_time"/>
+        <element label="Time Operator Assigned" max_length="40" name="time_operator_assigned" read_only="true" type="glide_date_time"/>
+        <element label="Time Completed" max_length="40" name="time_completed" read_only="true" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
