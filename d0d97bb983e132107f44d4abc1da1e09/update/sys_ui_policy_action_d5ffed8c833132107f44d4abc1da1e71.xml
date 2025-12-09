@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>vehicles</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-09 01:00:10</sys_created_on>
+        <sys_id>d5ffed8c833132107f44d4abc1da1e71</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>vehicles</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d5ffed8c833132107f44d4abc1da1e71</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-09 01:04:20</sys_updated_on>
+        <table>x_cdltd_chargesos_charging_request</table>
+        <ui_policy display_value="Vehicles read only if user isn't selected yet">d9ffed8c833132107f44d4abc1da1e6c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5ffed8c833132107f44d4abc1da1e71"/>
+</record_update>
