@@ -23,7 +23,7 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
                 <element inactive_on_update="false" label="En Route" sequence="4" value="en-route"/>
                 <element inactive_on_update="false" label="Charging" sequence="5" value="charging"/>
-                <element inactive_on_update="false" label="Waiting Queue" sequence="1" value="Waiting Queue"/>
+                <element inactive_on_update="false" label="Waiting Queue" sequence="1" value="waiting-queue"/>
                 <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
                 <element inactive_on_update="false" label="Assigned" sequence="3" value="assigned"/>
