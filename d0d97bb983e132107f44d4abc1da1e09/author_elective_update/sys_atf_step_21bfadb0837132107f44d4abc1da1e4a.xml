@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Set Output Variables</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Set Output Variables">26302752a33012100df567d1361e61ef</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-11 08:54:43</sys_created_on>
+        <sys_id>21bfadb0837132107f44d4abc1da1e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Output Variables</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_atf_step_21bfadb0837132107f44d4abc1da1e4a</sys_update_name>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-11 08:54:43</sys_updated_on>
+        <table/>
+        <test display_value="Test- Charging Request">57baa1f8833132107f44d4abc1da1e60</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=21bfadb0837132107f44d4abc1da1e4a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_atf_step_21bfadb0837132107f44d4abc1da1e4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description/><display_name>Set Output Variables</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Set Output Variables">26302752a33012100df567d1361e61ef</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>pelin.demiral</sys_created_by><sys_created_on>2025-12-11 08:54:43</sys_created_on><sys_id>21bfadb0837132107f44d4abc1da1e4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Output Variables</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_atf_step_21bfadb0837132107f44d4abc1da1e4a</sys_update_name><sys_updated_by>pelin.demiral</sys_updated_by><sys_updated_on>2025-12-11 08:54:43</sys_updated_on><table/><test display_value="Test- Charging Request">57baa1f8833132107f44d4abc1da1e60</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=21bfadb0837132107f44d4abc1da1e4a"/></record_update>]]></payload>
+        <payload_hash>-1086152144</payload_hash>
+        <record_name>Set Output Variables</record_name>
+        <reverted_from/>
+        <source>f297fbf3832d32107f44d4abc1da1ee8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-11 08:54:44</sys_created_on>
+        <sys_id>98cfedb0837132107f44d4abc1da1e12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0c9ead1a0000001</sys_recorded_at>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-11 08:54:44</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>9ccfedb0fe7132109074c60af9c39011</update_guid>
+        <update_guid_history>9ccfedb0fe7132109074c60af9c39011:-1086152144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-11 09:02:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>500ba3bf7e094e1d965c580c1592d881</sys_id>
+        <sys_metadata>21bfadb0837132107f44d4abc1da1e4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Output Variables</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_21bfadb0837132107f44d4abc1da1e4a</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_21bfadb0837132107f44d4abc1da1e4a">98cfedb0837132107f44d4abc1da1e12</sys_update_version>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-11 09:02:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
