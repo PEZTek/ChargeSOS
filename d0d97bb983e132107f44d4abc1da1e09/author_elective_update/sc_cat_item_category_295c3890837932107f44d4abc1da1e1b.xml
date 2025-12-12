@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New Request">14887cd8833932107f44d4abc1da1ecc</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-09 15:53:07</sys_created_on>
+        <sys_id>295c3890837932107f44d4abc1da1e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.New Request</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sc_cat_item_category_295c3890837932107f44d4abc1da1e1b</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-09 15:53:07</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sc_cat_item_category_295c3890837932107f44d4abc1da1e1b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Request">14887cd8833932107f44d4abc1da1ecc</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-09 15:53:07</sys_created_on><sys_id>295c3890837932107f44d4abc1da1e1b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.New Request</sys_name><sys_package/><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sc_cat_item_category_295c3890837932107f44d4abc1da1e1b</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-09 15:53:07</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-459205287</payload_hash>
+        <record_name>Services.New Request</record_name>
+        <reverted_from/>
+        <source>0d6cb890837932107f44d4abc1da1e5c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-09 15:53:24</sys_created_on>
+        <sys_id>a16cb890837932107f44d4abc1da1edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b03d142ce0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-09 15:53:24</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a56cb8904d79321092581333324fb4de</update_guid>
+        <update_guid_history>a56cb8904d79321092581333324fb4de:-459205287,116cb890cd793210d4db6a664405dcd1:-519793582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.New Request">f962a1a483b532107f44d4abc1da1ed2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-10 13:17:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>d3eee6ea253a45ac856a247f65352d64</sys_id>
+        <sys_metadata>295c3890837932107f44d4abc1da1e1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.New Request</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_295c3890837932107f44d4abc1da1e1b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_295c3890837932107f44d4abc1da1e1b">a16cb890837932107f44d4abc1da1edf</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-10 13:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

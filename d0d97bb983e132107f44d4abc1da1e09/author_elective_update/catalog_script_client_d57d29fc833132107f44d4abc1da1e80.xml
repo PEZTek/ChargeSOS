@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Charging Request">4888cee8837932107f44d4abc1da1ee8</cat_item>
+        <cat_variable>IO:d888022c837932107f44d4abc1da1e4e</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto populate district</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	g_form.addInfoMessage(newValue);
+    var locationGr = new GlideRecord("cmn_location");
+    if (locationGr.get("name", newValue)) {
+        var value = locationGr.getValue("u_district");
+        g_form.setValue('district', value);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 08:45:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d57d29fc833132107f44d4abc1da1e80</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Auto populate district</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>catalog_script_client_d57d29fc833132107f44d4abc1da1e80</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 09:09:16</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>catalog_script_client_d57d29fc833132107f44d4abc1da1e80</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Charging Request"&gt;4888cee8837932107f44d4abc1da1ee8&lt;/cat_item&gt;&lt;cat_variable&gt;IO:d888022c837932107f44d4abc1da1e4e&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto populate district&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	g_form.addInfoMessage(newValue);
+    var locationGr = new GlideRecord("cmn_location");
+    if (locationGr.get("name", newValue)) {
+        var value = locationGr.getValue("u_district");
+        g_form.setValue('district', value);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 08:45:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d57d29fc833132107f44d4abc1da1e80&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto populate district&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_d57d29fc833132107f44d4abc1da1e80&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 09:09:16&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1443329579</payload_hash>
+        <record_name>Auto populate district</record_name>
+        <reverted_from/>
+        <source>7d739f80833132107f44d4abc1da1efa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 09:09:16</sys_created_on>
+        <sys_id>19133df4837132107f44d4abc1da1e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0cabfbec0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 09:09:16</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>9d133df4a2713210c73d40f9b6e5db89</update_guid>
+        <update_guid_history>9d133df4a2713210c73d40f9b6e5db89:-1443329579,7582fdb47d713210a2108972e31cf1d6:-11317014,0f4279b4727132105991228abffa3935:-509179830,5ea1b97412713210230312fdbe77715d:492764251,679031348f713210c1f5397098a0d5cb:1388435100,a83079f09771321084dc594b90c67340:1845329012,d42f6d70ea713210d2151d87398b5e9e:-355032929,12eea970b971321072c73ec2d0e7057b:681900824,cdad6dfc6231321071cad8ce3fe186d3:-873263651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Auto populate district">99bb8af883f132107f44d4abc1da1ee0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 10:56:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>1ed57f5af9b34be690e1f4bb6b0fa204</sys_id>
+        <sys_metadata>d57d29fc833132107f44d4abc1da1e80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto populate district</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_d57d29fc833132107f44d4abc1da1e80</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_d57d29fc833132107f44d4abc1da1e80">19133df4837132107f44d4abc1da1e8a</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 10:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

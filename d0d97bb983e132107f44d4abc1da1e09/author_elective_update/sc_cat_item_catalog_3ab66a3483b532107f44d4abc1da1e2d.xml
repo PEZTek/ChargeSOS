@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Charging Request">b2b66a3483b532107f44d4abc1da1e27</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 12:54:56</sys_created_on>
+        <sys_id>3ab66a3483b532107f44d4abc1da1e2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Charging Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3ab66a3483b532107f44d4abc1da1e2d</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 12:54:56</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sc_cat_item_catalog_3ab66a3483b532107f44d4abc1da1e2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Charging Request">b2b66a3483b532107f44d4abc1da1e27</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-11 12:54:56</sys_created_on><sys_id>3ab66a3483b532107f44d4abc1da1e2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Charging Request</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sc_cat_item_catalog_3ab66a3483b532107f44d4abc1da1e2d</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-11 12:54:56</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-547789410</payload_hash>
+        <record_name>Service Catalog.Charging Request</record_name>
+        <reverted_from/>
+        <source>7d739f80833132107f44d4abc1da1efa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 12:54:56</sys_created_on>
+        <sys_id>7ab66a3483b532107f44d4abc1da1e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0d7a96f40000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 12:54:56</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>7eb66a34fcb532109769ad93211c2730</update_guid>
+        <update_guid_history>7eb66a34fcb532109769ad93211c2730:-547789410</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Charging Request">02af6af083f532107f44d4abc1da1edd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-11 13:33:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>014a025a47b0448b8003e0e34b475551</sys_id>
+        <sys_metadata>3ab66a3483b532107f44d4abc1da1e2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Charging Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="">b2b66a3483b532107f44d4abc1da1e27</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3ab66a3483b532107f44d4abc1da1e2d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3ab66a3483b532107f44d4abc1da1e2d">7ab66a3483b532107f44d4abc1da1e31</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:33:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
