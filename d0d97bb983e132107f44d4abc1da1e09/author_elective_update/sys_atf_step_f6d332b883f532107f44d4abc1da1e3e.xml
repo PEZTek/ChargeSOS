@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+Battery Capacity (kWh) = Less Than 100
+and License Plate = Not more than 7 characters
+and Owner = (empty)
+and Make = should display make
+and Model = should show model when make is selected
+and Year = 2020</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-11 13:59:01</sys_created_on>
+        <sys_id>f6d332b883f532107f44d4abc1da1e3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_atf_step_f6d332b883f532107f44d4abc1da1e3e</sys_update_name>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:59:01</sys_updated_on>
+        <table>x_cdltd_chargesos_vehicles</table>
+        <test display_value="Test- Vehicle Table">75eb22bc83b532107f44d4abc1da1e43</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=f6d332b883f532107f44d4abc1da1e3e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f6d332b883f532107f44d4abc1da1e3e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-11 13:59:01</sys_created_on>
+        <sys_id>a565b23c83f532107f44d4abc1da1e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:59:01</sys_updated_on>
+        <value>battery_capacity=Less Than 100^license_plate=Not more than 7 characters^owner=^make=should display make ^model=should show model when make is selected^year=2020^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f6d332b883f532107f44d4abc1da1e3e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-11 13:59:01</sys_created_on>
+        <sys_id>e165b23c83f532107f44d4abc1da1e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:59:01</sys_updated_on>
+        <value>x_cdltd_chargesos_vehicles</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f6d332b883f532107f44d4abc1da1e3e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-11 13:59:01</sys_created_on>
+        <sys_id>e965b23c83f532107f44d4abc1da1e25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:59:01</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=f6d332b883f532107f44d4abc1da1e3e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_atf_step_f6d332b883f532107f44d4abc1da1e3e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Set the following values on the form:
+Battery Capacity (kWh) = Less Than 100
+and License Plate = Not more than 7 characters
+and Owner = (empty)
+and Make = should display make
+and Model = should show model when make is selected
+and Year = 2020</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>kenny.kenny</sys_created_by><sys_created_on>2025-12-11 13:59:01</sys_created_on><sys_id>f6d332b883f532107f44d4abc1da1e3e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sys_atf_step_f6d332b883f532107f44d4abc1da1e3e</sys_update_name><sys_updated_by>kenny.kenny</sys_updated_by><sys_updated_on>2025-12-11 13:59:01</sys_updated_on><table>x_cdltd_chargesos_vehicles</table><test display_value="Test- Vehicle Table">75eb22bc83b532107f44d4abc1da1e43</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=f6d332b883f532107f44d4abc1da1e3e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f6d332b883f532107f44d4abc1da1e3e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kenny.kenny</sys_created_by><sys_created_on>2025-12-11 13:59:01</sys_created_on><sys_id>a565b23c83f532107f44d4abc1da1e26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kenny.kenny</sys_updated_by><sys_updated_on>2025-12-11 13:59:01</sys_updated_on><value>battery_capacity=Less Than 100^license_plate=Not more than 7 characters^owner=^make=should display make ^model=should show model when make is selected^year=2020^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f6d332b883f532107f44d4abc1da1e3e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kenny.kenny</sys_created_by><sys_created_on>2025-12-11 13:59:01</sys_created_on><sys_id>e165b23c83f532107f44d4abc1da1e26</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kenny.kenny</sys_updated_by><sys_updated_on>2025-12-11 13:59:01</sys_updated_on><value>x_cdltd_chargesos_vehicles</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f6d332b883f532107f44d4abc1da1e3e</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kenny.kenny</sys_created_by><sys_created_on>2025-12-11 13:59:01</sys_created_on><sys_id>e965b23c83f532107f44d4abc1da1e25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kenny.kenny</sys_updated_by><sys_updated_on>2025-12-11 13:59:01</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=f6d332b883f532107f44d4abc1da1e3e"/></record_update>]]></payload>
+        <payload_hash>1547569614</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>ba621043836932107f44d4abc1da1eaa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-11 13:59:01</sys_created_on>
+        <sys_id>e165b23c83f532107f44d4abc1da1e29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0db542cb0000001</sys_recorded_at>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:59:01</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e565b23c08f53210093e4822c0cb1228</update_guid>
+        <update_guid_history>e565b23c08f53210093e4822c0cb1228:1547569614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kenny.kenny</sys_created_by>
+        <sys_created_on>2025-12-12 09:13:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>10d5c8c27f404317881df05fd095d109</sys_id>
+        <sys_metadata>f6d332b883f532107f44d4abc1da1e3e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_f6d332b883f532107f44d4abc1da1e3e</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_f6d332b883f532107f44d4abc1da1e3e">e165b23c83f532107f44d4abc1da1e29</sys_update_version>
+        <sys_updated_by>kenny.kenny</sys_updated_by>
+        <sys_updated_on>2025-12-12 09:13:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
