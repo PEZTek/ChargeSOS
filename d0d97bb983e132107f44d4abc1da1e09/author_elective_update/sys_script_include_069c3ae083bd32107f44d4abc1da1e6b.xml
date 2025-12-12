@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_chargesos.ChargingSosUpdates</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This contains various functions to dynamically update values via parameters</description>
+        <mobile_callable>false</mobile_callable>
+        <name>ChargingSosUpdates</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ChargingSosUpdates = Class.create();
+ChargingSosUpdates.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateUserAvailabilityStatusToBusy: function () {
+		var userGr = new GlideRecord("sys_user");
+		userGr.addQuery("sys_id", gs.getUserID());
+		userGr.query();
+
+		while (userGr.next()) {
+			userGr.u_availability_status = "Busy";
+			gs.info("SCRIPT INCLUDE: IT RAN I THINK");
+			return userGr.update();
+		}
+	},
+    type: 'ChargingSosUpdates'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-10 20:05:45</sys_created_on>
+        <sys_id>069c3ae083bd32107f44d4abc1da1e6b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ChargingSosUpdates</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_script_include_069c3ae083bd32107f44d4abc1da1e6b</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-10 21:11:24</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_script_include_069c3ae083bd32107f44d4abc1da1e6b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_cdltd_chargesos.ChargingSosUpdates&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This contains various functions to dynamically update values via parameters&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ChargingSosUpdates&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ChargingSosUpdates = Class.create();
+ChargingSosUpdates.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateUserAvailabilityStatusToBusy: function () {
+		var userGr = new GlideRecord("sys_user");
+		userGr.addQuery("sys_id", gs.getUserID());
+		userGr.query();
+
+		while (userGr.next()) {
+			userGr.u_availability_status = "Busy";
+			gs.info("SCRIPT INCLUDE: IT RAN I THINK");
+			return userGr.update();
+		}
+	},
+    type: 'ChargingSosUpdates'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-10 20:05:45&lt;/sys_created_on&gt;&lt;sys_id&gt;069c3ae083bd32107f44d4abc1da1e6b&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;ChargingSosUpdates&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_069c3ae083bd32107f44d4abc1da1e6b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-10 21:11:24&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1998342660</payload_hash>
+        <record_name>ChargingSosUpdates</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-10 21:11:24</sys_created_on>
+        <sys_id>f5ce07ac83fd32107f44d4abc1da1e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0a1ac2a40000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-10 21:11:24</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7dce07acf0fd321002b6f997adaf0d49</update_guid>
+        <update_guid_history>7dce07acf0fd321002b6f997adaf0d49:1998342660,232a0fe477fd3210aa5b6fd4755f5e22:-1224921564,d9f64fa0bffd3210e21f698868f51729:-709409621,18c64ba07ffd3210045f73124fc54712:-519792864,34060b606cfd3210549906e881aa6109:-2147185616,6ed583600cfd32101246d0a3759a760b:413890338,1ccfb228aabd3210769dc714f2829824:-199140713</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-10 21:21:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>27c5e00349964e889c28aa7ea5a294b9</sys_id>
+        <sys_metadata>069c3ae083bd32107f44d4abc1da1e6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChargingSosUpdates</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_script_include_069c3ae083bd32107f44d4abc1da1e6b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_069c3ae083bd32107f44d4abc1da1e6b">f5ce07ac83fd32107f44d4abc1da1e4a</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-10 21:21:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

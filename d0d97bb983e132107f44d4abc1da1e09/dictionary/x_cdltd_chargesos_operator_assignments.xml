@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8fec555e83e532107f44d4abc1da1e42" extends="task" label="Operator Assignments" max_length="40" name="x_cdltd_chargesos_operator_assignments" type="collection">
         <element label="Assignment Time" max_length="40" name="assignment_time" type="glide_date_time"/>
-        <element label="Request ID" mandatory="true" max_length="32" name="request_id" reference="x_cdltd_chargesos_charging_request" type="reference"/>
-        <element choice="3" default="Dispatch" label="Task Type" max_length="40" name="task_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Follow Up" sequence="3" value="Follow Up"/>
-                <element inactive_on_update="false" label="Dispatch" sequence="0" value="Dispatch"/>
-                <element inactive_on_update="false" label="Arrived" sequence="1" value="Arrived"/>
-                <element inactive_on_update="false" label="Charging" sequence="2" value="Charging"/>
-            </choice>
-        </element>
+        <element label="Request ID" mandatory="true" max_length="32" name="request_id" read_only="true" reference="x_cdltd_chargesos_charging_request" type="reference"/>
         <element label="Operator Location" mandatory="true" max_length="32" name="operator_location" reference="cmn_location" type="reference"/>
-        <element choice="3" default="Assigned" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="assigned" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Assigned" sequence="0" value="Assigned"/>
-                <element inactive_on_update="false" label="En Route" sequence="1" value="En Route"/>
-                <element inactive_on_update="false" label="On Hold" sequence="2" value="On Hold"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Charging" sequence="2" value="charging"/>
+                <element inactive_on_update="false" label="Assigned" sequence="0" value="assigned"/>
+                <element inactive_on_update="false" label="En Route" sequence="1" value="en-route"/>
             </choice>
         </element>
     </element>

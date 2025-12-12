@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(gs.hasRole("x_cdltd_chargesos.admin") || gs.hasRole("x_cdltd_chargesos.operator")) &amp;&amp; current.assigned_operator == ""</condition>
+        <condition>(gs.hasRole("x_cdltd_chargesos.admin") || gs.hasRole("x_cdltd_chargesos.operator")) &amp;&amp; current.assigned_operator == "" &amp;&amp; (current.request_status == "requested" || current.request_status == "waiting-queue")</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -30,7 +30,34 @@
         <name>Accept Request</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.assigned_operator = gs.getUserID();
+        <script><![CDATA[var userGr = new GlideRecord("sys_user");
+userGr.addQuery("sys_id", gs.getUserID());
+userGr.query();
+
+var location;
+
+while (userGr.next()) {
+	location = userGr.location;
+	userGr.u_availability_status = "Busy";
+	userGr.update();
+}
+
+var operatorAssignmentGr = new GlideRecord("x_cdltd_chargesos_operator_assignments");
+operatorAssignmentGr.addQuery("request_id", current.sys_id);
+operatorAssignmentGr.addQuery("status", "assigned");
+operatorAssignmentGr.addQuery("state", 1);
+operatorAssignmentGr.query();
+
+if (!operatorAssignmentGr.next()) {
+	operatorAssignmentGr.initialize(); 
+	operatorAssignmentGr.assigned_to = gs.getUserID(); 
+	operatorAssignmentGr.request_id = current.sys_id; 
+	operatorAssignmentGr.operator_location = location; 
+	operatorAssignmentGr.short_description = 'Assigned to service ' + current.user.first_name + "'s vehicle at " + current.location.name + ", license plate - " + current.vehicles.license_plate; 
+	operatorAssignmentGr.insert();
+}
+
+current.assigned_operator = gs.getUserID();
 current.request_status = "assigned";
 current.time_operator_assigned = new GlideDateTime();
 current.update();]]></script>
@@ -44,7 +71,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>447f678883b132107f44d4abc1da1e54</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Accept Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
@@ -52,7 +79,7 @@ current.update();]]></script>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_ui_action_447f678883b132107f44d4abc1da1e54</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:57:50</sys_updated_on>
+        <sys_updated_on>2025-12-11 02:48:00</sys_updated_on>
         <table>x_cdltd_chargesos_charging_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -25,14 +25,14 @@
             <name>x_cdltd_chargesos_operator_assignments</name>
             <sequence>0</sequence>
             <synonyms/>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:20</sys_created_on>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-10 08:58:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:20</sys_updated_on>
-            <value>Assigned</value>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-10 08:58:33</sys_updated_on>
+            <value>assigned</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -44,33 +44,33 @@
             <name>x_cdltd_chargesos_operator_assignments</name>
             <sequence>1</sequence>
             <synonyms/>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-10 08:58:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
-            <value>En Route</value>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-10 08:58:33</sys_updated_on>
+            <value>en-route</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>On Hold</label>
+            <label>Charging</label>
             <language>en</language>
             <name>x_cdltd_chargesos_operator_assignments</name>
             <sequence>2</sequence>
             <synonyms/>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-10 08:58:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
-            <value>On Hold</value>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-10 08:58:34</sys_updated_on>
+            <value>charging</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -82,14 +82,33 @@
             <name>x_cdltd_chargesos_operator_assignments</name>
             <sequence>3</sequence>
             <synonyms/>
-            <sys_created_by>zachery.howton</sys_created_by>
-            <sys_created_on>2025-12-03 13:56:21</sys_created_on>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-10 08:58:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>zachery.howton</sys_updated_by>
-            <sys_updated_on>2025-12-03 13:56:21</sys_updated_on>
-            <value>Completed</value>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-10 08:58:34</sys_updated_on>
+            <value>completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_operator_assignments</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-10 14:14:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-10 14:14:28</sys_updated_on>
+            <value>cancelled</value>
         </sys_choice>
     </sys_choice>
 </record_update>
