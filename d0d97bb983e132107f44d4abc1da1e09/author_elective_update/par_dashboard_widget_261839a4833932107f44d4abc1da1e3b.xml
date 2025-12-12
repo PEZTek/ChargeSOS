@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">5c61c158837932107f44d4abc1da1ef6</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1jc4bs72gfm6sl9p0kqs","filterName":"Label","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}}],"allowedDateRanges":null,"defaultSelectedItems":[],"cascadingConfig":null,"defaultSelectedDateRange":{"range":""},"defaultDateStart":null,"defaultDateEnd":null,"allowTimeSelection":null,"dateFilterView":"calendar-reldates","defaultBoolean":null,"sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","booleanLabelTrue":null,"booleanLabelFalse":null,"enableResetToDefault":null,"enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","filterProperties":null,"cascadeScope":"5861c158837932107f44d4abc1da1ef3","isDashboard":true,"isGroup":false,"id":"targets","value":[{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}}],"noDebounce":true,"propLabel":"Data to filter"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-10 14:52:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>261839a4833932107f44d4abc1da1e3b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>par_dashboard_widget_261839a4833932107f44d4abc1da1e3b</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 14:32:44</sys_updated_on>
+        <visualization/>
+        <w>20</w>
+        <widget_props/>
+        <x>0</x>
+        <y>46</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>par_dashboard_widget_261839a4833932107f44d4abc1da1e3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">5c61c158837932107f44d4abc1da1ef6</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1jc4bs72gfm6sl9p0kqs","filterName":"Label","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}}],"allowedDateRanges":null,"defaultSelectedItems":[],"cascadingConfig":null,"defaultSelectedDateRange":{"range":""},"defaultDateStart":null,"defaultDateEnd":null,"allowTimeSelection":null,"dateFilterView":"calendar-reldates","defaultBoolean":null,"sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","booleanLabelTrue":null,"booleanLabelFalse":null,"enableResetToDefault":null,"enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","filterProperties":null,"cascadeScope":"5861c158837932107f44d4abc1da1ef3","isDashboard":true,"isGroup":false,"id":"targets","value":[{"type":"table","payload":{"field":"u_availability_status","table":"sys_user","primaryKey":"sys_id"}}],"noDebounce":true,"propLabel":"Data to filter"}</component_props><h>5</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-10 14:52:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>261839a4833932107f44d4abc1da1e3b</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>par_dashboard_widget_261839a4833932107f44d4abc1da1e3b</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-11 14:32:44</sys_updated_on><visualization/><w>20</w><widget_props/><x>0</x><y>46</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1451933359</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>af861f08833132107f44d4abc1da1efc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 14:32:45</sys_created_on>
+        <sys_id>af1d7a78833932107f44d4abc1da1ee6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0dd422c50000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 14:32:45</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>271d7a7859393210fb6c437ec60db0e6</update_guid>
+        <update_guid_history>271d7a7859393210fb6c437ec60db0e6:-1451933359,edcbf2f482393210630492ffd7248bc5:-1232577588,f6dafa741b393210f3f73cbb93b7c5ec:-1777416563,7a1839a4f439321021c5245022adad3c:953911566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">324e7af8833932107f44d4abc1da1e3c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 14:37:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0a202604d9d6460481a90550e7e0e104</sys_id>
+        <sys_metadata>261839a4833932107f44d4abc1da1e3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_261839a4833932107f44d4abc1da1e3b</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_261839a4833932107f44d4abc1da1e3b">af1d7a78833932107f44d4abc1da1ee6</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 14:37:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

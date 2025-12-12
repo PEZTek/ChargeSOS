@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="User Dashboard">63c8623883b532107f44d4abc1da1e7a</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:03:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bc8e23883b532107f44d4abc1da1e39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>par_dashboard_canvas_2bc8e23883b532107f44d4abc1da1e39</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:03:59</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>par_dashboard_canvas_2bc8e23883b532107f44d4abc1da1e39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="User Dashboard">63c8623883b532107f44d4abc1da1e7a</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-11 13:03:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2bc8e23883b532107f44d4abc1da1e39</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>par_dashboard_canvas_2bc8e23883b532107f44d4abc1da1e39</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-11 13:03:59</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-986926478</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>af861f08833132107f44d4abc1da1efc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:03:59</sys_created_on>
+        <sys_id>ebc8e23883b532107f44d4abc1da1e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0d82e17b0000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:03:59</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>efc8e2388ab5321013cf95063620373a</update_guid>
+        <update_guid_history>efc8e2388ab5321013cf95063620373a:-986926478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bc2c66bc83b532107f44d4abc1da1ed4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:18:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>71e815e191a24f6eb7e15123fb52a304</sys_id>
+        <sys_metadata>2bc8e23883b532107f44d4abc1da1e39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_2bc8e23883b532107f44d4abc1da1e39</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_2bc8e23883b532107f44d4abc1da1e39">ebc8e23883b532107f44d4abc1da1e3b</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:18:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

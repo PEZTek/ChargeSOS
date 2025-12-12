@@ -4,8 +4,8 @@
         <cache_expiration_time>24</cache_expiration_time>
         <card_bg_image/>
         <created_by_user display_value="Peter Bisong">30379f3d832132107f44d4abc1da1e13</created_by_user>
-        <created_on>2025-12-09 16:15:09</created_on>
-        <dashboard display_value="ChargeSOS Admin">d861c9d4837932107f44d4abc1da1e26</dashboard>
+        <created_on>2025-12-11 13:06:39</created_on>
+        <dashboard display_value="ChargeSOS User Dashboard">ae69667883b532107f44d4abc1da1e6c</dashboard>
         <edit_locked/>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
@@ -19,7 +19,7 @@
         <include_thresholds>true</include_thresholds>
         <include_trends>true</include_trends>
         <include_widget_notification>true</include_widget_notification>
-        <last_updated_on>2025-12-11 14:42:17</last_updated_on>
+        <last_updated_on>2025-12-11 14:43:56</last_updated_on>
         <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
         <refresh_interval>-1</refresh_interval>
@@ -28,19 +28,19 @@
         <show_insights_panel>true</show_insights_panel>
         <sys_class_name>par_dashboard_user_metadata</sys_class_name>
         <sys_created_by>P.Bisong</sys_created_by>
-        <sys_created_on>2025-12-09 16:15:09</sys_created_on>
+        <sys_created_on>2025-12-11 13:06:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d461c158837932107f44d4abc1da1edc</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_id>a269667883b532107f44d4abc1da1ee2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
-        <sys_update_name>par_dashboard_user_metadata_d461c158837932107f44d4abc1da1edc</sys_update_name>
+        <sys_update_name>par_dashboard_user_metadata_a269667883b532107f44d4abc1da1ee2</sys_update_name>
         <sys_updated_by>P.Bisong</sys_updated_by>
-        <sys_updated_on>2025-12-11 14:42:21</sys_updated_on>
+        <sys_updated_on>2025-12-11 14:44:04</sys_updated_on>
         <updated_by_user display_value="Peter Bisong">30379f3d832132107f44d4abc1da1e13</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
     </par_dashboard_user_metadata>

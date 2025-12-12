@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3e69667883b532107f44d4abc1da1eff</canvas>
+        <component display_value="Gauge">037bd8ea3013833fd049186779528b70</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","minValue":0,"maxValue":null,"innerRadius":0.7,"valueLabelSize":"md","gaugeArcAngle":"240","scoreLabel":"none","showZero":true,"chartSize":null,"showLabelFirst":false,"showRangeLimit":true,"showRangeLabels":false,"rangesConfig":null,"colorConfig":{"type":"default"},"showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","legendHorizontalAlignment":"center","legendMaxItemWidth":null,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Operator Assignments","sourceType":"table","tableOrViewName":"x_cdltd_chargesos_operator_assignments","filterQuery":"","reportSourceSysId":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19vcGVyYXRvcl9hc3NpZ25tZW50czE3NjUyOTcxMTc2OTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"title":null,"headerTitle":"Operator Assignment","headingLevel":2,"description":null,"showBorder":true,"groupByConfig":null,"bareBorder":false,"formats":null,"dataCategory":null,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19vcGVyYXRvcl9hc3NpZ25tZW50czE3NjUyOTcxMTc2OTM=","id":"ZEdGaWJHVjRYMk5rYkhSa1gyTm9ZWEpuWlhOdmMxOXZjR1Z5WVhSdmNsOWhjM05wWjI1dFpXNTBjekUzTmpVeU9UY3hNVGMyT1RNPTE3NjUyOTcxMTk1Nzk=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"forecastConfig":null,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"7norfusm","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"backgroundRefreshInterval":null,"standardFormatData":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"chartExtraConfig":null,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"isComponentInView":null,"pageId":null,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data"}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:06:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9369e67883b532107f44d4abc1da1e2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>par_dashboard_widget_9369e67883b532107f44d4abc1da1e2d</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:06:43</sys_updated_on>
+        <visualization/>
+        <w>13</w>
+        <widget_props/>
+        <x>15</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>par_dashboard_widget_9369e67883b532107f44d4abc1da1e2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3e69667883b532107f44d4abc1da1eff</canvas><component display_value="Gauge">037bd8ea3013833fd049186779528b70</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","minValue":0,"maxValue":null,"innerRadius":0.7,"valueLabelSize":"md","gaugeArcAngle":"240","scoreLabel":"none","showZero":true,"chartSize":null,"showLabelFirst":false,"showRangeLimit":true,"showRangeLabels":false,"rangesConfig":null,"colorConfig":{"type":"default"},"showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","legendHorizontalAlignment":"center","legendMaxItemWidth":null,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Operator Assignments","sourceType":"table","tableOrViewName":"x_cdltd_chargesos_operator_assignments","filterQuery":"","reportSourceSysId":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19vcGVyYXRvcl9hc3NpZ25tZW50czE3NjUyOTcxMTc2OTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"title":null,"headerTitle":"Operator Assignment","headingLevel":2,"description":null,"showBorder":true,"groupByConfig":null,"bareBorder":false,"formats":null,"dataCategory":null,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19vcGVyYXRvcl9hc3NpZ25tZW50czE3NjUyOTcxMTc2OTM=","id":"ZEdGaWJHVjRYMk5rYkhSa1gyTm9ZWEpuWlhOdmMxOXZjR1Z5WVhSdmNsOWhjM05wWjI1dFpXNTBjekUzTmpVeU9UY3hNVGMyT1RNPTE3NjUyOTcxMTk1Nzk=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"forecastConfig":null,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"7norfusm","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"backgroundRefreshInterval":null,"standardFormatData":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"chartExtraConfig":null,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"isComponentInView":null,"pageId":null,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data"}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-11 13:06:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9369e67883b532107f44d4abc1da1e2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>par_dashboard_widget_9369e67883b532107f44d4abc1da1e2d</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-11 13:06:43</sys_updated_on><visualization/><w>13</w><widget_props/><x>15</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>465863752</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>af861f08833132107f44d4abc1da1efc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:06:43</sys_created_on>
+        <sys_id>e369e67883b532107f44d4abc1da1e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0d855f490000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:06:43</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e769e6784ab5321034b364cc04cb802e</update_guid>
+        <update_guid_history>e769e6784ab5321034b364cc04cb802e:465863752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c08a2af883b532107f44d4abc1da1efd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:11:24</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>4943f7ddab6a4f839adf0574d2c3e651</sys_id>
+        <sys_metadata>9369e67883b532107f44d4abc1da1e2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9369e67883b532107f44d4abc1da1e2d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9369e67883b532107f44d4abc1da1e2d">e369e67883b532107f44d4abc1da1e2f</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:11:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

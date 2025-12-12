@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="User Dashboard">63c8623883b532107f44d4abc1da1e7a</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:03:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7c8623883b532107f44d4abc1da1e7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>63c8623883b532107f44d4abc1da1e7a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>par_dashboard_permission_a7c8623883b532107f44d4abc1da1e7d</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:03:59</sys_updated_on>
+        <user display_value="Peter Bisong">30379f3d832132107f44d4abc1da1e13</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>par_dashboard_permission_a7c8623883b532107f44d4abc1da1e7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="User Dashboard">63c8623883b532107f44d4abc1da1e7a</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>P.Bisong</sys_created_by><sys_created_on>2025-12-11 13:03:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7c8623883b532107f44d4abc1da1e7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>63c8623883b532107f44d4abc1da1e7a</sys_name><sys_overrides/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>par_dashboard_permission_a7c8623883b532107f44d4abc1da1e7d</sys_update_name><sys_updated_by>P.Bisong</sys_updated_by><sys_updated_on>2025-12-11 13:03:59</sys_updated_on><user display_value="Peter Bisong">30379f3d832132107f44d4abc1da1e13</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>753847472</payload_hash>
+        <record_name>63c8623883b532107f44d4abc1da1e7a</record_name>
+        <reverted_from/>
+        <source>af861f08833132107f44d4abc1da1efc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:03:59</sys_created_on>
+        <sys_id>23c8623883b532107f44d4abc1da1e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0d82dfed0000001</sys_recorded_at>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:03:59</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>27c86238adb5321083b4584be9ca257f</update_guid>
+        <update_guid_history>27c86238adb5321083b4584be9ca257f:753847472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c12ca6bc83b532107f44d4abc1da1e13</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 13:18:34</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>57a0a20476c04a58aaebf1623af23741</sys_id>
+        <sys_metadata>a7c8623883b532107f44d4abc1da1e7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>63c8623883b532107f44d4abc1da1e7a</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_a7c8623883b532107f44d4abc1da1e7d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_a7c8623883b532107f44d4abc1da1e7d">23c8623883b532107f44d4abc1da1e80</sys_update_version>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 13:18:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

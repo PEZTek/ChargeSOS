@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="ChargeSOS User Dashboard">ae69667883b532107f44d4abc1da1e6c</dashboard>
+        <group display_value="ChargeSOS Users" name="ChargeSOS Users">d6b470c6832932107f44d4abc1da1e68</group>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>P.Bisong</sys_created_by>
+        <sys_created_on>2025-12-11 14:43:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63affa7c833932107f44d4abc1da1e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ae69667883b532107f44d4abc1da1e6c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>par_dashboard_permission_63affa7c833932107f44d4abc1da1e83</sys_update_name>
+        <sys_updated_by>P.Bisong</sys_updated_by>
+        <sys_updated_on>2025-12-11 14:43:56</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

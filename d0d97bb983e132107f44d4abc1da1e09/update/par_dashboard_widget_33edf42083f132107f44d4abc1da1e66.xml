@@ -3,7 +3,7 @@
         <canvas display_value="">5c61c158837932107f44d4abc1da1ef6</canvas>
         <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
         <component_props>{"drilldownLabel":null,"selectedElements":[],"configVersion":"23.0.0-ci-SNAPSHOT","chartSize":null,"chartVariation":"stacked","yAxisTitle":null,"yAxisFrom":null,"yAxisTo":null,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisTitle":null,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendMaxItemWidth":null,"legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"colorConfig":{"type":"default"},"yAxisHidden":false,"xAxisHidden":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Charging Request","sourceType":"table","tableOrViewName":"x_cdltd_chargesos_charging_request","filterQuery":"request_status=completed","reportSourceSysId":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19jaGFyZ2luZ19yZXF1ZXN0MTc2NTM3NTY0MTUzMg==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"title":null,"headerTitle":"Completed Requests","headingLevel":2,"description":null,"showBorder":true,"groupByConfig":null,"bareBorder":false,"formats":null,"dataCategory":null,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19jaGFyZ2luZ19yZXF1ZXN0MTc2NTM3NTY0MTUzMg==","id":"ZEdGaWJHVjRYMk5rYkhSa1gyTm9ZWEpuWlhOdmMxOWphR0Z5WjJsdVoxOXlaWEYxWlhOME1UYzJOVE0zTlRZME1UVXpNZz09MTc2NTM3NTY0MzYxNg==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2NkbHRkX2NoYXJnZXNvc19jaGFyZ2luZ19yZXF1ZXN0MTc2NTM3NTY0MTUzMg==","groupByField":"assigned_operator","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":null,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"forecastConfig":null,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"30i2oqv8","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"backgroundRefreshInterval":null,"standardFormatData":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"chartExtraConfig":null,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"isComponentInView":null,"pageId":null,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data"}</component_props>
-        <h>12</h>
+        <h>13</h>
         <name/>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>33edf42083f132107f44d4abc1da1e66</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
@@ -20,11 +20,11 @@
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>par_dashboard_widget_33edf42083f132107f44d4abc1da1e66</sys_update_name>
         <sys_updated_by>P.Bisong</sys_updated_by>
-        <sys_updated_on>2025-12-10 14:52:43</sys_updated_on>
+        <sys_updated_on>2025-12-11 14:39:51</sys_updated_on>
         <visualization/>
-        <w>12</w>
+        <w>23</w>
         <widget_props/>
-        <x>15</x>
-        <y>25</y>
+        <x>25</x>
+        <y>34</y>
     </par_dashboard_widget>
 </record_update>

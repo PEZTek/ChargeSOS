@@ -2,25 +2,25 @@
     <par_dashboard action="INSERT_OR_UPDATE">
         <active>true</active>
         <certified>false</certified>
-        <description/>
+        <description>ChargeSOS User' Dashboard</description>
         <experience/>
         <grid>48</grid>
-        <name>ChargeSOS Admin</name>
+        <name>ChargeSOS User Dashboard</name>
         <sys_class_name>par_dashboard</sys_class_name>
         <sys_created_by>P.Bisong</sys_created_by>
-        <sys_created_on>2025-12-09 16:15:09</sys_created_on>
+        <sys_created_on>2025-12-11 13:06:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d861c9d4837932107f44d4abc1da1e26</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>ChargeSOS Admin</sys_name>
+        <sys_id>ae69667883b532107f44d4abc1da1e6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ChargeSOS User Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
-        <sys_update_name>par_dashboard_d861c9d4837932107f44d4abc1da1e26</sys_update_name>
+        <sys_update_name>par_dashboard_ae69667883b532107f44d4abc1da1e6c</sys_update_name>
         <sys_updated_by>P.Bisong</sys_updated_by>
-        <sys_updated_on>2025-12-11 14:22:51</sys_updated_on>
+        <sys_updated_on>2025-12-11 13:19:22</sys_updated_on>
         <sys_ux_app_config/>
         <sys_ux_app_route/>
         <sys_ux_macroponent/>
