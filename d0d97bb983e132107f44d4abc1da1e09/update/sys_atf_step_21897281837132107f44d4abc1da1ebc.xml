@@ -4,74 +4,72 @@
         <callable_outputs/>
         <copied_from/>
         <description>Set the following values on the form:
-User = Laura Brown
-and Battery Percentage = 30
-and Location = Fatih, Istanbul</description>
+Vehicles = 61 OP 2239</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>2</order>
+        <order>3</order>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>pelin.demiral</sys_created_by>
-        <sys_created_on>2025-12-11 09:09:09</sys_created_on>
-        <sys_id>c882bdb4837132107f44d4abc1da1ef9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2025-12-12 08:56:59</sys_created_on>
+        <sys_id>21897281837132107f44d4abc1da1ebc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
-        <sys_update_name>sys_atf_step_c882bdb4837132107f44d4abc1da1ef9</sys_update_name>
+        <sys_update_name>sys_atf_step_21897281837132107f44d4abc1da1ebc</sys_update_name>
         <sys_updated_by>pelin.demiral</sys_updated_by>
-        <sys_updated_on>2025-12-12 09:00:36</sys_updated_on>
+        <sys_updated_on>2025-12-12 08:57:20</sys_updated_on>
         <table>x_cdltd_chargesos_charging_request</table>
         <test display_value="Test- Charging Request">57baa1f8833132107f44d4abc1da1e60</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=c882bdb4837132107f44d4abc1da1ef9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21897281837132107f44d4abc1da1ebc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>c882bdb4837132107f44d4abc1da1ef9</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>pelin.demiral</sys_created_by>
-        <sys_created_on>2025-12-11 09:09:09</sys_created_on>
-        <sys_id>2b0375f4837132107f44d4abc1da1e98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>pelin.demiral</sys_updated_by>
-        <sys_updated_on>2025-12-11 09:09:09</sys_updated_on>
-        <value>x_cdltd_chargesos_charging_request</value>
-        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>c882bdb4837132107f44d4abc1da1ef9</document_key>
+        <document_key>21897281837132107f44d4abc1da1ebc</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>pelin.demiral</sys_created_by>
-        <sys_created_on>2025-12-11 09:09:09</sys_created_on>
-        <sys_id>670375f4837132107f44d4abc1da1e98</sys_id>
+        <sys_created_on>2025-12-12 08:56:59</sys_created_on>
+        <sys_id>1fd9b681837132107f44d4abc1da1ecb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>pelin.demiral</sys_updated_by>
-        <sys_updated_on>2025-12-11 09:09:09</sys_updated_on>
+        <sys_updated_on>2025-12-12 08:56:59</sys_updated_on>
         <value>standard_ui</value>
         <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>c882bdb4837132107f44d4abc1da1ef9</document_key>
+        <document_key>21897281837132107f44d4abc1da1ebc</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>pelin.demiral</sys_created_by>
-        <sys_created_on>2025-12-11 09:09:09</sys_created_on>
-        <sys_id>eb0375f4837132107f44d4abc1da1e98</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-12-12 08:56:59</sys_created_on>
+        <sys_id>93d9b681837132107f44d4abc1da1ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>pelin.demiral</sys_updated_by>
-        <sys_updated_on>2025-12-12 09:00:36</sys_updated_on>
-        <value>user=d72d181683a132107f44d4abc1da1e6f^battery_percentage=30^location=83d817bb836932107f44d4abc1da1e1d^EQ</value>
+        <sys_updated_on>2025-12-12 08:56:59</sys_updated_on>
+        <value>vehicles=4424b056832532107f44d4abc1da1e49^EQ</value>
         <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=c882bdb4837132107f44d4abc1da1ef9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>21897281837132107f44d4abc1da1ebc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pelin.demiral</sys_created_by>
+        <sys_created_on>2025-12-12 08:56:59</sys_created_on>
+        <sys_id>dfd9b681837132107f44d4abc1da1ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pelin.demiral</sys_updated_by>
+        <sys_updated_on>2025-12-12 08:56:59</sys_updated_on>
+        <value>x_cdltd_chargesos_charging_request</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=21897281837132107f44d4abc1da1ebc"/>
 </record_update>
