@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Operator - Container 2">710bd51583fd32107f44d4abc1da1e1e</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 20:48:32</sys_created_on>
+        <sys_id>12bcd99583fd32107f44d4abc1da1ec0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_row_12bcd99583fd32107f44d4abc1da1ec0</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 16:46:01</sys_updated_on>
+    </sp_row>
+</record_update>

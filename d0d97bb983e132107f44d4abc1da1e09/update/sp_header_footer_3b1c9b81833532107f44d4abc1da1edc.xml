@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>charge-sos-footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ChargeSOS Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.year = new Date().getFullYear();
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 11:29:43</sys_created_on>
+        <sys_id>3b1c9b81833532107f44d4abc1da1edc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ChargeSOS Footer</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_header_footer_3b1c9b81833532107f44d4abc1da1edc</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 11:30:18</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h1>Copyright reserved by ChargeSOS ${{{::c.data.year}}}</h1>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>// Grays&#13;
+// Grays (updated to your dark gray + white scale)&#13;
+$gray-base: #202124; // your dark gray&#13;
+$gray-dark: lighten($gray-base, 10%);&#13;
+$gray-darker: lighten($gray-base, 5%);&#13;
+$gray-light: lighten($gray-base, 45%);&#13;
+$gray-lighter: lighten($gray-base, 90%);&#13;
+$gray: lighten($gray-base, 30%);&#13;
+&#13;
+// Branding Variables (Core Theme)&#13;
+// Primary brand = Green&#13;
+$brand-primary: #34A853 !default;&#13;
+&#13;
+// Background = White&#13;
+$body-bg: #FFFFFF !default;&#13;
+&#13;
+// Success is same as primary green for your theme&#13;
+$brand-success: #34A853 !default;&#13;
+&#13;
+// Success text = darker green&#13;
+$state-success-text: darken(#34A853, 40%) !default;&#13;
+&#13;
+// Your gray-based navbar divider&#13;
+$sp-navbar-divider-color: lighten(#202124, 25%) !default;&#13;
+&#13;
+$text-color: $gray-base !default;&#13;
+&#13;
+// Inverse navbar + links (dark gray theme)&#13;
+$navbar-inverse-link-hover-color: lighten(#202124, 20%) !default;&#13;
+$navbar-inverse-bg: #202124 !default;&#13;
+$navbar-inverse-link-active-color: #FFFFFF !default;&#13;
+$navbar-inverse-link-color: lighten(#202124, 55%) !default;&#13;
+&#13;
+// Additional brand colors (keep distinct but theme-adjusted)&#13;
+$brand-warning: #F4C20D !default;  // Google yellow&#13;
+$brand-danger: #EA4335 !default;   // Google red&#13;
+$brand-info: #4285F4 !default;     // Google blue&#13;
+&#13;
+$sp-tagline-color: #FFFFFF !default;&#13;
+$link-color: $brand-primary !default;&#13;
+&#13;
+$sp-logo-margin-x: 15px !default;&#13;
+$text-muted: $gray-light !default;&#13;
+&#13;
+// Link Hover&#13;
+$link-hover-decoration: underline !default;&#13;
+&#13;
+// Extended Brand Palette (Tint/ Shades of Green)&#13;
+$brand-primary-dark: darken(#34A853, 10%) !default;&#13;
+$brand-primary-darker: darken(#34A853, 20%) !default;&#13;
+$brand-primary-light: lighten(#34A853, 20%) !default;&#13;
+$brand-primary-lighter: lighten(#34A853, 45%) !default;&#13;
+$brand-primary-lightest: lighten(#34A853, 70%) !default;&#13;
+&#13;
+//// Navbar / Panel / Buttons (Updated to Your Theme) ////&#13;
+&#13;
+// Navbar&#13;
+$navbar-inverse-bg: #34A853; // green background&#13;
+$navbar-inverse-link-color: #202124; // dark gray links&#13;
+$navbar-inverse-link-hover-color: lighten(#202124, 20%); // lighter gray&#13;
+$navbar-inverse-link-active-color: #FFFFFF; // white for active state&#13;
+$navbar-inverse-link-active-bg: rgba(0, 0, 0, 0.1); // subtle highlight&#13;
+$navbar-inverse-link-hover-bg: lighten(#34A853, 10%); // lighter green on hover&#13;
+&#13;
+// Panels (keeping green theme)&#13;
+$panel-primary-border: #34A853; &#13;
+$panel-primary-heading-bg: #34A853; &#13;
+$panel-primary-text: #FFFFFF;&#13;
+&#13;
+// Buttons&#13;
+$primary: #34A853;&#13;
+$btn-primary-bg: #34A853;&#13;
+$btn-primary-color: #FFFFFF;&#13;
+$btn-primary-border: darken(#34A853, 5%);&#13;
+&#13;
+$btn-success-bg: #34A853; // success uses same green&#13;
+$btn-success-border: darken(#34A853, 5%);&#13;
+$btn-success-color: darken(#34A853, 40%);&#13;
+&#13;
+$btn-default-color: #202124;&#13;
+$btn-disabled-opacity: 0.25;&#13;
+&#13;
+// Inputs&#13;
+$input-border-focus: #34A853;&#13;
+&#13;
+// Quick links background (very light green tint)&#13;
+$quicklinks-background: lighten(#34A853, 60%);&#13;
+&#13;
+// Component States (Danger / Warning / Info, theme-aligned)&#13;
+$component-active-color: $gray;&#13;
+$component-active-bg: #f5f5f5;&#13;
+&#13;
+// Danger&#13;
+$state-danger-bg: lighten($brand-danger, 35%);&#13;
+$state-danger-border: $brand-danger;&#13;
+$state-danger-text: darken($brand-danger, 40%);&#13;
+&#13;
+// Info&#13;
+$state-info-bg: lighten($brand-info, 25%);&#13;
+$state-info-border: $brand-info;&#13;
+$state-info-text: darken($brand-info, 40%);&#13;
+&#13;
+// Warning&#13;
+$state-warning-bg: lighten($brand-warning, 25%);&#13;
+$state-warning-border: $brand-warning;&#13;
+$state-warning-text: darken($brand-warning, 35%);&#13;
+&#13;
+// Alerts (same as states)&#13;
+$alert-danger-bg: $state-danger-bg;&#13;
+$alert-danger-border: $state-danger-border;&#13;
+$alert-danger-text: $state-danger-text;&#13;
+&#13;
+$alert-info-* : same pattern…&#13;
+$alert-success-* : same pattern…&#13;
+$alert-warning-* : same pattern…&#13;
+&#13;
+// Service Status Colors (Re-Aligned)&#13;
+$multiple-issues-color: #7070B3;&#13;
+$no-issue-color: lighten($brand-success, 40%);&#13;
+$planned-maintenance-color: lighten($brand-info, 35%);&#13;
+$service-degredation-color: lighten($brand-warning, 40%);&#13;
+$service-outage-color: lighten($brand-danger, 45%);&#13;
+&#13;
+$no-issue-border-color: $brand-success;&#13;
+$planned-maintenance-border-color: $brand-info;&#13;
+$service-degredation-border-color: $brand-warning;&#13;
+$service-outage-border-color: $brand-danger;&#13;
+&#13;
+$no-issues-text: $state-success-text;&#13;
+$planned-maintenance-text: $state-info-text;&#13;
+$service-degredation-text: $state-info-text;&#13;
+$service-outage-text: $state-danger-bg;&#13;
+&#13;
+// Login / QA / Dropdown / Inputs&#13;
+$login-btn-bg: $btn-primary-bg;&#13;
+$login-btn-border: $btn-primary-border;&#13;
+&#13;
+$qa-tag-color: $state-info-text;&#13;
+$qa-tag-bg: $state-info-bg;&#13;
+$qa-tag-border: $state-info-bg;&#13;
+$qa-tag-hover-color: darken($qa-tag-color, 10%);&#13;
+$qa-tag-hover-bg: darken($qa-tag-bg, 10%);&#13;
+&#13;
+$qa-thread-tag-color: $state-info-text;&#13;
+$qa-thread-tag-bg: $state-info-bg;&#13;
+$qa-thread-tag-hover-color: darken($qa-thread-tag-color, 10%);&#13;
+$qa-thread-tag-hover-bg: darken($qa-thread-tag-bg, 10%);&#13;
+&#13;
+$qa-panel-link-color: $link-color;&#13;
+&#13;
+$select2-container-active: $input-border-focus;&#13;
+$not-webkit-outline-color: $input-border-focus;&#13;
+$webkit-outline-color: $input-border-focus;&#13;
+&#13;
+// Labels&#13;
+$label-success-bg: lighten($brand-success, 25%);&#13;
+$label-info-bg: lighten($brand-info, 25%);&#13;
+$label-warning-bg: lighten($brand-warning, 25%);&#13;
+$label-danger-bg: lighten($brand-danger, 25%);&#13;
+$label-primary-bg: $brand-primary;&#13;
+&#13;
+// Misc Styling&#13;
+$data-table-selected: $brand-primary;&#13;
+&#13;
+$button-selected-color: $brand-primary;&#13;
+$dropdown-link-active-bg: $brand-primary;&#13;
+$dropdown-link-active-color: #FFFFFF;&#13;
+&#13;
+$widget-editor-fa-bg: $brand-primary;&#13;
+&#13;
+$input-border-tab-focus: $input-border-focus;&#13;
+&#13;
+$fav-star-color: darken($brand-warning, 20%);&#13;
+$fav-star-color-off: #FFFFFF;&#13;
+$fav-star-outline-color: #6b611f;&#13;
+&#13;
+$sc-field-error-color: darken($brand-danger, 35%);&#13;
+&#13;
+$qa-star-color-on: $brand-warning;&#13;
+$qa-star-color-off: #FFFFFF;&#13;
+&#13;
+$list-group-link-color: $brand-primary;&#13;
+$list-group-hover-bg: lighten($brand-primary, 50%);&#13;
+&#13;
+$accessible-placeholder-gray: #565656;&#13;
+&#13;
+</css_variables>
+        <footer display_value="ChargeSOS Footer">3b1c9b81833532107f44d4abc1da1edc</footer>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>ChargeSOS</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 11:34:30</sys_created_on>
+        <sys_id>29dd57c1833532107f44d4abc1da1e97</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ChargeSOS</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_theme_29dd57c1833532107f44d4abc1da1e97</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 12:04:56</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+</record_update>

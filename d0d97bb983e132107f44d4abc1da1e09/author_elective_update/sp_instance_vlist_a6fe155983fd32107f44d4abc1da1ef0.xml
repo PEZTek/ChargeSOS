@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="x_cdltd_chargesos_operator_assignments">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">96bcd99583fd32107f44d4abc1da1ec2</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 20:58:23</sys_created_on>
+        <sys_id>a6fe155983fd32107f44d4abc1da1ef0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>My Assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_vlist_a6fe155983fd32107f44d4abc1da1ef0</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 21:35:54</sys_updated_on>
+        <table>x_cdltd_chargesos_operator_assignments</table>
+        <title>My Assignments</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "request_id,short_description,operator_location,state,assignment_time",
+		"displayValue": "request_id,short_description,operator_location,state,assignment_time"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=a6fe155983fd32107f44d4abc1da1ef0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_vlist_a6fe155983fd32107f44d4abc1da1ef0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;number&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_cdltd_chargesos_operator_assignments"&gt;assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph&gt;th-list&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;96bcd99583fd32107f44d4abc1da1ec2&lt;/sp_column&gt;&lt;sp_page display_value="form"&gt;ed5f8ec347730200ba13a5554ee49046&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-12 20:58:23&lt;/sys_created_on&gt;&lt;sys_id&gt;a6fe155983fd32107f44d4abc1da1ef0&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Assignments&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_a6fe155983fd32107f44d4abc1da1ef0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-12 21:35:54&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_chargesos_operator_assignments&lt;/table&gt;&lt;title&gt;My Assignments&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "request_id,short_description,operator_location,state,assignment_time",
+		"displayValue": "request_id,short_description,operator_location,state,assignment_time"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a6fe155983fd32107f44d4abc1da1ef0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>802402718</payload_hash>
+        <record_name>My Assignments</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 21:35:54</sys_created_on>
+        <sys_id>5097a155833172107f44d4abc1da1e4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b147de8d80000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 21:35:54</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>d497a15579317210273877d4faa2da4e</update_guid>
+        <update_guid_history>d497a15579317210273877d4faa2da4e:802402718,4a37ad153d3172105b90ea21c7956b5b:-733181836,38e62915ce317210d083dad7046e3088:802402718,b612695dcffd3210f40713a3cef357cc:-1730578630,ba612d1d0ffd321033a5783c6abdd888:-1525303632,663065d909fd32105803abda2a386c27:2047085773,bcbf5199b8fd3210c311fa7065d6bee7:-427381724,326f1d595cfd3210ae758422f8d5adb2:2117972533,2efe9959cdfd3210f2bc5144236216d2:1038064156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Assignments">55d08c9a837932107f44d4abc1da1ed1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 16:40:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>2e1633e4664846d9a0e1a42ea5e190b9</sys_id>
+        <sys_metadata>a6fe155983fd32107f44d4abc1da1ef0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Assignments</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_a6fe155983fd32107f44d4abc1da1ef0</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_a6fe155983fd32107f44d4abc1da1ef0">5097a155833172107f44d4abc1da1e4f</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 16:40:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

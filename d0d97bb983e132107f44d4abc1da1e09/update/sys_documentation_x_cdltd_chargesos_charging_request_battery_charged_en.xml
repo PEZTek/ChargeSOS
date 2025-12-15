@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="battery_charged" label="Battery Charged" language="en" table="x_cdltd_chargesos_charging_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>battery_charged</element>
+            <help/>
+            <hint/>
+            <label>Battery Charged</label>
+            <language>en</language>
+            <name>x_cdltd_chargesos_charging_request</name>
+            <plural>Battery Charged</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>emmynem</sys_created_by>
+            <sys_created_on>2025-12-12 14:11:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Battery Charged</sys_name>
+            <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_chargesos_charging_request_battery_charged_en</sys_update_name>
+            <sys_updated_by>emmynem</sys_updated_by>
+            <sys_updated_on>2025-12-12 14:11:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

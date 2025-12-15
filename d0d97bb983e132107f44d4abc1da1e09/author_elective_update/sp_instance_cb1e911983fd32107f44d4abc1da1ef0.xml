@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">96bcd99583fd32107f44d4abc1da1ec2</sp_column>
+        <sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 20:54:36</sys_created_on>
+        <sys_id>cb1e911983fd32107f44d4abc1da1ef0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_cb1e911983fd32107f44d4abc1da1ef0</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 20:54:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=cb1e911983fd32107f44d4abc1da1ef0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_cb1e911983fd32107f44d4abc1da1ef0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">96bcd99583fd32107f44d4abc1da1ec2</sp_column><sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-12 20:54:36</sys_created_on><sys_id>cb1e911983fd32107f44d4abc1da1ef0</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sp_instance_cb1e911983fd32107f44d4abc1da1ef0</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-12 20:54:36</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=cb1e911983fd32107f44d4abc1da1ef0"/></record_update>]]></payload>
+        <payload_hash>-120857951</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 20:54:36</sys_created_on>
+        <sys_id>cf1e911983fd32107f44d4abc1da1ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1458177b0000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 20:54:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c31e9119c7fd3210c2bd8c598225aef2</update_guid>
+        <update_guid_history>c31e9119c7fd3210c2bd8c598225aef2:-120857951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0dce9d1983fd32107f44d4abc1da1e29</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 20:57:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>c06a8f01a9314d2297df1aa889c96d09</sys_id>
+        <sys_metadata>cb1e911983fd32107f44d4abc1da1ef0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_cb1e911983fd32107f44d4abc1da1ef0</sys_update_name>
+        <sys_update_version display_value="sp_instance_cb1e911983fd32107f44d4abc1da1ef0">cf1e911983fd32107f44d4abc1da1ef2</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 20:57:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

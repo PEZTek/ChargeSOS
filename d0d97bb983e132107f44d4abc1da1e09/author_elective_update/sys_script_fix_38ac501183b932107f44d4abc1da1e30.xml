@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Auto fill style for battery percentage</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Initialize GlideRecord to insert into 'sys_ui_style'
+var gr = new GlideRecord('sys_ui_style');
+
+// Iterate from 1 to 100
+for (var i = 1; i <= 100; i++) {
+    // Create a new record in 'sys_ui_style'
+    gr.initialize();
+
+    // Set the 'name' field (you can customize this as needed)
+    gr.name = 'x_cdltd_chargesos_charging_request';
+
+    // Set the 'element' field (this is also customizable based on your requirements)
+    gr.element = 'battery_percentage';
+
+    // Set the 'value' field (using the current index number)
+    gr.value = i;
+
+    // Set the 'style' field based on the value of i
+    if (i >= 1 && i <= 20) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--critical-1, 255,99,71));';
+    } else if (i >= 21 && i <= 79) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--warning-1, 240,230,140));';
+    } else if (i >= 80 && i <= 100) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--positive-1, 144,238,144));';
+    }
+
+    // Insert the record into the table
+    gr.insert();
+
+    // Optional: Log the record being inserted for debugging
+    gs.info('Inserted record for value ' + i + ': ' + gr.name);
+}
+
+// End of script
+gs.info('Records inserted successfully into sys_ui_style table.');]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 16:09:00</sys_created_on>
+        <sys_id>38ac501183b932107f44d4abc1da1e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto fill style for battery percentage</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_script_fix_38ac501183b932107f44d4abc1da1e30</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:09:00</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_script_fix_38ac501183b932107f44d4abc1da1e30</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;name&gt;Auto fill style for battery percentage&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[// Initialize GlideRecord to insert into 'sys_ui_style'
+var gr = new GlideRecord('sys_ui_style');
+
+// Iterate from 1 to 100
+for (var i = 1; i &lt;= 100; i++) {
+    // Create a new record in 'sys_ui_style'
+    gr.initialize();
+
+    // Set the 'name' field (you can customize this as needed)
+    gr.name = 'x_cdltd_chargesos_charging_request';
+
+    // Set the 'element' field (this is also customizable based on your requirements)
+    gr.element = 'battery_percentage';
+
+    // Set the 'value' field (using the current index number)
+    gr.value = i;
+
+    // Set the 'style' field based on the value of i
+    if (i &gt;= 1 &amp;&amp; i &lt;= 20) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--critical-1, 255,99,71));';
+    } else if (i &gt;= 21 &amp;&amp; i &lt;= 79) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--warning-1, 240,230,140));';
+    } else if (i &gt;= 80 &amp;&amp; i &lt;= 100) {
+        gr.style = 'background-color: RGB(var(--now-color_alert--positive-1, 144,238,144));';
+    }
+
+    // Insert the record into the table
+    gr.insert();
+
+    // Optional: Log the record being inserted for debugging
+    gs.info('Inserted record for value ' + i + ': ' + gr.name);
+}
+
+// End of script
+gs.info('Records inserted successfully into sys_ui_style table.');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-12 16:09:00&lt;/sys_created_on&gt;&lt;sys_id&gt;38ac501183b932107f44d4abc1da1e30&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto fill style for battery percentage&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_38ac501183b932107f44d4abc1da1e30&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-12 16:09:00&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>779600194</payload_hash>
+        <record_name>Auto fill style for battery percentage</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 16:09:00</sys_created_on>
+        <sys_id>ffbcdc1183b932107f44d4abc1da1ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1352a0df0000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:09:00</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>f3bcdc117cb93210ddd7fbc1226562a7</update_guid>
+        <update_guid_history>f3bcdc117cb93210ddd7fbc1226562a7:779600194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 16:10:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>23181e64451545608551a60d540ac240</sys_id>
+        <sys_metadata>38ac501183b932107f44d4abc1da1e30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto fill style for battery percentage</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_script_fix_38ac501183b932107f44d4abc1da1e30</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_38ac501183b932107f44d4abc1da1e30">ffbcdc1183b932107f44d4abc1da1ea7</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:10:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

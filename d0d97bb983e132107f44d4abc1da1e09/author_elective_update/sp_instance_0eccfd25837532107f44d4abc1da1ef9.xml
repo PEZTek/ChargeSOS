@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6583f78583b532107f44d4abc1da1ebc</sp_column>
+        <sp_widget display_value="Knowledge Related Articles">a8874e5bdb18330076e757a0cf961939</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-13 17:47:05</sys_created_on>
+        <sys_id>0eccfd25837532107f44d4abc1da1ef9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_0eccfd25837532107f44d4abc1da1ef9</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-13 17:49:41</sys_updated_on>
+        <title>Knowledge</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"table": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"display_field": {
+		"value": "kb_knowledge_base",
+		"displayValue": "kb_knowledge_base"
+	},
+	"secondary_fields": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_records": {
+		"value": "10",
+		"displayValue": "10"
+	},
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_secondary_fields_label": {
+		"value": "",
+		"displayValue": ""
+	},
+	"knowledge_base": {
+		"value": "f9163818833932107f44d4abc1da1e2f",
+		"displayValue": "Charging Request"
+	},
+	"source_table": {
+		"value": "kb_2_kb",
+		"displayValue": "kb_2_kb"
+	},
+	"source_column": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"target_column": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0eccfd25837532107f44d4abc1da1ef9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_0eccfd25837532107f44d4abc1da1ef9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6583f78583b532107f44d4abc1da1ebc&lt;/sp_column&gt;&lt;sp_widget display_value="Knowledge Related Articles"&gt;a8874e5bdb18330076e757a0cf961939&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-13 17:47:05&lt;/sys_created_on&gt;&lt;sys_id&gt;0eccfd25837532107f44d4abc1da1ef9&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_0eccfd25837532107f44d4abc1da1ef9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-13 17:49:41&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"table": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"display_field": {
+		"value": "kb_knowledge_base",
+		"displayValue": "kb_knowledge_base"
+	},
+	"secondary_fields": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_records": {
+		"value": "10",
+		"displayValue": "10"
+	},
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_secondary_fields_label": {
+		"value": "",
+		"displayValue": ""
+	},
+	"knowledge_base": {
+		"value": "f9163818833932107f44d4abc1da1e2f",
+		"displayValue": "Charging Request"
+	},
+	"source_table": {
+		"value": "kb_2_kb",
+		"displayValue": "kb_2_kb"
+	},
+	"source_column": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"target_column": {
+		"value": "kb_knowledge",
+		"displayValue": "kb_knowledge"
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0eccfd25837532107f44d4abc1da1ef9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>4265794</payload_hash>
+        <record_name>Knowledge</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-13 17:49:41</sys_created_on>
+        <sys_id>4c6d3d65837532107f44d4abc1da1ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b18d529b00000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-13 17:49:41</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c06d3d6523753210996505f34e16e0c0</update_guid>
+        <update_guid_history>c06d3d6523753210996505f34e16e0c0:4265794,ba4d7965977532104a18cb44b80247f3:57753701,0c4d39256a75321093fafaf54ec68b21:-997537750,b51d31251e75321051483e2cdad113d8:253840686,42ccfd259b753210ecafedf1ec4459fb:-1672661558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge">e36d3d65837532107f44d4abc1da1e94</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-13 17:49:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>595e0d1fcb6c4cca94f73309a1794184</sys_id>
+        <sys_metadata>0eccfd25837532107f44d4abc1da1ef9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_0eccfd25837532107f44d4abc1da1ef9</sys_update_name>
+        <sys_update_version display_value="sp_instance_0eccfd25837532107f44d4abc1da1ef9">4c6d3d65837532107f44d4abc1da1ec0</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-13 17:49:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

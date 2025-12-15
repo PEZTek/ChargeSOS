@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>User - Container 4</name>
+        <order>4</order>
+        <semantic_tag/>
+        <sp_page display_value="user">6c33738583b532107f44d4abc1da1eb1</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 22:04:22</sys_created_on>
+        <sys_id>e841808683f132107f44d4abc1da1ed5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User - Container 4</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_container_e841808683f132107f44d4abc1da1ed5</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 22:04:22</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_container_e841808683f132107f44d4abc1da1ed5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>User - Container 4</name><order>4</order><semantic_tag/><sp_page display_value="user">6c33738583b532107f44d4abc1da1eb1</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-14 22:04:22</sys_created_on><sys_id>e841808683f132107f44d4abc1da1ed5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User - Container 4</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sp_container_e841808683f132107f44d4abc1da1ed5</sys_update_name><sys_updated_by>zachery.howton</sys_updated_by><sys_updated_on>2025-12-14 22:04:22</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>700075014</payload_hash>
+        <record_name>User - Container 4</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 22:04:22</sys_created_on>
+        <sys_id>e041c88683f132107f44d4abc1da1ea4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1ee4afc40000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 22:04:22</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a441c88635f1321058999ea910d431a3</update_guid>
+        <update_guid_history>a441c88635f1321058999ea910d431a3:700075014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User - Container 4">4c528c8683f132107f44d4abc1da1e77</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 22:08:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>081fab00323a40b491cabc42f4237390</sys_id>
+        <sys_metadata>e841808683f132107f44d4abc1da1ed5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User - Container 4</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_container_e841808683f132107f44d4abc1da1ed5</sys_update_name>
+        <sys_update_version display_value="sp_container_e841808683f132107f44d4abc1da1ed5">e041c88683f132107f44d4abc1da1ea4</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 22:08:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

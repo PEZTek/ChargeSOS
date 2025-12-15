@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">bcea70d9833d32107f44d4abc1da1e55</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 18:20:42</sys_created_on>
+        <sys_id>34eab4d9833d32107f44d4abc1da1efd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_column_34eab4d9833d32107f44d4abc1da1efd</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 18:20:42</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_column_34eab4d9833d32107f44d4abc1da1efd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">bcea70d9833d32107f44d4abc1da1e55</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-12 18:20:42</sys_created_on><sys_id>34eab4d9833d32107f44d4abc1da1efd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sp_column_34eab4d9833d32107f44d4abc1da1efd</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-12 18:20:42</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1087058199</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 18:20:42</sys_created_on>
+        <sys_id>70eab4d9833d32107f44d4abc1da1eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b13cb33e40000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 18:20:42</sys_updated_on>
+        <type>Column</type>
+        <update_guid>74eab4d9e13d3210d8d92c5bbeffecfe</update_guid>
+        <update_guid_history>74eab4d9e13d3210d8d92c5bbeffecfe:1087058199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">f32b3cd9833d32107f44d4abc1da1e72</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 18:22:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>05fb3ae5dc844310a1909cd6a0c15100</sys_id>
+        <sys_metadata>34eab4d9833d32107f44d4abc1da1efd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_column_34eab4d9833d32107f44d4abc1da1efd</sys_update_name>
+        <sys_update_version display_value="sp_column_34eab4d9833d32107f44d4abc1da1efd">70eab4d9833d32107f44d4abc1da1eff</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 18:22:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article display_value="KB0010011 v2.0">33037f4583b532107f44d4abc1da1e24</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>3</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>xs</size>
+        <sp_column display_value="2">b03561e583f132107f44d4abc1da1e7b</sp_column>
+        <sp_page display_value="esc_kb_article_view">72b673c2239033007e45ff5e17bf6546</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-15 00:03:23</sys_created_on>
+        <sys_id>108c50ca837532107f44d4abc1da1e50</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Accepting and Assigning the Task</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_link_108c50ca837532107f44d4abc1da1e50</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:42:42</sys_updated_on>
+        <title>Accepting and Assigning the Task</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=108c50ca837532107f44d4abc1da1e50"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_link_108c50ca837532107f44d4abc1da1e50</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010011 v2.0"&gt;33037f4583b532107f44d4abc1da1e24&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;xs&lt;/size&gt;&lt;sp_column display_value="2"&gt;b03561e583f132107f44d4abc1da1e7b&lt;/sp_column&gt;&lt;sp_page display_value="esc_kb_article_view"&gt;72b673c2239033007e45ff5e17bf6546&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-15 00:03:23&lt;/sys_created_on&gt;&lt;sys_id&gt;108c50ca837532107f44d4abc1da1e50&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Accepting and Assigning the Task&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_108c50ca837532107f44d4abc1da1e50&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-15 21:42:42&lt;/sys_updated_on&gt;&lt;title&gt;Accepting and Assigning the Task&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=108c50ca837532107f44d4abc1da1e50"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>586391883</payload_hash>
+        <record_name>Accepting and Assigning the Task</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 21:42:42</sys_created_on>
+        <sys_id>41e5055283fd32107f44d4abc1da1e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b23f7371c0000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:42:42</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>c5e50552f7fd321006f13feb54ca7974</update_guid>
+        <update_guid_history>c5e50552f7fd321006f13feb54ca7974:586391883,3a13491e5abd3210522ab387d54bce1e:-1361894390,609f1092013d32103fd521a9121ff6d2:833171878,541f9452293d3210b317a640ada1a8e7:1269758312,e8bc50caf97532108d39434f4659c02a:833171878,148c50caee7532106842831b73e58851:1335086333</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Accepting and Assigning the Task">f19b859683fd32107f44d4abc1da1e0c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 22:07:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>15cb4438eb6a411b82b38b1193c91521</sys_id>
+        <sys_metadata>108c50ca837532107f44d4abc1da1e50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accepting and Assigning the Task</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_108c50ca837532107f44d4abc1da1e50</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_108c50ca837532107f44d4abc1da1e50">41e5055283fd32107f44d4abc1da1e75</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 22:07:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

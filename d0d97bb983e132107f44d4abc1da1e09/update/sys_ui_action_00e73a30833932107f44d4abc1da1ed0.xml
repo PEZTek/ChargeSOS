@@ -48,6 +48,7 @@ chargingRequestGr.query();
 while (chargingRequestGr.next()) {
 	chargingRequestGr.request_status = "completed";
 	chargingRequestGr.time_completed = new GlideDateTime();
+	chargingRequestGr.battery_charged = 100;
 	chargingRequestGr.update();
 }
 
@@ -64,7 +65,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00e73a30833932107f44d4abc1da1ed0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Charging Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
@@ -72,7 +73,7 @@ current.update();]]></script>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_ui_action_00e73a30833932107f44d4abc1da1ed0</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 14:09:50</sys_updated_on>
+        <sys_updated_on>2025-12-12 14:18:33</sys_updated_on>
         <table>x_cdltd_chargesos_operator_assignments</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

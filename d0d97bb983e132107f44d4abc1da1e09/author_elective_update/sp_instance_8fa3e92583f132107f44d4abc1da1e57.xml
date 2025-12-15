@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">b03561e583f132107f44d4abc1da1e7b</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-13 15:57:23</sys_created_on>
+        <sys_id>8fa3e92583f132107f44d4abc1da1e57</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_8fa3e92583f132107f44d4abc1da1e57</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:42:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Left",
+		"displayValue": "Left"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "Primary",
+		"displayValue": "Primary"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "22f514cc437cfd107d2f52cba5b8f264",
+		"displayValue": "Request password reset"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=8fa3e92583f132107f44d4abc1da1e57"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_8fa3e92583f132107f44d4abc1da1e57</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;b03561e583f132107f44d4abc1da1e7b&lt;/sp_column&gt;&lt;sp_widget display_value="Quick Links"&gt;dae53627530030101865ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-13 15:57:23&lt;/sys_created_on&gt;&lt;sys_id&gt;8fa3e92583f132107f44d4abc1da1e57&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_8fa3e92583f132107f44d4abc1da1e57&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-15 21:42:42&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Left",
+		"displayValue": "Left"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "Primary",
+		"displayValue": "Primary"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "22f514cc437cfd107d2f52cba5b8f264",
+		"displayValue": "Request password reset"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8fa3e92583f132107f44d4abc1da1e57"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>450727432</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 21:42:42</sys_created_on>
+        <sys_id>05e5055283fd32107f44d4abc1da1e6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b23f736c20000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:42:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>49e5055245fd3210ce7d293be719296b</update_guid>
+        <update_guid_history>49e5055245fd3210ce7d293be719296b:450727432,db4cd48a18753210ce7789e3b4f1258b:832244009,ee35a1e584f1321010dd02f02f42c771:-544672481,0ef4e9a5d8f13210b8adbae81dd6ae80:-1154140070,f6342d6575f13210f600d0833e0d8c0a:877380732,3124a5259df132100209d644f7f9881c:-1327040488,85c3a12524f13210af8f04e7c3c3904f:877380732,87a3e925f0f1321010ad0cf8f354c859:-1330123425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9bbb851a83fd32107f44d4abc1da1e48</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 22:08:15</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1f89783e8afd4b90b50d1f02e1e19e40</sys_id>
+        <sys_metadata>8fa3e92583f132107f44d4abc1da1e57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_8fa3e92583f132107f44d4abc1da1e57</sys_update_name>
+        <sys_update_version display_value="sp_instance_8fa3e92583f132107f44d4abc1da1e57">05e5055283fd32107f44d4abc1da1e6c</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 22:08:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

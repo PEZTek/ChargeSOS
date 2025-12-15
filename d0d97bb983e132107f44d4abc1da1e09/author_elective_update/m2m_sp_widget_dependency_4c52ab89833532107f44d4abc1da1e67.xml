@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency>
+        <sp_widget display_value="Copy of Header Menu">bb42ab89833532107f44d4abc1da1e64</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 11:53:42</sys_created_on>
+        <sys_id>4c52ab89833532107f44d4abc1da1e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_4c52ab89833532107f44d4abc1da1e67</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 11:53:42</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>m2m_sp_widget_dependency_4c52ab89833532107f44d4abc1da1e67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency><sp_widget display_value="Copy of Header Menu">bb42ab89833532107f44d4abc1da1e64</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>emmynem</sys_created_by><sys_created_on>2025-12-12 11:53:42</sys_created_on><sys_id>4c52ab89833532107f44d4abc1da1e67</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-truncate.Copy of Header Menu</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>m2m_sp_widget_dependency_4c52ab89833532107f44d4abc1da1e67</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-12 11:53:42</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>272495101</payload_hash>
+        <record_name>angular-truncate.Copy of Header Menu</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 11:53:42</sys_created_on>
+        <sys_id>c452ab89833532107f44d4abc1da1e6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1268e4f20000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 11:53:42</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>c852ab89e73532102a421c3f9c27c969</update_guid>
+        <update_guid_history>c852ab89e73532102a421c3f9c27c969:272495101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-truncate.Copy of Header Menu">e9b2e3c9833532107f44d4abc1da1ecd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-12 11:55:27</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>102028c9bfdb4ab4842407bfcf298064</sys_id>
+        <sys_metadata>4c52ab89833532107f44d4abc1da1e67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_4c52ab89833532107f44d4abc1da1e67</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_4c52ab89833532107f44d4abc1da1e67">c452ab89833532107f44d4abc1da1e6a</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-12 11:55:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

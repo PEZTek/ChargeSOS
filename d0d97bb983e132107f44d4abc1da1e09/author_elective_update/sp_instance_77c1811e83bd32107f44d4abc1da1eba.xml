@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">5ebcd99583fd32107f44d4abc1da1ec6</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 21:24:52</sys_created_on>
+        <sys_id>77c1811e83bd32107f44d4abc1da1eba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_77c1811e83bd32107f44d4abc1da1eba</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:25:56</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<section class=\"py-5 my-md-5 bg-primary\">\r\n<div class=\"container\">\r\n<div class=\"row justify-content-center text-center text-white py-4\">\r\n<div class=\"\">Sign Up\r\n<h2 class=\"display-5 fw-bold\">Get Started Today</h2>\r\n<p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat quis pulvinar semper. Cras commodo vitae libero ut consequat</p>\r\n<div class=\"d-grid col-3 mx-auto\"><a class=\"btn bg-white text-primary\" type=\"submit\">Sign up</a></div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=77c1811e83bd32107f44d4abc1da1eba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_77c1811e83bd32107f44d4abc1da1eba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;5ebcd99583fd32107f44d4abc1da1ec6&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-15 21:24:52&lt;/sys_created_on&gt;&lt;sys_id&gt;77c1811e83bd32107f44d4abc1da1eba&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_77c1811e83bd32107f44d4abc1da1eba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-15 21:25:56&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;section class=\"py-5 my-md-5 bg-primary\"&gt;\r\n&lt;div class=\"container\"&gt;\r\n&lt;div class=\"row justify-content-center text-center text-white py-4\"&gt;\r\n&lt;div class=\"\"&gt;Sign Up\r\n&lt;h2 class=\"display-5 fw-bold\"&gt;Get Started Today&lt;/h2&gt;\r\n&lt;p class=\"lead\"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat quis pulvinar semper. Cras commodo vitae libero ut consequat&lt;/p&gt;\r\n&lt;div class=\"d-grid col-3 mx-auto\"&gt;&lt;a class=\"btn bg-white text-primary\" type=\"submit\"&gt;Sign up&lt;/a&gt;&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;/section&gt;",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=77c1811e83bd32107f44d4abc1da1eba"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>40715765</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 21:25:56</sys_created_on>
+        <sys_id>df02091e83bd32107f44d4abc1da1ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b23e7ddd10000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:25:56</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5702091e5abd3210bbc182cc0ee97fa7</update_guid>
+        <update_guid_history>5702091e5abd3210bbc182cc0ee97fa7:40715765,9ce1419a84bd3210ea88914c3aab1a21:1116448450,bbc1811e7bbd3210bc954f8fe9fd16bb:1090518195</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">da12451e83bd32107f44d4abc1da1e05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 21:26:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>287b65d721bf416a93a76e86a0c4b4a9</sys_id>
+        <sys_metadata>77c1811e83bd32107f44d4abc1da1eba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_77c1811e83bd32107f44d4abc1da1eba</sys_update_name>
+        <sys_update_version display_value="sp_instance_77c1811e83bd32107f44d4abc1da1eba">df02091e83bd32107f44d4abc1da1ea7</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 21:26:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=253876000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=612780000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>charging_request_lifecycle</internal_name>
-        <label_cache>[{"name":"flow_variable.url_ref","label":"Flow Variables➛url_ref","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5c3ade33-aa3d-444a-9563-62080bc77a5a"}},{"name":"Created_1.current.location.name","label":"Trigger - Record Created➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.vehicles.license_plate","label":"Trigger - Record Created➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Charging Request Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.assigned_operator.location","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["operator_location"]}},{"name":"Created_1.current.assigned_operator","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["assigned_to"],"967d8de1-69f3-4b0e-9eb6-993b38fbb1c9":["record"]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Charging Request Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["ah_to"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["ah_to"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name","label":"5 - For Each➛User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]}},{"name":"Created_1.current.battery_percentage","label":"Trigger - Record Created➛Charging Request Record➛Battery Percentage","reference":"","reference_display":"Battery Percentage","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"battery_percentage","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_subject"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.email","label":"5 - For Each➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item","label":"5 - For Each➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Records","label":"3 - Look Up Records➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","usedInstances":{"ec17cee7-d604-4a0c-baa4-ab100f667cf8":["items"],"1d7a4131-911d-439c-9535-f4df01cee8cb":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.district","label":"Trigger - Record Created➛Charging Request Record➛District","reference":"","reference_display":"District","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"district","usedInstances":{"31f0bdd1-df3c-4b98-968a-37f56a05232a":["conditions"]}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"5dbc637d-d3ca-4aa5-a716-0e72cd161162":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Charging Request Record","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"reference","base_type":"reference","usedInstances":{"539dcd15-9d2a-4581-abe2-424644a92c29":["record"],"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"979a452a-9203-421e-829d-d105e13a9123":["record"],"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["record"],"7f152eee-8f98-4b2b-93a3-4031fe6893bb":["record"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["record"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["record"],"e99c8637-55a8-4ce3-9fa2-425a97ba6bca":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Charging Request Table","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"table_name","base_type":"table_name","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["tablename"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["sysid"],"01d65170-1df0-4d24-abc4-eec252e11360":["request_id"]}},{"name":"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5.link","label":"1 - Get Charging Request Link➛link","reference_display":"link","type":"string","base_type":"string","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20":["url_ref-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e541fb92-3f9a-4b7e-ab8c-0eed7b320b8d"}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Charging Request Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":[null],"b5f73d93-78d1-4c05-b132-810cc27591b7":[null]}},{"name":"Created_1.current.assigned_operator.u_availability_status","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Availability Status","reference":"","reference_display":"Availability Status","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_availability_status","choices":[{"used":false,"image":"","label":"Available","reference":false,"rawLabel":"Available","selected":false,"missing":false,"value":"Available","parameters":{"name":"sys_user","dependent_values":[""]}},{"used":false,"image":"","label":"Busy","reference":false,"rawLabel":"Busy","selected":false,"missing":false,"value":"Busy","parameters":{"name":"sys_user","dependent_values":[""]}},{"used":false,"image":"","label":"Offline","reference":false,"rawLabel":"Offline","selected":false,"missing":false,"value":"Offline","parameters":{"name":"sys_user","dependent_values":[""]}}],"usedInstances":{"d19b4229-3f7b-4d12-97d3-221d2daf32e5":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.url_ref","label":"Flow Variables➛url_ref","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5c3ade33-aa3d-444a-9563-62080bc77a5a"}},{"name":"Created_1.current.location.name","label":"Trigger - Record Created➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.vehicles.license_plate","label":"Trigger - Record Created➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Charging Request Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.assigned_operator.location","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["operator_location"]}},{"name":"Created_1.current.assigned_operator","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["assigned_to"],"967d8de1-69f3-4b0e-9eb6-993b38fbb1c9":["record"]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Charging Request Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["ah_to"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["ah_to"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name","label":"5 - For Each➛User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]}},{"name":"Created_1.current.battery_percentage","label":"Trigger - Record Created➛Charging Request Record➛Battery Percentage","reference":"","reference_display":"Battery Percentage","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"battery_percentage","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_subject"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.email","label":"5 - For Each➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item","label":"5 - For Each➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Records","label":"3 - Look Up Records➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","usedInstances":{"ec17cee7-d604-4a0c-baa4-ab100f667cf8":["items"],"1d7a4131-911d-439c-9535-f4df01cee8cb":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.district","label":"Trigger - Record Created➛Charging Request Record➛District","reference":"","reference_display":"District","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"district","usedInstances":{"31f0bdd1-df3c-4b98-968a-37f56a05232a":["conditions"]}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"5dbc637d-d3ca-4aa5-a716-0e72cd161162":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Charging Request Record","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"reference","base_type":"reference","usedInstances":{"539dcd15-9d2a-4581-abe2-424644a92c29":["record"],"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"979a452a-9203-421e-829d-d105e13a9123":["record"],"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["record"],"7f152eee-8f98-4b2b-93a3-4031fe6893bb":["record"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["record"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["record"],"e99c8637-55a8-4ce3-9fa2-425a97ba6bca":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Charging Request Table","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"table_name","base_type":"table_name","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["tablename"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["sysid"],"01d65170-1df0-4d24-abc4-eec252e11360":["request_id"]}},{"name":"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5.link","label":"1 - Get Charging Request Link➛link","reference_display":"link","type":"string","base_type":"string","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20":["url_ref-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e541fb92-3f9a-4b7e-ab8c-0eed7b320b8d"}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Charging Request Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":[null],"b5f73d93-78d1-4c05-b132-810cc27591b7":[null]}},{"name":"Created_1.current.assigned_operator.u_availability_status","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Availability Status","reference":"","reference_display":"Availability Status","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_availability_status","choices":[{"reference":false,"used":false,"label":"Available","image":"","rawLabel":"Available","selected":false,"missing":false,"value":"Available","parameters":{"name":"sys_user","dependent_values":[""]}},{"reference":false,"used":false,"label":"Busy","image":"","rawLabel":"Busy","selected":false,"missing":false,"value":"Busy","parameters":{"name":"sys_user","dependent_values":[""]}},{"reference":false,"used":false,"label":"Offline","image":"","rawLabel":"Offline","selected":false,"missing":false,"value":"Offline","parameters":{"name":"sys_user","dependent_values":[""]}}],"usedInstances":{"d19b4229-3f7b-4d12-97d3-221d2daf32e5":["condition"]}}]</label_cache>
         <master_snapshot>028a374883f132107f44d4abc1da1e27</master_snapshot>
         <master_snapshot_digest/>
         <name>Charging Request Lifecycle</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75b053ff832932107f44d4abc1da1e98</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Charging Request Lifecycle</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_hub_flow_75b053ff832932107f44d4abc1da1e98</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:46</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:32</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -84,14 +84,14 @@
         <identifier>75b053ff832932107f44d4abc1da1e98</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>emmynem</sys_created_by>
-        <sys_created_on>2025-12-11 11:55:46</sys_created_on>
-        <sys_id>0c399efc833532107f44d4abc1da1e76</sys_id>
+        <sys_created_on>2025-12-15 15:37:32</sys_created_on>
+        <sys_id>ff42ff86833932107f44d4abc1da1e43</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:46</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:32</sys_updated_on>
         <trigger display_value="">628a374883f132107f44d4abc1da1e90</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN0c399efc833532107f44d4abc1da1e76"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=75b053ff832932107f44d4abc1da1e98^sys_idNOT INff42ff86833932107f44d4abc1da1e43"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=75b053ff832932107f44d4abc1da1e98"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN35b053ff832932107f44d4abc1da1e99"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -313,10 +313,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 08:24:33</sys_created_on>
         <sys_id>76a51308833132107f44d4abc1da1ecb</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-12-11 13:02:56</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:42:22</sys_updated_on>
         <ui_id>7f152eee-8f98-4b2b-93a3-4031fe6893bb</ui_id>
         <values>H4sIAAAAAAAA/+VVW2viQBT+KzLPriTGSuvboggL3Rbs0pduCceZEx2YXDoXLyv+9z1JJlG0dC30RTZPzrnN9305n3nZMSnYiA1QBOFdOORRGEX9IOjfDsL5MJqHfREBYsi6LIMUqVIjz7Wg8wqUKwO73VgjWBRx2ONOa8zsfk95IU2hYPvsyyjCl1IJyrPRy2uXFaBpokXNRruT1KWQFMxRUemswXSK0W6L8ixy7lLCFcsmeO87Jz7T+TGhDDWVcMKgy3BjMRNIQBJQBrsshUyAzfWWjax2FCDS4jFT27ZiKTNbE01hY+QfunkQlHUJEjPuRWiPsReoDicTsPBEk7l1utUrlxxNrYnABJyy4+NYXfBYWJlndYuFuWq6c+XS7KFWhLUDjt6HMwQCi5JnibymlTwt8/WsATmVWSWJp6hyDqo9gbVazp0t4ewYKqw0TqEoZLaIC52vZNVMUNLeQtGhl6h8TXcauch6wEvcPVIVelOKT6rwM2hZkvhJY6h532Vma8YKjDlQIQ3jN1ciqYl5CnGlQiVBXG1C2cy1LOx3umqFHvi+65d+fvPRhvG7w0IdzTws/ibmQlkR8yXoBZrc1L9K7hrfHBp77oKxr+jM2orPueICzI0rflW78D4Hb4yz2P1xb+ehTnhb3HyZLW6vyRaextX74l9uCPof/t8ebVJlAHPkBL/usbFgnfntgiASa5CW6H6jjMNzI1zS8jlnXIC/ccZUohLmHUKNLTAlrBbjmuCJNXyy8+yT7Vfjy/wRDoPquSKX/Dcfj9e/AHEOpDMJAAA=</values>
     </sys_hub_action_instance_v2>
@@ -335,10 +335,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-08 14:14:47</sys_created_on>
         <sys_id>a73cdbff836932107f44d4abc1da1e44</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-12-11 13:02:56</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:42:22</sys_updated_on>
         <ui_id>31f0bdd1-df3c-4b98-968a-37f56a05232a</ui_id>
         <values>H4sIAAAAAAAA/+VX207jMBD9lSrPUZXQUljeUBHSSlwkYHlhwXJsp7Vwk6wvLaXqv+84dtKoDWwrFaloHz0zts/MnDNxnhYBp8FZcJr2owjHx6cnUdTrRdFg0CM4TpLegCRR0k+CMMjwhEGkxolgsJxiYexazRUyikkwUa4KgeeP3vPLWcmYCypZFpw9PYdBgSWco8FztlhzbQtE4IQJCH3wSNaA6XlRL1Hpc7ar5rbOjXPkklooURiwN80yygBDioViYTDBGcU6l/PaIhmmt5lYGcY803BiYIPfFH+He08jG5cyyIow56uXyBfImdMLrPG9loZoI30oGeecMOXqQVmKjdDDps0F3Baa55nb4tJ2u3NhJtmNK0dQH1D1AyzQKERZYRO1yH0a6f04n91VKC95VtbEO0VOsKhXWGvJE6MtnkXABJvAQWiCi4JnI1TIfMrLzYBl0h0JWHRTkc/gUsVHWRcTC7wLdcXdS7BflOZHLLnN4hqOKSmTcgEMQa6FKjeyLOUUEWFU6ZA4U+6sYBlaCg4FVmqVOZQc/TEWt6uDzxi5otktRPJCn8MRU+aTW4ZbaeE4WlGO5BnlFoVqCMKgHLKwzPlt4AAKHWYvtopl6iQ3mZZz53ow8pXPG15jKQIVJtoFLBZDIJ1mFMVdYiT0R3eriOXyxSA8xRz0wAXXc6Q01ka5nefOUSpiTZeHB3CfI6LsTzUihs0GtTXND4sN21XbAX5YxHsbFpDHdxoXligHNy12178rwT+GADn5lGTHKz6pXGrkatmYApuy25nnW0CoeH5rmdlJ5h+h8jRPORO07Zt4aR1r38Sj//ObeJAkB0AUue7xTPCsfOAA0K9if/T5iP2xxrOSXo0nobVhRTY1gDs677zvrIQt4FRKuIe7Ow8OTwvEat6XlFmf9ZXRC6C3NwH0jvYjgEWdZl3IlppXb1rbzSr+3cbj9XigYGNDvGwT2E53xrveebTcFHBvJwU3yeY8Fx9wbs+P3w8UGX7lCBjDVn8fcvpFM05HTK9ur6JormdYvLb5PeNQ1agyvS94SPc/le0gXkkUlIIkU9C85ks6hufR5gyJQ2febYRsgaUqxzV+69zVYFoR+jECSmejsjfNOfKztnqS9/f4YDzYL2nVrFYNVj37Fv+f+xPC81/FVwdqXxEAAA==</values>
     </sys_hub_action_instance_v2>
@@ -357,10 +357,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 01:24:52</sys_created_on>
         <sys_id>d3953984837132107f44d4abc1da1e3f</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-12-11 13:02:56</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:42:22</sys_updated_on>
         <ui_id>ab874ed6-42f0-4b30-a7b7-6b6c46f717c5</ui_id>
         <values>H4sIAAAAAAAA/+1T207jMBD9Fz8nkXNpE/qGipCQdkHasrwgFE18aS05F2yn0K367ztu0oKgWkDap9W+xWfOZM459txvieJkRnKaTiTPsiLN4zSJaS6zjGdQsZhDLKZAAtJALZDpoNJi/x2QNejeY9vt3AhwgpdxtK+XnrDbIYUr22nY3H3MZCuluRENmd0/BKQDgwUnDJlt35Q+K1hDJTRSb/2c60HxCRNu03nIOqOa5Xj+NrYuDmBruJcSB0Q8O9FwgRokaCsCUkPDwbVmc0TQIb9p9AuwUo3DvxFPfrbqF84rKKWeKQX6YmKoHo/lGNsAywtwgFJ65nozUtmqVUzYIREuJPTazV9jA+Gmc6pthpa96bG71X3dXA9hkOMPDreESG9RhOi8Va99NCIXq/bpx0HlpWr2qYxF3TLQxxM4zK7qndezJb26fRPzgLwLWmhR48Syhq5DpOxMu1b7KSi6jpYaD5HU7ROqs2rZRMC8wwivAKJLxC/28B0Y5e1+x99gsx/3s1GPvbjyj2eSwJTLJA95UYgQH5EIKzrJQzk5g6QoGKVVTHYBsRs712DtS1B4Q+Vj720OsY0BlUPGvoUZ1blzFLUWYxa7YFyyiv3xzb56nzgYO04vGOsNpu8i5JSKf7RkJ9hfW7RPiD4s2mJjr/h7E19ZsOT/gv0LC0bjs6nERxIWKaVhJmkcVozilk2TNOG5jAuR/sUFe/gNVQq2m8cGAAA=</values>
     </sys_hub_action_instance_v2>
@@ -379,12 +379,12 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 00:44:03</sys_created_on>
         <sys_id>d94ca948833132107f44d4abc1da1ef3</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-12-11 13:02:56</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:42:22</sys_updated_on>
         <ui_id>39c17e22-18f3-4fd1-a14a-0c17398873c4</ui_id>
-        <values>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</values>
+        <values>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</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=75b053ff832932107f44d4abc1da1e98"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN792a6b7383e932107f44d4abc1da1eb6,8d4ca948833132107f44d4abc1da1ef1,b6a51308833132107f44d4abc1da1eca,ca596064837132107f44d4abc1da1eb4,d20b06b883f132107f44d4abc1da1ed3,f90deb6483b172107f44d4abc1da1ed0"/>
@@ -406,10 +406,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-08 15:15:34</sys_created_on>
         <sys_id>792a6b7383e932107f44d4abc1da1eb6</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>5dbc637d-d3ca-4aa5-a716-0e72cd161162</ui_id>
         <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPSZDtOGvyVjoKhW2FtfRlK+Zauk7EZMmT5KRZyH/flT/SsKaslD3uIWCd+3XOvYfsI9P4uvHu3lw6J1c6Wn57HEdSB4y+95GGCqNlxI0W0kuj8xYYRxtQTQjclCO/RosjCL8NSAWFwpGp0YI31lGqkK5WsHt4ewVfSyUs9mxqsDTTo42W+z9CfldjTvWoqPGdt1KvqFwKepUMynjBY54m8zRhLLmYxcU8LeJEpICQUt5QeDWIG31qkfGrqsM8wt0wyVgRaMVsHOGTRy2QRpegHI6jCrQIgnZHxCKIW62egbXUntpFIfnJyV/UO8mykFjSgjTHLnh85v0qO5ivjeR4WweCHeLDJvugUU2lv3Q6whGwhEb54QiENI76YR1IBxY9pfJubbZfh4HXUrcC+6AyHNTxBZ7WUDQeXTgMKqyoUV5BXdNy8tqajWyLiUs1XSl6TEtltjQ0OG0KPBCf0o5gek34xxZ+ACuDis/Uhoo7mgU4yfPWldTOW5JwaNeS/2wCoU5gLyXvtkEJjltZ+0uas8Ge9WH80tInbt7v07hkhRDxRJQpn8yKxcVkMb+ASfqhzObAsiRNYHplGu0Ph+8NYymylxZ/b5t/4fsFZGUWs+y872fzc74/4/jXzZ78xezhPG/0OmPsv9lPzS5d3pm219YOf7fXH4Oxuwmu841ALh0RuQ/YzfAvHwI7MoDkp9DW2B9BwjN2+A0BxjveLwYAAA==</values>
         <workflow_reference/>
@@ -432,10 +432,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 00:44:03</sys_created_on>
         <sys_id>8d4ca948833132107f44d4abc1da1ef1</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>1d7a4131-911d-439c-9535-f4df01cee8cb</ui_id>
         <values>H4sIAAAAAAAA/51STU/jMBD9Lz63UT4g2/SGtELiAEgs4oJQNLEnrbWO7bWdlmyU/864SQviyCmZNzNv3vPMyEwfbB/8s7nxXu40276+rZjUEaP/kWnokG2ZDNh5tmIHUH2Mx7HI2rQRIluLtuDrq6barKtyA+viV3tdQnqdFzkkT8iNE36aqFVIbxUMLz9n4HuphMNFpAVH2gI6th2/pcJgsVbQoKJBCwP1S0FhVom2ytKKF3lZ5Gmab66ypiyaLBcFoCip7tx5t5j+9gaRnUJ34aVPVJGnK4bvAbVAGtSC8rhiHWgBwbiBbYPrCXAI4lGr4VKxlzoQHYu1717+J+4sTWNhi+SI45y8hPXykDPM90ZyfLRBGj0jARq19HCj+k4/zPLjCrCFXoXzCgjpPfGhjZqjikVS+2dvjk/ngbdSn/wtSWU4qEsEITjZ9AF9XAMq7Iio7sBaqXe1deYgT82kpUt2ioKkVeZIQ+O5JcCj8ISeCJJbwn+f4BdwMrq4Jxpqnk7u6399nDv7WBTXs2kq8NxJG26I7oCLuOkt3uvM5OfDEMilp4HPEbs7X3lMDLRkyb9CR+P+Rqmf2PQB4tBa4C8DAAA=</values>
         <workflow_reference/>
@@ -458,10 +458,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 08:24:33</sys_created_on>
         <sys_id>b6a51308833132107f44d4abc1da1eca</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>f885d21a-46cb-4bf6-bd74-3d3692de9810</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -484,10 +484,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-10 09:08:37</sys_created_on>
         <sys_id>ca596064837132107f44d4abc1da1eb4</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>211c8906-fe19-427d-aff0-7696d0792a11</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -510,10 +510,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-11 10:53:55</sys_created_on>
         <sys_id>d20b06b883f132107f44d4abc1da1ed3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>70af1783-cd4a-419c-94cc-10ea1bdd7296</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -536,15 +536,15 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-10 23:23:34</sys_created_on>
         <sys_id>f90deb6483b172107f44d4abc1da1ed0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:42</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:26</sys_updated_on>
         <ui_id>8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20</ui_id>
         <values>H4sIAAAAAAAA/+1VwW7bMAz9F51jw4kdO82twFCgwLYCa9bLUBi0RCdCZcmV5KRZkH8fFdtJke20c27Wo0i+9yjCB2Y633bercy9c3Kt2fLX64RJHTD6PjANDbIl66wqLdZswraguoAcDlAtigxFHmWzOomyKk0iKKoiyqucZ3ldTAs+j5XUb8cj5QnpWgX7l/9M5xuphMWBYAuWeHm0bHm4Cvl9i6WCChV1efZW6jWlS0Gn9C4RWOXZIq2mxWyaFHWWiQwqPhUwRV7QvTHxovcvA0IDAtxY2lgReCQThh8etUBqVYNyOGENaAHe2P0ZsQjiSasLsJHaUzUWLn84+ZtKL5IkCTdrJFEc++j5WA5G9jDfGMnxqfXS6B7xUKkhhxvVNfp7LyCMAGvolB9HQEjnqB62gXWgMXCqnzdm92Ns+CD1SeAQVIaDOp/Akw1V59GFSXRydWVOj3y9HgcqbKhj2UDbElK21mzlqQuRbuK1okNcK7MjduFZxsCDwpjchPiB8C8n+AWsDHK/URlKDu1+avne4WMY95ynIDBNI4BURFmWQXQ3z9MonyWLpOJFAXNgx5O15XsXRPUmDXaUvaN0wXErW39PFLY4KD++hk3ou/eLcnph/3ovt4W5LcxtYcLCCOTSEatVoPA4/mNCYE+PRvLP0M7Yt6Dngh3/ABtldC+tBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN26ae9304837132107f44d4abc1da1ece,3ed1d8b4837572107f44d4abc1da1ec9,62ae9304837132107f44d4abc1da1ece,914ca948833132107f44d4abc1da1efc,93953984837132107f44d4abc1da1e49,994ca948833132107f44d4abc1da1efb,d220412483f132107f44d4abc1da1e18,da20412483f132107f44d4abc1da1e17"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN26ae9304837132107f44d4abc1da1ece,3ed1d8b4837572107f44d4abc1da1ec9,62ae9304837132107f44d4abc1da1ece,914ca948833132107f44d4abc1da1efc,93953984837132107f44d4abc1da1e49,994ca948833132107f44d4abc1da1efb,d220412483f132107f44d4abc1da1e18,da20412483f132107f44d4abc1da1e17,fc427f86833932107f44d4abc1da1e59"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>75b053ff832932107f44d4abc1da1e98</attached_to>
         <extra_info/>
@@ -680,6 +680,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>e963ac18-5492-4e77-9b7b-47e03a37bdb9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>75b053ff832932107f44d4abc1da1e98</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 15:37:20</sys_created_on>
+        <sys_id>fc427f86833932107f44d4abc1da1e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 15:37:20</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3474c94d-8b15-4261-ab2e-defce4db35d6</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=75b053ff832932107f44d4abc1da1e98^sys_idNOT IN390deb6483b172107f44d4abc1da1ec7"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -827,7 +844,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>charging_request_lifecycle</internal_name>
-        <label_cache>[{"name":"flow_variable.url_ref","label":"Flow Variables➛url_ref","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5c3ade33-aa3d-444a-9563-62080bc77a5a"}},{"name":"Created_1.current.location.name","label":"Trigger - Record Created➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.vehicles.license_plate","label":"Trigger - Record Created➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Charging Request Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.assigned_operator.location","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["operator_location"]}},{"name":"Created_1.current.assigned_operator","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["assigned_to"],"967d8de1-69f3-4b0e-9eb6-993b38fbb1c9":["record"]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Charging Request Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["ah_to"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["ah_to"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name","label":"5 - For Each➛User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]}},{"name":"Created_1.current.battery_percentage","label":"Trigger - Record Created➛Charging Request Record➛Battery Percentage","reference":"","reference_display":"Battery Percentage","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"battery_percentage","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_subject"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.email","label":"5 - For Each➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item","label":"5 - For Each➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Records","label":"3 - Look Up Records➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","usedInstances":{"ec17cee7-d604-4a0c-baa4-ab100f667cf8":["items"],"1d7a4131-911d-439c-9535-f4df01cee8cb":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.district","label":"Trigger - Record Created➛Charging Request Record➛District","reference":"","reference_display":"District","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"district","usedInstances":{"31f0bdd1-df3c-4b98-968a-37f56a05232a":["conditions"]}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"5dbc637d-d3ca-4aa5-a716-0e72cd161162":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Charging Request Record","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"reference","base_type":"reference","usedInstances":{"539dcd15-9d2a-4581-abe2-424644a92c29":["record"],"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"979a452a-9203-421e-829d-d105e13a9123":["record"],"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["record"],"7f152eee-8f98-4b2b-93a3-4031fe6893bb":["record"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["record"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["record"],"e99c8637-55a8-4ce3-9fa2-425a97ba6bca":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Charging Request Table","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"table_name","base_type":"table_name","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["tablename"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["sysid"],"01d65170-1df0-4d24-abc4-eec252e11360":["request_id"]}},{"name":"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5.link","label":"1 - Get Charging Request Link➛link","reference_display":"link","type":"string","base_type":"string","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20":["url_ref-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e541fb92-3f9a-4b7e-ab8c-0eed7b320b8d"}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Charging Request Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":[null],"b5f73d93-78d1-4c05-b132-810cc27591b7":[null]}},{"name":"Created_1.current.assigned_operator.u_availability_status","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Availability Status","reference":"","reference_display":"Availability Status","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_availability_status","choices":[{"used":false,"image":"","label":"Available","reference":false,"rawLabel":"Available","selected":false,"missing":false,"value":"Available","parameters":{"name":"sys_user","dependent_values":[""]}},{"used":false,"image":"","label":"Busy","reference":false,"rawLabel":"Busy","selected":false,"missing":false,"value":"Busy","parameters":{"name":"sys_user","dependent_values":[""]}},{"used":false,"image":"","label":"Offline","reference":false,"rawLabel":"Offline","selected":false,"missing":false,"value":"Offline","parameters":{"name":"sys_user","dependent_values":[""]}}],"usedInstances":{"d19b4229-3f7b-4d12-97d3-221d2daf32e5":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.url_ref","label":"Flow Variables➛url_ref","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5c3ade33-aa3d-444a-9563-62080bc77a5a"}},{"name":"Created_1.current.location.name","label":"Trigger - Record Created➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.vehicles.license_plate","label":"Trigger - Record Created➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Charging Request Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["short_description"]}},{"name":"Created_1.current.assigned_operator.location","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["operator_location"]}},{"name":"Created_1.current.assigned_operator","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"01d65170-1df0-4d24-abc4-eec252e11360":["assigned_to"],"967d8de1-69f3-4b0e-9eb6-993b38fbb1c9":["record"]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Charging Request Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["ah_to"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["ah_to"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name","label":"5 - For Each➛User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null]}},{"name":"Created_1.current.battery_percentage","label":"Trigger - Record Created➛Charging Request Record➛Battery Percentage","reference":"","reference_display":"Battery Percentage","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"battery_percentage","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_subject"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item.email","label":"5 - For Each➛User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["ah_to"]}},{"name":"1d7a4131-911d-439c-9535-f4df01cee8cb.item","label":"5 - For Each➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Records","label":"3 - Look Up Records➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","usedInstances":{"ec17cee7-d604-4a0c-baa4-ab100f667cf8":["items"],"1d7a4131-911d-439c-9535-f4df01cee8cb":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.district","label":"Trigger - Record Created➛Charging Request Record➛District","reference":"","reference_display":"District","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"district","usedInstances":{"31f0bdd1-df3c-4b98-968a-37f56a05232a":["conditions"]}},{"name":"31f0bdd1-df3c-4b98-968a-37f56a05232a.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"5dbc637d-d3ca-4aa5-a716-0e72cd161162":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Charging Request Record","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"reference","base_type":"reference","usedInstances":{"539dcd15-9d2a-4581-abe2-424644a92c29":["record"],"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"979a452a-9203-421e-829d-d105e13a9123":["record"],"cd7429a3-ff78-456c-8c31-fb5a3c675ce4":["record"],"7f152eee-8f98-4b2b-93a3-4031fe6893bb":["record"],"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":["record"],"b5f73d93-78d1-4c05-b132-810cc27591b7":["record"],"e99c8637-55a8-4ce3-9fa2-425a97ba6bca":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Charging Request Table","reference":"x_cdltd_chargesos_charging_request","reference_display":"Charging Request","type":"table_name","base_type":"table_name","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["tablename"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5":["sysid"],"01d65170-1df0-4d24-abc4-eec252e11360":["request_id"]}},{"name":"ab874ed6-42f0-4b30-a7b7-6b6c46f717c5.link","label":"1 - Get Charging Request Link➛link","reference_display":"link","type":"string","base_type":"string","usedInstances":{"39c17e22-18f3-4fd1-a14a-0c17398873c4":[null],"8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20":["url_ref-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e541fb92-3f9a-4b7e-ab8c-0eed7b320b8d"}},{"name":"Created_1.current.user.name","label":"Trigger - Record Created➛Charging Request Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"c5b0d6a8-a2a1-4e94-8ae7-d2c7ccd38021":[null],"b5f73d93-78d1-4c05-b132-810cc27591b7":[null]}},{"name":"Created_1.current.assigned_operator.u_availability_status","label":"Trigger - Record Created➛Charging Request Record➛Assigned Operator➛Availability Status","reference":"","reference_display":"Availability Status","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_availability_status","choices":[{"reference":false,"used":false,"label":"Available","image":"","rawLabel":"Available","selected":false,"missing":false,"value":"Available","parameters":{"name":"sys_user","dependent_values":[""]}},{"reference":false,"used":false,"label":"Busy","image":"","rawLabel":"Busy","selected":false,"missing":false,"value":"Busy","parameters":{"name":"sys_user","dependent_values":[""]}},{"reference":false,"used":false,"label":"Offline","image":"","rawLabel":"Offline","selected":false,"missing":false,"value":"Offline","parameters":{"name":"sys_user","dependent_values":[""]}}],"usedInstances":{"d19b4229-3f7b-4d12-97d3-221d2daf32e5":["condition"]}}]</label_cache>
         <master>true</master>
         <name>Charging Request Lifecycle</name>
         <natlang/>
@@ -844,7 +861,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>028a374883f132107f44d4abc1da1e27</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -852,7 +869,7 @@
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name/>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -936,14 +953,14 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:38</sys_created_on>
         <sys_id>168a374883f132107f44d4abc1da1e47</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name/>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:44</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1020,14 +1037,14 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:38</sys_created_on>
         <sys_id>528a374883f132107f44d4abc1da1e29</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name/>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:44</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1123,12 +1140,12 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:39</sys_created_on>
         <sys_id>a28a374883f132107f44d4abc1da1e59</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>39c17e22-18f3-4fd1-a14a-0c17398873c4</ui_id>
-        <values>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</values>
+        <values>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</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
@@ -1172,10 +1189,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-10 09:08:46</sys_created_on>
         <sys_id>1869e064837132107f44d4abc1da1e69</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>211c8906-fe19-427d-aff0-7696d0792a11</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1198,10 +1215,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-10 23:23:54</sys_created_on>
         <sys_id>261daf6483b172107f44d4abc1da1e0a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>8f9cc4b5-c0c1-4938-893a-f0dcd6e02b20</ui_id>
         <values>H4sIAAAAAAAA/+1VTW/iMBD9Lz4TFEhIKLeqVaVKu1tpy/ayqqKJPQGrjpP6A8pG/PcdkwD9uO1hT9w8bzye9549csca71rv7LK5tlauNFv8fh4xqQNG645JwRaMjZiGGmnljSoMVgRsQPmAdB2U8zxFkUXptIqjtEziCPIyj7Iy42lW5ZOcz8ZK6pf9nuqEtK2C3dM/lvO1VMLgQLQFQ7wcGrboPqUOxJOrWGCZpfOknOTTSZxXaSpSKPlEwAR5TgcqKFF9UPZFqtu1AbDOSL0a4m9D2eMRbIwINOIRwzeHWiD1r0BZHLEatADXmN0JMQjiQaszsJba9UbX8GblH+o3j+M47KyQNHHss6ewGHzs4eoWHBAVz503w1a+biRH27shsAKv3M17rN/w0DrZ6L7EQamO1Y3ytf7RW8FOBxyvjRBviQS2QWrgPgipHtfN9ueR5Z3UB1eGpGo4qFMEjrwrvQt8Oubl8pPNPfLFaFRYU8eihrYlpGhNs5GHLkS6Hq8UBeNKNVtiF570GHhQOKYrgPEd4bcH+AmMDHK/0zFUHNr90vLV4314ODOegMAkiQASEaVpCtHVLEuibBrP45LnOcyA7UfM7uyNAmvPRtENFa8+yOxtGwwqeo9DCTeydddEaoODF/vnME89n8vYXcbuMnb/bewEcmmJ5zKQuj/+eyGxowcp+Xto25iXoPCM7f8C5NDIakEHAAA=</values>
         <workflow_reference/>
@@ -1224,10 +1241,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:39</sys_created_on>
         <sys_id>668a374883f132107f44d4abc1da1e55</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>f885d21a-46cb-4bf6-bd74-3d3692de9810</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1250,10 +1267,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:39</sys_created_on>
         <sys_id>6e8a374883f132107f44d4abc1da1e52</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>5dbc637d-d3ca-4aa5-a716-0e72cd161162</ui_id>
         <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wf08pJSNf2DRUhIbEhDcTLhqIbf1Brjp3ZTqGr+t93naQFQafBtsc9VKqP78c5pz7qltg2NG3wN/bUe3VvyOLLXUKUiRh+3xIDtSALwqzhKihryg5IyBp0Gy8u5CishBMjiJ81KA2VFiPbCAfBOo+lXPlGw+b27R1spTR3YmDTgMOdQTiy2L64UhwHSgoynbOU5dk0zyjNZidpNc2rNOM5CMhxIK4QGkuXexmjyw5JfqkvbJqI++CUuR/Ol8OU6z1oHY+sUpoQ8RiE4QL5SNBeJKQGw6OezQFxAviV0U/ASpmA40gsfvTqBy7MiiIWSvTHMNFfHo7l4GQPyzMIgFRaFlo3lLKVVUz43hwuJLQ6LJ9jfcFVE6X2LSG6P3Rb3dbmU+8IOQzY/3CItB5JiCYqjdQHHfJ6ZR8+71meK9O5Mlxqy0AfThDQu6oNkc+WCC1qHFTW0DToaNk4u1ZdM3KpJ/caDxOp7QMuja9zAiwSn6CxMDlH/KyDb8GpqOIjjsHmnmYFXrGye8k4Dm0SZJcQv/FLDd4/iUR3y+9tpNhLHsSVvT+xhTnVhFPcvBaDjl3yOhjPMrHd5qmkFefpmMucjU+q+Ww8n85gnH+QxRRokeUZTJa2NWG3+9pSmgv6Oih/OuZ96ZlDIYuUFsfTczI9lp4juXlnZLLfRCb+Xm9MDKX0f2T+OjLKl/1DH7R1y/9hYu5iPPqdB6+Z8kjtJmIX+3+ceLHBx6XYc+jBum9R1BO2+wnUHTB4uwYAAA==</values>
         <workflow_reference/>
@@ -1276,10 +1293,10 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-11 10:54:08</sys_created_on>
         <sys_id>951bc6b883f132107f44d4abc1da1ec6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>70af1783-cd4a-419c-94cc-10ea1bdd7296</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1302,15 +1319,32 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:39</sys_created_on>
         <sys_id>a28a374883f132107f44d4abc1da1e54</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:45</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
         <ui_id>1d7a4131-911d-439c-9535-f4df01cee8cb</ui_id>
         <values>H4sIAAAAAAAA/51TTU/jMBD9Lz6nUT4g2/SGQEhIsEgFcVmhauKP1lrHztpOSzbKf99x4wbEcU/JPM+8ee/FGYnpfdd792punJN7TTa/3hMidcDwfSQaWk42RHreOpKQI6g+1ONY5iJrGMtXTJR0ddXU61VdrWFV/hDXFWTXRVlAuuXUWOamCUeZdJ2C4e3/GehBKmZ5FNmBRW2eW7IZvx1Jhgvymok6z2paFlVZZFmxvsqbqmzygpXAWYWEChqusPUhuvtm1g9dKO0sIQKPcWa7oPgIIoosIfzDc804rhegHE9IC5qBN3YgG297BCwH9qzVsHQcpPZIR0Lvh5N/cWOeZaFRcDRE+Xy4lLuY4wyLO/DwgtTU9za20oORlLs5CsYF9MrffsXmhufOS6PnEQ+Nukwb1bf655wEWQgunw2R3qEI3gWjQXr0IV4O5rS9qLyX+hxKPFSGgloq8N7KpvdBz0i44i0S7VroOqn3u86aozwPo5Y23SssUqHMCZeGK5oCDcJTzBXSe8TvzvAbWBlcPCENDk8JcYO7VeDcpxcMcfenD0pmZ9HDbo4hjFArO3+DC448yp3ew62fuZdMqXQo4TVgD5d/JRwMeIMk/QqdjP0dxH9i0z/McvPFdQMAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=028a374883f132107f44d4abc1da1e27^sys_idNOT IN668a374883f132107f44d4abc1da1e5d,6a8a374883f132107f44d4abc1da1e5d,6e8a374883f132107f44d4abc1da1e5c,7ce55c3c837572107f44d4abc1da1ec8,9130c12483f132107f44d4abc1da1e9d,d530c12483f132107f44d4abc1da1e9d,e28a374883f132107f44d4abc1da1e5d,e68a374883f132107f44d4abc1da1e5d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=028a374883f132107f44d4abc1da1e27^sys_idNOT IN0742ff86833932107f44d4abc1da1e17,668a374883f132107f44d4abc1da1e5d,6a8a374883f132107f44d4abc1da1e5d,6e8a374883f132107f44d4abc1da1e5c,7ce55c3c837572107f44d4abc1da1ec8,9130c12483f132107f44d4abc1da1e9d,d530c12483f132107f44d4abc1da1e9d,e28a374883f132107f44d4abc1da1e5d,e68a374883f132107f44d4abc1da1e5d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>028a374883f132107f44d4abc1da1e27</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{1d7a4131-911d-439c-9535-f4df01cee8cb.item.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-15 15:37:29</sys_created_on>
+        <sys_id>0742ff86833932107f44d4abc1da1e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-15 15:37:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3474c94d-8b15-4261-ab2e-defce4db35d6</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>028a374883f132107f44d4abc1da1e27</attached_to>
         <extra_info/>
@@ -1589,17 +1623,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e28a374883f132107f44d4abc1da1e92","name":"plan","plan_signature":null}}</plan>
         <plan_id>75b053ff832932107f44d4abc1da1e98</plan_id>
-        <snapshot>0c986ef483b532107f44d4abc1da1e48</snapshot>
+        <snapshot>1263f70a833932107f44d4abc1da1e98</snapshot>
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-09 11:05:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e28a374883f132107f44d4abc1da1e92</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-11 11:55:46</sys_updated_on>
+        <sys_updated_on>2025-12-15 15:37:32</sys_updated_on>
         <trigger display_value="">628a374883f132107f44d4abc1da1e90</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=75b053ff832932107f44d4abc1da1e98"/>
