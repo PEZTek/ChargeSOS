@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article display_value="KB0010008 v3.0">33f6bbc983b532107f44d4abc1da1ee5</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>3</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">99191086837532107f44d4abc1da1ecc</sp_column>
+        <sp_page display_value="esc_kb_article_view">72b673c2239033007e45ff5e17bf6546</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:41:41</sys_created_on>
+        <sys_id>d687d8c2837532107f44d4abc1da1ee4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Cancelling a Charging Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_link_d687d8c2837532107f44d4abc1da1ee4</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:46</sys_updated_on>
+        <title>Cancelling a Charging Request</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d687d8c2837532107f44d4abc1da1ee4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_link_d687d8c2837532107f44d4abc1da1ee4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010008 v3.0"&gt;33f6bbc983b532107f44d4abc1da1ee5&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;99191086837532107f44d4abc1da1ecc&lt;/sp_column&gt;&lt;sp_page display_value="esc_kb_article_view"&gt;72b673c2239033007e45ff5e17bf6546&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-14 23:41:41&lt;/sys_created_on&gt;&lt;sys_id&gt;d687d8c2837532107f44d4abc1da1ee4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cancelling a Charging Request&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d687d8c2837532107f44d4abc1da1ee4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-14 23:48:46&lt;/sys_updated_on&gt;&lt;title&gt;Cancelling a Charging Request&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d687d8c2837532107f44d4abc1da1ee4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>729170811</payload_hash>
+        <record_name>Cancelling a Charging Request</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:48:46</sys_created_on>
+        <sys_id>46299086837532107f44d4abc1da1ee3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1f44453c0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:46</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>ca299086b2753210e6aad6867854ade2</update_guid>
+        <update_guid_history>ca299086b2753210e6aad6867854ade2:729170811,702990864775321087dbab10cd8fb61c:581881908,a6195086797532102e4c159ca7e10519:-482176459,7d581c06587532101551a7f50d4673c8:-1546234826,27c75cc2327532100689a4aa8c88b4a4:983489719,da87d8c2d575321053336a589fbf9be5:334212080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cancelling a Charging Request">0abc825e833572107f44d4abc1da1edf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-16 02:52:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>377aacc8fa294ad7904463482df1c829</sys_id>
+        <sys_metadata>d687d8c2837532107f44d4abc1da1ee4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancelling a Charging Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d687d8c2837532107f44d4abc1da1ee4</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d687d8c2837532107f44d4abc1da1ee4">46299086837532107f44d4abc1da1ee3</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:52:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,15 +16,15 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-12 20:33:18</sys_created_on>
         <sys_id>8b39dd1183fd32107f44d4abc1da1e3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>operator</sys_name>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sp_page_8b39dd1183fd32107f44d4abc1da1e3a</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-12 20:34:05</sys_updated_on>
-        <title>Operator</title>
+        <sys_updated_on>2025-12-16 05:11:07</sys_updated_on>
+        <title>Operator Dashboard</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=8b39dd1183fd32107f44d4abc1da1e3a"/>

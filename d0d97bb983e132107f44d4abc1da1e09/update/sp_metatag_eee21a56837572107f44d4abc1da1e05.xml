@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_metatag">
+    <sp_metatag action="INSERT_OR_UPDATE">
+        <content>width=device-width, initial-scale=1.0</content>
+        <name>viewport</name>
+        <sp_page display_value="index_sos">06df0a52837572107f44d4abc1da1e4f</sp_page>
+        <sys_class_name>sp_metatag</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-16 03:20:01</sys_created_on>
+        <sys_id>eee21a56837572107f44d4abc1da1e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_metatag_eee21a56837572107f44d4abc1da1e05</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-16 03:20:01</sys_updated_on>
+    </sp_metatag>
+</record_update>

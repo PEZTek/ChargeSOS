@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article display_value="KB0010009 v2.0">42a0b34183b532107f44d4abc1da1e85</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>5</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">99191086837532107f44d4abc1da1ecc</sp_column>
+        <sp_page display_value="esc_kb_article_view">72b673c2239033007e45ff5e17bf6546</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:45:19</sys_created_on>
+        <sys_id>9f581c06837532107f44d4abc1da1e8e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Knowing When Charging Request is Completed</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_link_9f581c06837532107f44d4abc1da1e8e</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:55</sys_updated_on>
+        <title>Knowing When Charging Request is Completed</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=9f581c06837532107f44d4abc1da1e8e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_link_9f581c06837532107f44d4abc1da1e8e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010009 v2.0"&gt;42a0b34183b532107f44d4abc1da1e85&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;5&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;99191086837532107f44d4abc1da1ecc&lt;/sp_column&gt;&lt;sp_page display_value="esc_kb_article_view"&gt;72b673c2239033007e45ff5e17bf6546&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-14 23:45:19&lt;/sys_created_on&gt;&lt;sys_id&gt;9f581c06837532107f44d4abc1da1e8e&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowing When Charging Request is Completed&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_9f581c06837532107f44d4abc1da1e8e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-14 23:48:55&lt;/sys_updated_on&gt;&lt;title&gt;Knowing When Charging Request is Completed&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9f581c06837532107f44d4abc1da1e8e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>312757157</payload_hash>
+        <record_name>Knowing When Charging Request is Completed</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:48:55</sys_created_on>
+        <sys_id>5c39d086837532107f44d4abc1da1edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1f44684c0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:55</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>d039d0864675321048ec8369e617ffdf</update_guid>
+        <update_guid_history>d039d0864675321048ec8369e617ffdf:312757157,8329d0864975321074513d0300d9ce5d:-1494332004,4a2990866175321073dd79e27c2e5cd6:-1379622819,f02990864d75321079d1d0116010232b:-1264913634,aa195086c17532106195f05cc5cb0726:-1150204449,e7c898465b753210df8d300f65818c6b:-1035495264,6c681046d8753210a1b1409c65e8b353:-836268882,5b58dc065a753210b22b9932dd4ec9b8:1896455247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowing When Charging Request is Completed">0abc825e833572107f44d4abc1da1ed9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-16 02:52:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>8fdb44565aba4e99aa105154eb58a7e9</sys_id>
+        <sys_metadata>9f581c06837532107f44d4abc1da1e8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowing When Charging Request is Completed</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_9f581c06837532107f44d4abc1da1e8e</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_9f581c06837532107f44d4abc1da1e8e">5c39d086837532107f44d4abc1da1edf</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:52:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

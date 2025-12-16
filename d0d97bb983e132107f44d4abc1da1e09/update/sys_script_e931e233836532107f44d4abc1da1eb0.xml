@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_cdltd_chargesos_charging_request">request_status=completed^EQ<item display_value="Completed" endquery="false" field="request_status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+        <filter_condition table="x_cdltd_chargesos_charging_request">request_statusCHANGESFROMcompleted^EQ<item display_value="Completed" endquery="false" field="request_status" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="completed"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e931e233836532107f44d4abc1da1eb0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Completed Requests cannot be Deleted</sys_name>
         <sys_overrides/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sys_script_e931e233836532107f44d4abc1da1eb0</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-12 20:29:32</sys_updated_on>
+        <sys_updated_on>2025-12-16 02:11:16</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

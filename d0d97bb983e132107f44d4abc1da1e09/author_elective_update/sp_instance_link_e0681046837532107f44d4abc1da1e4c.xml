@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article display_value="KB0010007 v4.0">7b747fc583b532107f44d4abc1da1e25</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>4</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">99191086837532107f44d4abc1da1ecc</sp_column>
+        <sp_page display_value="esc_kb_article_view">72b673c2239033007e45ff5e17bf6546</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:45:23</sys_created_on>
+        <sys_id>e0681046837532107f44d4abc1da1e4c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Post-Charge Documentation and Closure</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_link_e0681046837532107f44d4abc1da1e4c</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:50</sys_updated_on>
+        <title>Post-Charge Documentation and Closure</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=e0681046837532107f44d4abc1da1e4c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_link_e0681046837532107f44d4abc1da1e4c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010007 v4.0"&gt;7b747fc583b532107f44d4abc1da1e25&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;4&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;99191086837532107f44d4abc1da1ecc&lt;/sp_column&gt;&lt;sp_page display_value="esc_kb_article_view"&gt;72b673c2239033007e45ff5e17bf6546&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-14 23:45:23&lt;/sys_created_on&gt;&lt;sys_id&gt;e0681046837532107f44d4abc1da1e4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Post-Charge Documentation and Closure&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_e0681046837532107f44d4abc1da1e4c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-14 23:48:50&lt;/sys_updated_on&gt;&lt;title&gt;Post-Charge Documentation and Closure&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e0681046837532107f44d4abc1da1e4c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1155345804</payload_hash>
+        <record_name>Post-Charge Documentation and Closure</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:48:50</sys_created_on>
+        <sys_id>8b29d086837532107f44d4abc1da1e6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1f44569f0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:50</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>0329d0868a753210cf7809877370526a</update_guid>
+        <update_guid_history>0329d0868a753210cf7809877370526a:-1155345804,ce299086dc7532106743e0461188f5cf:755707180,78299086b9753210b96e7d9011d0c324:1921305901,221950860175321011a6006031cc4620:-1208062674,0e98544658753210ab1ab45d661b4df2:-42463953,e4681046097532104adc8630e98c274d:1896455247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Post-Charge Documentation and Closure">0abc825e833572107f44d4abc1da1ee5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-16 02:52:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>7fe0600dcf724c2687c180c611285ec1</sys_id>
+        <sys_metadata>e0681046837532107f44d4abc1da1e4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post-Charge Documentation and Closure</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_e0681046837532107f44d4abc1da1e4c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_e0681046837532107f44d4abc1da1e4c">8b29d086837532107f44d4abc1da1e6a</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:52:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

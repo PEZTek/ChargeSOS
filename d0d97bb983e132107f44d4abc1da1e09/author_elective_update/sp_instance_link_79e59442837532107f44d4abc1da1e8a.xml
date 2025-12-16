@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article display_value="KB0010015 v2.0">2365b74983b532107f44d4abc1da1e72</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">99191086837532107f44d4abc1da1ecc</sp_column>
+        <sp_page display_value="esc_kb_article_view">72b673c2239033007e45ff5e17bf6546</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:34:33</sys_created_on>
+        <sys_id>79e59442837532107f44d4abc1da1e8a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Completing the Service Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_link_79e59442837532107f44d4abc1da1e8a</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:32</sys_updated_on>
+        <title>Completing the Service Request</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=79e59442837532107f44d4abc1da1e8a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_instance_link_79e59442837532107f44d4abc1da1e8a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010015 v2.0"&gt;2365b74983b532107f44d4abc1da1e72&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;99191086837532107f44d4abc1da1ecc&lt;/sp_column&gt;&lt;sp_page display_value="esc_kb_article_view"&gt;72b673c2239033007e45ff5e17bf6546&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-14 23:34:33&lt;/sys_created_on&gt;&lt;sys_id&gt;79e59442837532107f44d4abc1da1e8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Completing the Service Request&lt;/sys_name&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_79e59442837532107f44d4abc1da1e8a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-14 23:48:32&lt;/sys_updated_on&gt;&lt;title&gt;Completing the Service Request&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=79e59442837532107f44d4abc1da1e8a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1081240637</payload_hash>
+        <record_name>Completing the Service Request</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:48:32</sys_created_on>
+        <sys_id>62195086837532107f44d4abc1da1e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b1f440e6a0000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-14 23:48:32</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>e61950866175321077e9150e0d6a4331</update_guid>
+        <update_guid_history>e61950866175321077e9150e0d6a4331:1081240637,cf485c063a753210a6af1339486c43ad:554777144,3d28540608753210476f9551276d86c8:1319985898,e718580632753210fe7e20e5711a764f:78164490,e908d406f1753210e25d7648c374ca2d:1319985898,0ef75406af7532102c33eeae491de5f7:-226026387,a7f65c825c753210452ff00eedfa63c2:-334715954,8dd6d8823075321038712a5be6f86dea:1543797956,35569c42ba7532109969d2d1375e7025:-1673785486,f1e594422b7532108c4918beb241118c:1504693042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Completing the Service Request">75bc825e833572107f44d4abc1da1ed3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-16 02:52:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>8840147e7ab546b58737dcacba143941</sys_id>
+        <sys_metadata>79e59442837532107f44d4abc1da1e8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Completing the Service Request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_79e59442837532107f44d4abc1da1e8a</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_79e59442837532107f44d4abc1da1e8a">62195086837532107f44d4abc1da1e32</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:52:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

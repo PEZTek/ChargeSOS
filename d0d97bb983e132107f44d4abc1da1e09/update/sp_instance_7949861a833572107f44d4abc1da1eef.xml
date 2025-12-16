@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3a390a1a833572107f44d4abc1da1e0e</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-16 02:37:07</sys_created_on>
+        <sys_id>7949861a833572107f44d4abc1da1eef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_instance_7949861a833572107f44d4abc1da1eef</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:47:24</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div style=\"border: 1px solid #ddd; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);\">\r\n<h3 style=\"margin: 0 0 10px; font-family: Arial; color: #333;\">Confirmation of Request acceptance</h3>\r\n<p style=\"color: #555; font-size: 14px;\">How service user confirms if charging request has been accepted ...</p>\r\n<a style=\"display: inline-block; margin-top: 10px; padding: 10px 20px; background: #34A853; color: #fff; text-decoration: none; border-radius: 5px;\" href=\"?id=esc_kb_article_view&amp;sys_id=7887ffc983b532107f44d4abc1da1e25\">Read more</a></div>",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7949861a833572107f44d4abc1da1eef"/>
+</record_update>

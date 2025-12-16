@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#ffffff</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>User - Container 6</name>
+        <order>6</order>
+        <semantic_tag/>
+        <sp_page display_value="user">6c33738583b532107f44d4abc1da1eb1</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-14 23:48:19</sys_created_on>
+        <sys_id>1309d846837532107f44d4abc1da1ef6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>User - Container 6</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sp_container_1309d846837532107f44d4abc1da1ef6</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:36:40</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sp_container_1309d846837532107f44d4abc1da1ef6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#ffffff</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>User - Container 6</name><order>6</order><semantic_tag/><sp_page display_value="user">6c33738583b532107f44d4abc1da1eb1</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>zachery.howton</sys_created_by><sys_created_on>2025-12-14 23:48:19</sys_created_on><sys_id>1309d846837532107f44d4abc1da1ef6</sys_id><sys_mod_count>9</sys_mod_count><sys_name>User - Container 6</sys_name><sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package><sys_policy/><sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope><sys_update_name>sp_container_1309d846837532107f44d4abc1da1ef6</sys_update_name><sys_updated_by>emmynem</sys_updated_by><sys_updated_on>2025-12-16 02:36:40</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1332229689</payload_hash>
+        <record_name>User - Container 6</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-16 02:36:40</sys_created_on>
+        <sys_id>8f290e1a833572107f44d4abc1da1e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b25045a010000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:36:40</sys_updated_on>
+        <type>Container</type>
+        <update_guid>07290e1a24357210ff04268904209b83</update_guid>
+        <update_guid_history>07290e1a24357210ff04268904209b83:-1332229689,deb2e0c200b5321058c50ee18f15051a:236921062,69a220822bb53210bc6ce63cc3800ca9:-1796935796,02926c82d0b5321080913baf02f685a0:1555031223,c082a882dbb532103fe1bd070868b69b:236921062,5f626c822bb53210b604f1f567e1a0b3:871402569,1a22a48281b5321018f83cb657425a8b:236921062,07f12082fcb5321090509e20276263da:-594841423,674bd04abb753210dfcfb9cd078fb194:-869075737,1f091086847532103307ff5eb6129b24:700075014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User - Container 6">adbc461e833572107f44d4abc1da1eb4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-16 02:52:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>034acfe5e0e149d881266a32108dac29</sys_id>
+        <sys_metadata>1309d846837532107f44d4abc1da1ef6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User - Container 6</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sp_container_1309d846837532107f44d4abc1da1ef6</sys_update_name>
+        <sys_update_version display_value="sp_container_1309d846837532107f44d4abc1da1ef6">8f290e1a833572107f44d4abc1da1e83</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-16 02:52:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

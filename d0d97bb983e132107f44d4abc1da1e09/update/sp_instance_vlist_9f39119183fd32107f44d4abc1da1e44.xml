@@ -6,15 +6,15 @@
         <css/>
         <display_field>number</display_field>
         <field_list/>
-        <filter table="x_cdltd_chargesos_charging_request">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^user.u_user=true^NQassigned_operatorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^assigned_operator.u_operator=true<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="user.u_user" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="assigned_operator" goto="false" newquery="true" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="assigned_operator.u_operator" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_cdltd_chargesos_charging_request">assigned_operatorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_operatorISEMPTY^request_statusNOT INcancelled,completed^ORDERBYDESCsys_created_on<item endquery="false" field="assigned_operator" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="assigned_operator" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item display_value="cancelled,completed" endquery="false" field="request_status" goto="false" newquery="false" operator="NOT IN" or="false" value="cancelled,completed"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
         </filter>
         <glyph>list-ul</glyph>
         <id/>
-        <maximum_entries>5</maximum_entries>
-        <order>2</order>
+        <maximum_entries>7</maximum_entries>
+        <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
         <roles/>
@@ -27,14 +27,14 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-12 20:33:18</sys_created_on>
         <sys_id>9f39119183fd32107f44d4abc1da1e44</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Active Requests</sys_name>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sp_instance_vlist_9f39119183fd32107f44d4abc1da1e44</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-15 22:09:17</sys_updated_on>
+        <sys_updated_on>2025-12-15 23:44:17</sys_updated_on>
         <table>x_cdltd_chargesos_charging_request</table>
         <title>Active Requests</title>
         <url/>
@@ -52,8 +52,8 @@
 		"displayValue": ""
 	},
 	"secondary_fields": {
-		"value": "user.name,vehicles.license_plate,location.name",
-		"displayValue": "user.name,vehicles.license_plate,location.name"
+		"value": "user.name,vehicles.license_plate,location.name,request_status,time_submitted",
+		"displayValue": "user.name,vehicles.license_plate,location.name,request_status,time_submitted"
 	},
 	"rounded_images": {
 		"value": "",
@@ -64,8 +64,8 @@
 		"displayValue": ""
 	},
 	"hide_footer": {
-		"value": "",
-		"displayValue": ""
+		"value": "true",
+		"displayValue": "true"
 	},
 	"view": {
 		"value": "",
