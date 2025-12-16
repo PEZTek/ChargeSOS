@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>battery_percentage</element>
+        <name>x_cdltd_chargesos_charging_request</name>
+        <style>background-color: RGB(var(--now-color_alert--positive-1, 144,238,144))</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-12 16:58:10</sys_created_on>
+        <sys_id>7ff7e85183f932107f44d4abc1da1eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_chargesos_charging_request</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_ui_style_7ff7e85183f932107f44d4abc1da1eb6</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:58:10</sys_updated_on>
+        <themed_style/>
+        <value>87</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ff7e85183f932107f44d4abc1da1eb6"/>
+</record_update>

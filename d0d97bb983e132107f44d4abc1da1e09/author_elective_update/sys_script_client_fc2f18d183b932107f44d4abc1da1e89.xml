@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Add colour depending on Battery Percentage</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Style add colour</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  addColorDot(newValue);
+}
+
+function addColorDot(value) {
+    // Remove any existing dot
+    var existing = document.querySelector('#battery_percentage');
+    if (existing) existing.remove();
+
+    // Determine color
+    var num = parseInt(value, 10);
+    if (isNaN(num)) return; // no dot if not a number
+
+    // Determine color based on ranges
+    var color = '';
+    if (num < 20) {
+        color = 'red';
+    } else if (num >= 21 && num <= 79) {
+        color = 'orange';
+    } else if (num >= 80 && num <= 100) {
+        color = 'green';
+    } else {
+        return; // out of range → no dot
+    }
+
+
+    // Create dot
+    var dot = document.createElement('span');
+    dot.id = 'battery_percentage_dot';
+    dot.style.cssText = `
+        display:inline-block;
+        width:10px;
+        height:10px;
+        border-radius:50%;
+        background:${color};
+        margin-left:6px;
+    `;
+
+    // Attach to field label
+    var label = document.querySelector('label[for="battery_percentage"]');
+    if (label) label.appendChild(dot);
+}
+
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-12 16:32:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc2f18d183b932107f44d4abc1da1e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Style add colour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_script_client_fc2f18d183b932107f44d4abc1da1e89</sys_update_name>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:32:53</sys_updated_on>
+        <table>x_cdltd_chargesos_charging_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_script_client_fc2f18d183b932107f44d4abc1da1e89</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Add colour depending on Battery Percentage&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Style add colour&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+  addColorDot(newValue);
+}
+
+function addColorDot(value) {
+    // Remove any existing dot
+    var existing = document.querySelector('#battery_percentage');
+    if (existing) existing.remove();
+
+    // Determine color
+    var num = parseInt(value, 10);
+    if (isNaN(num)) return; // no dot if not a number
+
+    // Determine color based on ranges
+    var color = '';
+    if (num &lt; 20) {
+        color = 'red';
+    } else if (num &gt;= 21 &amp;&amp; num &lt;= 79) {
+        color = 'orange';
+    } else if (num &gt;= 80 &amp;&amp; num &lt;= 100) {
+        color = 'green';
+    } else {
+        return; // out of range → no dot
+    }
+
+
+    // Create dot
+    var dot = document.createElement('span');
+    dot.id = 'battery_percentage_dot';
+    dot.style.cssText = `
+        display:inline-block;
+        width:10px;
+        height:10px;
+        border-radius:50%;
+        background:${color};
+        margin-left:6px;
+    `;
+
+    // Attach to field label
+    var label = document.querySelector('label[for="battery_percentage"]');
+    if (label) label.appendChild(dot);
+}
+
+   
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;zachery.howton&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-12 16:32:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fc2f18d183b932107f44d4abc1da1e89&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Style add colour&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fc2f18d183b932107f44d4abc1da1e89&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;zachery.howton&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-12 16:32:53&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_chargesos_charging_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-611424638</payload_hash>
+        <record_name>Style add colour</record_name>
+        <reverted_from/>
+        <source>7d739f80833132107f44d4abc1da1efa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-12 16:32:53</sys_created_on>
+        <sys_id>2132e8d583b932107f44d4abc1da1e6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b13687e050000001</sys_recorded_at>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:32:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2532e8d51cb9321081cc49ce4701746d</update_guid>
+        <update_guid_history>2532e8d51cb9321081cc49ce4701746d:-611424638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zachery.howton</sys_created_by>
+        <sys_created_on>2025-12-12 16:34:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6114a0c5c9bb4d978ed15860dd399a79</sys_id>
+        <sys_metadata>fc2f18d183b932107f44d4abc1da1e89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Style add colour</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent display_value="Charging Request">6837345a832532107f44d4abc1da1e9d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_script_client_fc2f18d183b932107f44d4abc1da1e89</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fc2f18d183b932107f44d4abc1da1e89">2132e8d583b932107f44d4abc1da1e6e</sys_update_version>
+        <sys_updated_by>zachery.howton</sys_updated_by>
+        <sys_updated_on>2025-12-12 16:34:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

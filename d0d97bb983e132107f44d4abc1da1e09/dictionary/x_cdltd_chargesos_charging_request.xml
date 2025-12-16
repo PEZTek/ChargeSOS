@@ -24,7 +24,7 @@
                 <element inactive_on_update="false" label="Assigned" sequence="3" value="assigned"/>
             </choice>
         </element>
-        <element label="Assigned Operator" max_length="32" name="assigned_operator" reference="sys_user" reference_qual="u_operator=true" reference_qual_condition="u_operator=true" type="reference"/>
+        <element label="Assigned Operator" max_length="32" name="assigned_operator" read_only="true" reference="sys_user" reference_qual="u_operator=true" reference_qual_condition="u_operator=true" type="reference"/>
         <index name="index">
             <element name="assigned_operator"/>
         </index>
