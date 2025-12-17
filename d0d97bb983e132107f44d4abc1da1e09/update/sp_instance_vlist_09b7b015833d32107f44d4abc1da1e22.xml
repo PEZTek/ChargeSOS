@@ -6,7 +6,8 @@
         <css/>
         <display_field>number</display_field>
         <field_list/>
-        <filter table="x_cdltd_chargesos_charging_request">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        <filter table="x_cdltd_chargesos_charging_request">userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORDERBYDESCsys_updated_on<item endquery="false" field="user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_updated_on"/>
         </filter>
         <glyph>list-ul</glyph>
         <id/>
@@ -24,14 +25,14 @@
         <sys_created_by>emmynem</sys_created_by>
         <sys_created_on>2025-12-12 18:06:48</sys_created_on>
         <sys_id>09b7b015833d32107f44d4abc1da1e22</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
         <sys_policy/>
         <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
         <sys_update_name>sp_instance_vlist_09b7b015833d32107f44d4abc1da1e22</sys_update_name>
         <sys_updated_by>emmynem</sys_updated_by>
-        <sys_updated_on>2025-12-15 23:53:17</sys_updated_on>
+        <sys_updated_on>2025-12-17 14:32:16</sys_updated_on>
         <table>x_cdltd_chargesos_charging_request</table>
         <title/>
         <url/>

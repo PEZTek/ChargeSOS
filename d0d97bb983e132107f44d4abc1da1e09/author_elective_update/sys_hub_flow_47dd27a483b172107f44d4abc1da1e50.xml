@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10582000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow checks for when a user accepts a request and creates a task</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>charging_request_assigned_task</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_operator","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["assigned_to"],"7649e15d-03f5-439a-9c32-b853deba9d9d":["conditions"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["request_id"]}},{"name":"Updated_1.current.assigned_operator.location","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["operator_location"]}},{"name":"Updated_1.current.user.first_name","label":"Trigger - Record Updated➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.location.name","label":"Trigger - Record Updated➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.vehicles.license_plate","label":"Trigger - Record Updated➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.Record","label":"1 - Look Up Record➛Operator Assignments Record","reference":"x_cdltd_chargesos_operator_assignments","reference_display":"Operator Assignments","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"1dc06aad-342f-4980-8994-bc4eb7deab92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}}]</label_cache>
+        <master_snapshot>bded3fe883f172107f44d4abc1da1eca</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Charging Request Assigned Task</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>b236187c837572107f44d4abc1da1e3c</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-10 23:27:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47dd27a483b172107f44d4abc1da1e50</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Charging Request Assigned Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name>sys_hub_flow_47dd27a483b172107f44d4abc1da1e50</sys_update_name>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:40:59</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_variable_value action="DELETE" query="document_key=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_cdltd_chargesos_charging_request">request_statusINrequested,waiting-queue,assigned^assigned_operatorISNOTEMPTY<item display_value="requested,waiting-queue,assigned" endquery="false" field="request_status" goto="false" newquery="false" operator="IN" or="false" value="requested,waiting-queue,assigned"/>
+            <item endquery="false" field="assigned_operator" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 02:23:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b236187c837572107f44d4abc1da1e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:36</sys_updated_on>
+        <table>x_cdltd_chargesos_charging_request</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>47dd27a483b172107f44d4abc1da1e50</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 02:23:36</sys_created_on>
+        <sys_id>7e36187c837572107f44d4abc1da1e3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:36</sys_updated_on>
+        <trigger display_value="">b236187c837572107f44d4abc1da1e3c</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN7e36187c837572107f44d4abc1da1e3c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN07dd27a483b172107f44d4abc1da1e51"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>47dd27a483b172107f44d4abc1da1e50</id>
+        <name>Charging Request Assigned Task</name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-10 23:27:12</sys_created_on>
+        <sys_id>07dd27a483b172107f44d4abc1da1e51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-10 23:27:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=07dd27a483b172107f44d4abc1da1e51"/>
+    <sys_hub_flow_input action="DELETE" query="model=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN3eddfbe883f172107f44d4abc1da1e9f,7edd7be883f172107f44d4abc1da1edc,fedd7be883f172107f44d4abc1da1ed8"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</model>
+        <model_id>47dd27a483b172107f44d4abc1da1e50</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:05</sys_created_on>
+        <sys_id>3eddfbe883f172107f44d4abc1da1e9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=3eddfbe883f172107f44d4abc1da1e9f"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</model>
+        <model_id>47dd27a483b172107f44d4abc1da1e50</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:05</sys_created_on>
+        <sys_id>7edd7be883f172107f44d4abc1da1edc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7edd7be883f172107f44d4abc1da1edc"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</model>
+        <model_id>47dd27a483b172107f44d4abc1da1e50</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:05</sys_created_on>
+        <sys_id>fedd7be883f172107f44d4abc1da1ed8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=fedd7be883f172107f44d4abc1da1ed8"/>
+    <sys_hub_flow_output action="DELETE" query="model=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT INf2ddfbe883f172107f44d4abc1da1ea9"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:06</sys_created_on>
+        <sys_id>f2ddfbe883f172107f44d4abc1da1ea9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:29</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN76e84878833572107f44d4abc1da1e5e,7eddfbe883f172107f44d4abc1da1eaa"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:25</sys_created_on>
+        <sys_id>76e84878833572107f44d4abc1da1e5e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:08:04</sys_updated_on>
+        <ui_id>7649e15d-03f5-439a-9c32-b853deba9d9d</ui_id>
+        <values>H4sIAAAAAAAA/9VYW2/bOgz+K4af0xw79/RtWBFgwM4KbN1eenoE2ZITYYrkSXJvQf77KMty0tS5NE2x7lEUKX4kP1KyrxchI+F5SMbROBuP+6NhFHW7UTQYdFMcJ0l3kCZRgnthKxR4TkHT4IRTWN5iXtj1PUoJNwSlM6ymVEuNZE4VNlIhrDWbijkVRoMBYTrn+OFHZXdZaQUfnmilM8aJoiI8v75phTlW4NVQFZ4vNrbMQ04RxwnlcNiVBRV8sQhbBwf0xPh5gNaBXyLhjpaKWCxRK6T3hgpCwVWGuaatcI4FsfE81BJFMbkUfCWYMWHgxNAq32v2CMePIquXUQgrpW6vXqIqY06cziRL6WVumBRO4oC6TcmLufjiArC5phkuuPG5Bkmh4TyaW8wWRIUo+zaTd1+9wwkTZXjVJpcp5vUKG6NYUhiqbS0op7ZiaI7znIkpypW8ZaUxYJm3pxwW7YzLO3Bqy9vGqQXehhTh9gTkF6X4B1bMRvEvHAPGAIhxqDZySdeyUGVWblHKC11uKCy0OytclrlCvwqL0kVdxYdcikBBp4rl5gMY3NIqlGXLc76/kyLjFSVSKQizPvUa8R27KUFG/lfACWSx+J5DfCCJ22mhIKWmXSv5plgu/9cGm0I7G79fCqmTxc+b5U19HddyH9dzcmg+G42bklw13xNZ1XzxyZqvF0V/qP2MKt5f9+3rJxfwnqaKyU4SkFW9tVQGucytddVz7h/N0AmjnDy5FA4A540vLdmC5GEb3oqgmfWxcTt0/vrb4V3SEwAR5PLNBGeivJwB6Gl4299JjSTe4EFZ/hVrSxnWacPkDowMHo+fsmVdPX8PAOkNvwGi4MqhbADu56s/vqJu92TU7XZeRl0gzvWiRl9nrSHB/g1mS+f1H60+3tQHdq0ZxMubmvofj/MZv9Rnx/rc6M3ui5pznVlu52ILwU78wtvSbK237O4ZmFb+kGtWdMfIlJqVd69FpLnD/GfTfsWuuofK8F79Wox3flAka69FlqE51Inl8IRVNAUqaIQVRZksBEHV43VFG1u3jCltKuXnM+QrNYUSgYSWC8yMBqV2UGufYrIcEJ03/JQFPrwKgw4gvKAML6jDe1kytsyj3gnfeq+ZRxPMeJl6+AjJ12pHlZJqy0zaU7Ud5T9wYB0IKj4pqNdPtCa+N062PVj/ii/a106dlOKk18GDYTeOoyiOyDAaDYfxaJBkAzzsZatGQ0iLFMYinJwBMeB45Ingq9rwYVlNzSP/uoDxP5NyurYOhuuNL6Swn6CdoQksXihz4PHuj6gaF4mUnGKxYmf/j82L9/JjpmBXm7lxos9NRXuru7xg3wX7VdBPlhQjGnVGMUnPRsN4eNbLyOBsTHD/DI+T/rBLaNrLjr+eb34DtJvCrMIUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Create a task for the operator</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:06</sys_created_on>
+        <sys_id>7eddfbe883f172107f44d4abc1da1eaa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:08:04</sys_updated_on>
+        <ui_id>fe68ab33-cc2e-4a05-8632-6b3f354ca99a</ui_id>
+        <values>H4sIAAAAAAAA/+1WTW/bMAz9K4bPnuc0S9PmVmDIbS2wj+7QtYIs0bEwWXIlOW0W+L+PsuwkXT+WFgO6AQNyEUU+PpJPdC7WseDxLIbpmB6Ox5PJeJRlY/zlxYgfj7JjYJOj6YTFSaxoBejpqP1OHM0loG1JZeONt4Rx6ThhJTULsNoSXYOhThtCrRULVYFyFgO4sLWkq/PnxrFSSG5AxbOLyySuqUEyDkw8W/9y5VY1EElzkAj/2dOMTj3xZO867wQ/UrfP0tnwSFTA14Z7QlkSw60DxQHzFVRaSOKKKu6LWsUzZxo0GKD8TMnVxqMUyiFg7H1vrfiB6EeZ9ysAS2MQ7jZH0vcxmFmpBYOz2gmtgiXwDJdaNpU6DUX4CUBBG+mGCaClsYgHtafsSfSMik+lvvk4JJwL1VXXX0rNqNycqHNG5I0D6+eRU8QbCPiuYQqQ4CdJKlrXQi1IbfRSdIDIr0oXEg9pIfUNEvFjTynzxaTYNZrO0f6+M59TIzzwB4TB4LbrCLluPJdQW18FCY1AB8uMqN0Jwi2hJ9wmvegPnhTDYb4dfiFActKp3e7IPmgUOHH6W4PxfL3+UiNntIxS1hhsnUs3ToO02/bKwDUiOSL443F2ZfEenTdPwnfdt+UZudIhBnFsqY3zDe5assE56WMipyMLZolSih7CRpmYtBAGafuutK0PP5jaaAmlYPjOqHswbmCQhqgkkphBWYhQwA6iNw8G9Zg27Z1J59y291fI/xm8wgxeuI6hCvnC7JK9X+EAMPfPMETbRx/nsJv7ZOFiu59HT+/n3rLPgj6cZNkr7ejwFXnxin6ddbzzBf3NYi6KpyQxnW5nf0OF21nI2f390CG/XLLY6LfzHmJfbkPw10DuLtVenrnWEqja6vLgj+ny3T/6x+Hv+pNw+RPat9V9GwsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN7ae84878833572107f44d4abc1da1e61,b6e84878833572107f44d4abc1da1e5f"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">36e84878833572107f44d4abc1da1e61</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:25</sys_created_on>
+        <sys_id>7ae84878833572107f44d4abc1da1e61</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:34</sys_updated_on>
+        <ui_id>0d57f816-d821-49ae-ba19-a77a9900fd47</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">3ee84878833572107f44d4abc1da1e5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:25</sys_created_on>
+        <sys_id>b6e84878833572107f44d4abc1da1e5f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:33</sys_updated_on>
+        <ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</ui_id>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K8bPifFHnNZ5KxuFwrbCWvqyFXMtXSeiiuRJctos5L/vyh9paFM2Sh/3Zp37dc7VEd6FunVN6+ytvrBWLFW4+HE/CYXyGH3vQgVrDBch04oLJ7QqO2ASbkC2PnBVB26FgW7QgNMmAGkQ+DZYwQYDCBzYB0oA97ON4/TMBkq7gEltkVMTLmwjYXv3Eb3YSkhucFDQgCGeDk242L0IuW2DpYQKJY28cUaoJZULTqc6hjopWMKydJ6lNOR8llTzrEpSngFCRnlj4adxIcGXDpm8uSk/j3A7TtKGe1pJPAnxyaHiRH9Rg7Q4CdeguJe+PSB+A9dKPgMroRy1C33ykxW/qXea5z6xRtLIsA8ejuWw5B5mKy0YXjeeYI84qORQw7Rs1+pbr8NfD9bQSjdeDyGtpX7YeNKexUCpvlnpx+/jwEuhOoFDUGoG8nACR2uoWofWXwxKXFOjcg1NQ8spG6M3oismLutoKekQ1VI/0lDvzgiYJx7RjiC6JPxzB9+BEV7FV2pDxT3NCqxgZedkaucMSdh3ayl/tZ5QL3CQUvbboATLjGjcBc3Z4MB6P3n9DI5ewG53Np8VmOR8Gmd1Pp1lBUwLstC0Os8zjhUUvOCRdeBau99782Y8ee3+d/f5COcXkNd5EuennT+bn3L+Cc+/bff0L3b3F/SPbo/j+L/dj+0ubNnbdtDWDX+32++9tfsJtvcNRyYsEbn12NX4b/CBLRlAsGPoUZsHL+EZ2/8BWxFzGGUGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_hub_flow_variable action="DELETE" query="model=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:05</sys_created_on>
+        <sys_id>32dd7be883f172107f44d4abc1da1edc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:06</sys_created_on>
+        <sys_id>7eddfbe883f172107f44d4abc1da1ea1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:05</sys_created_on>
+        <sys_id>feddfbe883f172107f44d4abc1da1e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow checks for when a user accepts a request and creates a task</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>charging_request_assigned_task</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_operator","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["assigned_to"],"7649e15d-03f5-439a-9c32-b853deba9d9d":["conditions"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["request_id"]}},{"name":"Updated_1.current.assigned_operator.location","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["operator_location"]}},{"name":"Updated_1.current.user.first_name","label":"Trigger - Record Updated➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.location.name","label":"Trigger - Record Updated➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.vehicles.license_plate","label":"Trigger - Record Updated➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.Record","label":"1 - Look Up Record➛Operator Assignments Record","reference":"x_cdltd_chargesos_operator_assignments","reference_display":"Operator Assignments","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"1dc06aad-342f-4980-8994-bc4eb7deab92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}}]</label_cache>
+        <master>true</master>
+        <name>Charging Request Assigned Task</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Charging Request Assigned Task">47dd27a483b172107f44d4abc1da1e50</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bded3fe883f172107f44d4abc1da1eca</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_variable_value action="DELETE" query="document_key=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=bded3fe883f172107f44d4abc1da1eca^sys_idNOT INf9ed3fe883f172107f44d4abc1da1ecb"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>bded3fe883f172107f44d4abc1da1eca</id>
+        <name>Charging Request Assigned Task</name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>f9ed3fe883f172107f44d4abc1da1ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=f9ed3fe883f172107f44d4abc1da1ecb"/>
+    <sys_hub_flow_input action="DELETE" query="model=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN79ed3fe883f172107f44d4abc1da1ee3,b5ed3fe883f172107f44d4abc1da1eea,bded3fe883f172107f44d4abc1da1ecc"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</model>
+        <model_id>bded3fe883f172107f44d4abc1da1eca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>79ed3fe883f172107f44d4abc1da1ee3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 01:25:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=79ed3fe883f172107f44d4abc1da1ee3"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</model>
+        <model_id>bded3fe883f172107f44d4abc1da1eca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>b5ed3fe883f172107f44d4abc1da1eea</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b5ed3fe883f172107f44d4abc1da1eea"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</model>
+        <model_id>bded3fe883f172107f44d4abc1da1eca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>bded3fe883f172107f44d4abc1da1ecc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=bded3fe883f172107f44d4abc1da1ecc"/>
+    <sys_hub_flow_output action="DELETE" query="model=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN4aed7fe883f172107f44d4abc1da1e02"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>4aed7fe883f172107f44d4abc1da1e02</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN08f88878833572107f44d4abc1da1eff,c2ed7fe883f172107f44d4abc1da1e02"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:31</sys_created_on>
+        <sys_id>08f88878833572107f44d4abc1da1eff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:19:16</sys_updated_on>
+        <ui_id>7649e15d-03f5-439a-9c32-b853deba9d9d</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbeigQGCnQboEn70u0SFEnFRGlSJancDP97h6Ike20ltrAOkKCPHA7JMzPnDCl9X4WchuchnUWzbDYbT5MoGg6jaDIZEhyn6XBC0ijFo7AXSrxk4GlxKhgM77Ao3PgBESosRWSB9S0zyiCVM42t0ggbw2/lkklrYAHlJhf48Vu17qryCj78x4ssuKCayfD8+49emGMNp1qmw/PVztSxsAVOmQDXmwr3Thj2MW+GqJzztk/by4LPfkJp6qBEvZA9WCYpAwwZFob1wiWW1IXz2Fg0w/RKio1hwaWFHUPn/GD4E5w7jZxfxiAqwvxcM0RVwrw5u8QWX1tdEFvoypUsFCfM+HxQluFC2Ittm3e4yi1X0i/xYfvVShRL+dmnI2w2qOsDlsIACJa7QB3yKozseqHuv9Qo51yWOakmhSJYNCNsreZpYR2eVcgEc1VGS5znXN6iXKs7Xi4GLMv+rYBBPxPqHg51lOhj4oD3Ia+4Pwf7ZWn+hjV3UfwN28BiAMQFMAT5EhpV6DKVd4iIwpQTGkvj9wrXvdA8mgsB1NxEDilHvwqH2+ehihj5pLklRPPcfoAt7lgV3LpXK2f8IgVnG8oRJSl3KMyWfLxGGEVW/VPADnS1+ppDxGCJ+6TQkGTbb5xqaa3X/xqLbWH8mnq+NDJvi/cl96pndRTu4azVwr3YTltbKisJ79k+tW1QSTg+mYRHUfSeRAyHvz0Nd1elT8EBacb0RZLRDZ+M0hb5XG5pc19BnXl+BISa51eOmUH6+ByqiuYZZ4K23VRzN7FzUw3+zJvqTZIcAFHkq8el4LJ8dgDQ12L/+EXqpfEOz0p6bbhf2rAhLbdIYFXw1FkJR8CplXANZwc3Hk8LxLrfl5TZ7fW1sRLA8GQCGA5OI4BVE2aTyJac1y9NV83a/8n5411/oODWgnjdJrBOZ8Zdzxys9wU87KTgbbL5mctnOHfiJ+kziuy9ZgtYwNLqPOT1i+45vWV2c3rtRZW9x+Jn23zFOFQXqgzvFZ638YtfWOnW85ZnaAmV4zm8wjUjQA6DsGYoU4WkqHp/b4jkKplxbWzlvN9ovjDQjwwUCDOwCxaU3kHj3fEiPhxHncqPWVAHUp1mAggkKAMJmkC6hd2laY1O+Dg9ddOaYy7KasCnVb5VTqa10s80rgOFfIERR3a1I0HFJwX1/9temwRa298BrO/iO/30rYkwnI4GeJIM4ziK4ogm0TRJ4ukkzSY4GWUbjSJkJIFuCjtnQBXYHtXUqOvc8rlcNdtufeYIUDUDL5V0n8+DxAYOFZQ3qFEdxl31k1QpwbDcaSg3gPyveXkjNHQdv7mm8i5+WhX8ZjfT3tSa69d6NhT8q+S/CvbRUWzKosE0puRsmsTJ2Sijk7MZxeMzPEvHyZAyMspO+RL48Rs82EYjJBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Create a task for the operator</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>c2ed7fe883f172107f44d4abc1da1e02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 01:25:31</sys_updated_on>
+        <ui_id>fe68ab33-cc2e-4a05-8632-6b3f354ca99a</ui_id>
+        <values>H4sIAAAAAAAA/+1WXW/TMBT9K5GfS0hXurK+TZv6BJvEYDyMYbnxTWvhxJntdCtV/jvXsZOWrRstILFJSH3x/fI51+fe9GpFBCdjAqMBOxwMhsNBP0kG+JtmfX7UT44gHb4dDVPSIwXLASMtM9+oZVMJaFswWTnjHU25tJymc6ZnYJShqgTNrNKUGSNmRQ6FNZjAhSklW17um5fOheQaCjK+uu6RkmkEY0GT8eqea1c2kk1BYujHwGQbO7ssvQ2PtAnwtnebudGZdyjNHZ6kR+DOQsEBgWRMGuiRnBXccVqSsdUVGjQwfl7IZRcxF4XFgsTF3hnxHa99m7i4DJBZCt7XHWloozdnp8yyC6yc2kqH0HSuRArG94RDxippTzZtPuC8tEIVPsWz9tlKVnlx5ltCugLtq6GlMggCSsfTIQ80sou5uv3QopyIomlJcEqVMtmdmLVaTCvr8KzIlGG9FoB7A7wCJLjXpzkrS1HMaKnVQjQFEV8ezyQe4kyqWwTipBKz1JGJsdUsnqD9tDFfMi1c4fdYBpPrHjFLcyJRXmt+2Fh6Uzl0nm3gRX1rXEqqRWmP8YIFBAp1L4zOwZNiO5yuxZUJkJw2M2M2hscrHTi16kuF+Xy1+lQiC7T047TS2Ewbd0HtgNT1Vw03WMlSwR/PQ7Lox+BusNw7uEbtcVfc5mAdM1faupY3LenqHIecyKrIgF6guKJttVE4Os6ERtiuK3Xt0g9GJlrAXKQ4TsxuzWsRxD6rF0m8oTAQ4RxYiF5tTQo1TRyCaRNc1w8X0f83+AdvsN9S32HO2qU+cYMWXbaDtn382u0OeYPIO+5v+OD0tdZbvv/0lg+WXdb84TBJXtKm9x+w3170z2Wpb3znf7Hes+wp2Y1Ga33dMmE31nrycMs0lfcW/g4IWuF/9hB+BhSEPlVKAivuKxzf8/Uk4ArqPvhr6n7zkqT9p39inou2H1P09Q+t4n+97QsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN44f8c878833572107f44d4abc1da1e02,80f8c878833572107f44d4abc1da1e01"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">36e84878833572107f44d4abc1da1e61</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:31</sys_created_on>
+        <sys_id>44f8c878833572107f44d4abc1da1e02</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <ui_id>0d57f816-d821-49ae-ba19-a77a9900fd47</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">3ee84878833572107f44d4abc1da1e5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Charging Request Assigned Task">bded3fe883f172107f44d4abc1da1eca</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 01:25:31</sys_created_on>
+        <sys_id>80f8c878833572107f44d4abc1da1e01</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:35</sys_updated_on>
+        <ui_id>1dc06aad-342f-4980-8994-bc4eb7deab92</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYFn2dDDciLfAgcBAqQN0AS5tIGwIqmYCE2qJGXHNfzvXephG4mLNm2OvZmzy92ZEQfeEt24unH2Xl9YK54UmX19DIlQHsPfW6JgycmMUK2YcEKrogVCsgLZ+MJ1FbgFD3TNDThtApCGA9sEC1jxAAIH9hkbwH1roig5s4HSLqBSW85wCBO2lrB5+IhZdCEkM7xXUINBno4bMtu+KgmGq6oIqjinMU2TaZrguPNJXE7TMk5YChxSHCih5BJb54P04KZFwl964ja1x60zQj3155t+yt0AasM8qzgKCX9xXDFkP6tAWh6SJSjmlW/2iDfgVskDsBDK4Tjim1+s+IELkyzzjRVHiZR3xf2x6D3u4OoSHCCVhrrG9K10oQXltjOH8Qoa6ebHWNdwW3up3RUHpRxua9ks1efOEbIfMHxSRBqLJHjtlXrqvY7qbqHXXwaWV0K1rvRFqSnI/Qkcelc2zvPZEi75EgcVS6hrdLSojV6J9jJyWY6fJB7GldRrXOpf9BioJz5GY2F8hfhlCz+AEV7FJxyDlzuaJVhBi/b14zi0iZNdSOzGziVYexCJ7hbfG0+xk9yLKzp//BVqRO0ucPOK9zp24dswHeVouz2bTnIeZ2wUpVU2mqQ5jHJ8nqPyPEsZLyFnORtbB66xu52PQMritxn66znvy08OWZXFUXY6P5PpqfycSM47Q5P8JjT+i/1hZqIo+h+afw6NsEX31Htt7fIPzMyjD0i3c+81FRap3Xvsevif8oUNPi5Bj6G1Ns9e1AHb/QScNwg48QYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_flow_variable action="DELETE" query="model=bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>71ed3fe883f172107f44d4abc1da1efb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>f9ed3fe883f172107f44d4abc1da1ed4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:18</sys_created_on>
+        <sys_id>fded3fe883f172107f44d4abc1da1ee7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 00:37:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_bded3fe883f172107f44d4abc1da1eca"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>47dd27a483b172107f44d4abc1da1e50</sys_id>
+        <latest_snapshot>bded3fe883f172107f44d4abc1da1eca</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=47dd27a483b172107f44d4abc1da1e50^sys_idNOT INc6ed7fe883f172107f44d4abc1da1e4a"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c6ed7fe883f172107f44d4abc1da1e4a","name":"plan","plan_signature":null}}</plan>
+        <plan_id>47dd27a483b172107f44d4abc1da1e50</plan_id>
+        <snapshot>bded3fe883f172107f44d4abc1da1eca</snapshot>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 00:37:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6ed7fe883f172107f44d4abc1da1e4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:23:36</sys_updated_on>
+        <trigger display_value="">b236187c837572107f44d4abc1da1e3c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=47dd27a483b172107f44d4abc1da1e50"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</application>
+        <file_path/>
+        <instance_id>c2e7cf8e931d7e50abcff0d56aba1091</instance_id>
+        <instance_name>emea-nov-5808-0002</instance_name>
+        <name>sys_hub_flow_47dd27a483b172107f44d4abc1da1e50</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10582000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;This flow checks for when a user accepts a request and creates a task&lt;/description&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;charging_request_assigned_task&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.assigned_operator","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["assigned_to"],"7649e15d-03f5-439a-9c32-b853deba9d9d":["conditions"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["request_id"]}},{"name":"Updated_1.current.assigned_operator.location","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["operator_location"]}},{"name":"Updated_1.current.user.first_name","label":"Trigger - Record Updated➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.location.name","label":"Trigger - Record Updated➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.vehicles.license_plate","label":"Trigger - Record Updated➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.Record","label":"1 - Look Up Record➛Operator Assignments Record","reference":"x_cdltd_chargesos_operator_assignments","reference_display":"Operator Assignments","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"1dc06aad-342f-4980-8994-bc4eb7deab92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;bded3fe883f172107f44d4abc1da1eca&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Charging Request Assigned Task&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;b236187c837572107f44d4abc1da1e3c&lt;/remote_trigger_id&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-10 23:27:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Charging Request Assigned Task&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_47dd27a483b172107f44d4abc1da1e50&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:40:59&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_cdltd_chargesos_charging_request"&gt;request_statusINrequested,waiting-queue,assigned^assigned_operatorISNOTEMPTY&lt;item display_value="requested,waiting-queue,assigned" endquery="false" field="request_status" goto="false" newquery="false" operator="IN" or="false" value="requested,waiting-queue,assigned"/&gt;&lt;item endquery="false" field="assigned_operator" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;false&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 02:23:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b236187c837572107f44d4abc1da1e3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:36&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_chargesos_charging_request&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;47dd27a483b172107f44d4abc1da1e50&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 02:23:36&lt;/sys_created_on&gt;&lt;sys_id&gt;7e36187c837572107f44d4abc1da1e3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:36&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;b236187c837572107f44d4abc1da1e3c&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN7e36187c837572107f44d4abc1da1e3c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN07dd27a483b172107f44d4abc1da1e51"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/id&gt;&lt;name&gt;Charging Request Assigned Task&lt;/name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-10 23:27:12&lt;/sys_created_on&gt;&lt;sys_id&gt;07dd27a483b172107f44d4abc1da1e51&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-10 23:27:12&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=07dd27a483b172107f44d4abc1da1e51"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN3eddfbe883f172107f44d4abc1da1e9f,7edd7be883f172107f44d4abc1da1edc,fedd7be883f172107f44d4abc1da1ed8"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model&gt;&lt;model_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;3eddfbe883f172107f44d4abc1da1e9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3eddfbe883f172107f44d4abc1da1e9f"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model&gt;&lt;model_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;7edd7be883f172107f44d4abc1da1edc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7edd7be883f172107f44d4abc1da1edc"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model&gt;&lt;model_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;fedd7be883f172107f44d4abc1da1ed8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fedd7be883f172107f44d4abc1da1ed8"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT INf2ddfbe883f172107f44d4abc1da1ea9"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f2ddfbe883f172107f44d4abc1da1ea9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:29&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN76e84878833572107f44d4abc1da1e5e,7eddfbe883f172107f44d4abc1da1eaa"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:25&lt;/sys_created_on&gt;&lt;sys_id&gt;76e84878833572107f44d4abc1da1e5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:08:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;7649e15d-03f5-439a-9c32-b853deba9d9d&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VYW2/bOgz+K4af0xw79/RtWBFgwM4KbN1eenoE2ZITYYrkSXJvQf77KMty0tS5NE2x7lEUKX4kP1KyrxchI+F5SMbROBuP+6NhFHW7UTQYdFMcJ0l3kCZRgnthKxR4TkHT4IRTWN5iXtj1PUoJNwSlM6ymVEuNZE4VNlIhrDWbijkVRoMBYTrn+OFHZXdZaQUfnmilM8aJoiI8v75phTlW4NVQFZ4vNrbMQ04RxwnlcNiVBRV8sQhbBwf0xPh5gNaBXyLhjpaKWCxRK6T3hgpCwVWGuaatcI4FsfE81BJFMbkUfCWYMWHgxNAq32v2CMePIquXUQgrpW6vXqIqY06cziRL6WVumBRO4oC6TcmLufjiArC5phkuuPG5Bkmh4TyaW8wWRIUo+zaTd1+9wwkTZXjVJpcp5vUKG6NYUhiqbS0op7ZiaI7znIkpypW8ZaUxYJm3pxwW7YzLO3Bqy9vGqQXehhTh9gTkF6X4B1bMRvEvHAPGAIhxqDZySdeyUGVWblHKC11uKCy0OytclrlCvwqL0kVdxYdcikBBp4rl5gMY3NIqlGXLc76/kyLjFSVSKQizPvUa8R27KUFG/lfACWSx+J5DfCCJ22mhIKWmXSv5plgu/9cGm0I7G79fCqmTxc+b5U19HddyH9dzcmg+G42bklw13xNZ1XzxyZqvF0V/qP2MKt5f9+3rJxfwnqaKyU4SkFW9tVQGucytddVz7h/N0AmjnDy5FA4A540vLdmC5GEb3oqgmfWxcTt0/vrb4V3SEwAR5PLNBGeivJwB6Gl4299JjSTe4EFZ/hVrSxnWacPkDowMHo+fsmVdPX8PAOkNvwGi4MqhbADu56s/vqJu92TU7XZeRl0gzvWiRl9nrSHB/g1mS+f1H60+3tQHdq0ZxMubmvofj/MZv9Rnx/rc6M3ui5pznVlu52ILwU78wtvSbK237O4ZmFb+kGtWdMfIlJqVd69FpLnD/GfTfsWuuofK8F79Wox3flAka69FlqE51Inl8IRVNAUqaIQVRZksBEHV43VFG1u3jCltKuXnM+QrNYUSgYSWC8yMBqV2UGufYrIcEJ03/JQFPrwKgw4gvKAML6jDe1kytsyj3gnfeq+ZRxPMeJl6+AjJ12pHlZJqy0zaU7Ud5T9wYB0IKj4pqNdPtCa+N062PVj/ii/a106dlOKk18GDYTeOoyiOyDAaDYfxaJBkAzzsZatGQ0iLFMYinJwBMeB45Ingq9rwYVlNzSP/uoDxP5NyurYOhuuNL6Swn6CdoQksXihz4PHuj6gaF4mUnGKxYmf/j82L9/JjpmBXm7lxos9NRXuru7xg3wX7VdBPlhQjGnVGMUnPRsN4eNbLyOBsTHD/DI+T/rBLaNrLjr+eb34DtJvCrMIUAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment&gt;Create a task for the operator&lt;/comment&gt;&lt;compiled_snapshot&gt;2b3a6335531003003bf1d9109ec58759&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:06&lt;/sys_created_on&gt;&lt;sys_id&gt;7eddfbe883f172107f44d4abc1da1eaa&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:08:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;fe68ab33-cc2e-4a05-8632-6b3f354ca99a&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1WTW/bMAz9K4bPnuc0S9PmVmDIbS2wj+7QtYIs0bEwWXIlOW0W+L+PsuwkXT+WFgO6AQNyEUU+PpJPdC7WseDxLIbpmB6Ox5PJeJRlY/zlxYgfj7JjYJOj6YTFSaxoBejpqP1OHM0loG1JZeONt4Rx6ThhJTULsNoSXYOhThtCrRULVYFyFgO4sLWkq/PnxrFSSG5AxbOLyySuqUEyDkw8W/9y5VY1EElzkAj/2dOMTj3xZO867wQ/UrfP0tnwSFTA14Z7QlkSw60DxQHzFVRaSOKKKu6LWsUzZxo0GKD8TMnVxqMUyiFg7H1vrfiB6EeZ9ysAS2MQ7jZH0vcxmFmpBYOz2gmtgiXwDJdaNpU6DUX4CUBBG+mGCaClsYgHtafsSfSMik+lvvk4JJwL1VXXX0rNqNycqHNG5I0D6+eRU8QbCPiuYQqQ4CdJKlrXQi1IbfRSdIDIr0oXEg9pIfUNEvFjTynzxaTYNZrO0f6+M59TIzzwB4TB4LbrCLluPJdQW18FCY1AB8uMqN0Jwi2hJ9wmvegPnhTDYb4dfiFActKp3e7IPmgUOHH6W4PxfL3+UiNntIxS1hhsnUs3ToO02/bKwDUiOSL443F2ZfEenTdPwnfdt+UZudIhBnFsqY3zDe5assE56WMipyMLZolSih7CRpmYtBAGafuutK0PP5jaaAmlYPjOqHswbmCQhqgkkphBWYhQwA6iNw8G9Zg27Z1J59y291fI/xm8wgxeuI6hCvnC7JK9X+EAMPfPMETbRx/nsJv7ZOFiu59HT+/n3rLPgj6cZNkr7ejwFXnxin6ddbzzBf3NYi6KpyQxnW5nf0OF21nI2f390CG/XLLY6LfzHmJfbkPw10DuLtVenrnWEqja6vLgj+ny3T/6x+Hv+pNw+RPat9V9GwsAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=47dd27a483b172107f44d4abc1da1e50^sys_idNOT IN7ae84878833572107f44d4abc1da1e61,b6e84878833572107f44d4abc1da1e5f"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;36e84878833572107f44d4abc1da1e61&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="End"&gt;d176605ea76103004f27b0d2187901c7&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:25&lt;/sys_created_on&gt;&lt;sys_id&gt;7ae84878833572107f44d4abc1da1e61&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:34&lt;/sys_updated_on&gt;&lt;ui_id&gt;0d57f816-d821-49ae-ba19-a77a9900fd47&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;3ee84878833572107f44d4abc1da1e5e&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:25&lt;/sys_created_on&gt;&lt;sys_id&gt;b6e84878833572107f44d4abc1da1e5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1VXWvbMBT9K8bPifFHnNZ5KxuFwrbCWvqyFXMtXSeiiuRJctos5L/vyh9paFM2Sh/3Zp37dc7VEd6FunVN6+ytvrBWLFW4+HE/CYXyGH3vQgVrDBch04oLJ7QqO2ASbkC2PnBVB26FgW7QgNMmAGkQ+DZYwQYDCBzYB0oA97ON4/TMBkq7gEltkVMTLmwjYXv3Eb3YSkhucFDQgCGeDk242L0IuW2DpYQKJY28cUaoJZULTqc6hjopWMKydJ6lNOR8llTzrEpSngFCRnlj4adxIcGXDpm8uSk/j3A7TtKGe1pJPAnxyaHiRH9Rg7Q4CdeguJe+PSB+A9dKPgMroRy1C33ykxW/qXea5z6xRtLIsA8ejuWw5B5mKy0YXjeeYI84qORQw7Rs1+pbr8NfD9bQSjdeDyGtpX7YeNKexUCpvlnpx+/jwEuhOoFDUGoG8nACR2uoWofWXwxKXFOjcg1NQ8spG6M3oismLutoKekQ1VI/0lDvzgiYJx7RjiC6JPxzB9+BEV7FV2pDxT3NCqxgZedkaucMSdh3ayl/tZ5QL3CQUvbboATLjGjcBc3Z4MB6P3n9DI5ewG53Np8VmOR8Gmd1Pp1lBUwLstC0Os8zjhUUvOCRdeBau99782Y8ee3+d/f5COcXkNd5EuennT+bn3L+Cc+/bff0L3b3F/SPbo/j+L/dj+0ubNnbdtDWDX+32++9tfsJtvcNRyYsEbn12NX4b/CBLRlAsGPoUZsHL+EZ2/8BWxFzGGUGAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;32dd7be883f172107f44d4abc1da1edc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:06&lt;/sys_created_on&gt;&lt;sys_id&gt;7eddfbe883f172107f44d4abc1da1ea1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;feddfbe883f172107f44d4abc1da1e9e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;This flow checks for when a user accepts a request and creates a task&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;charging_request_assigned_task&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.assigned_operator","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"assigned_operator","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["assigned_to"],"7649e15d-03f5-439a-9c32-b853deba9d9d":["conditions"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Charging Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_chargesos_charging_request","column_name":"sys_id","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["request_id"]}},{"name":"Updated_1.current.assigned_operator.location","label":"Trigger - Record Updated➛Charging Request Record➛Assigned Operator➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["operator_location"]}},{"name":"Updated_1.current.user.first_name","label":"Trigger - Record Updated➛Charging Request Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.location.name","label":"Trigger - Record Updated➛Charging Request Record➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"Updated_1.current.vehicles.license_plate","label":"Trigger - Record Updated➛Charging Request Record➛Vehicles➛License Plate","reference":"","reference_display":"License Plate","type":"string","base_type":"string","parent_table_name":"x_cdltd_chargesos_vehicles","column_name":"license_plate","usedInstances":{"fe68ab33-cc2e-4a05-8632-6b3f354ca99a":["short_description"]}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.Record","label":"1 - Look Up Record➛Operator Assignments Record","reference":"x_cdltd_chargesos_operator_assignments","reference_display":"Operator Assignments","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7649e15d-03f5-439a-9c32-b853deba9d9d.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"1dc06aad-342f-4980-8994-bc4eb7deab92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Charging Request Assigned Task&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Charging Request Assigned Task"&gt;47dd27a483b172107f44d4abc1da1e50&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bded3fe883f172107f44d4abc1da1eca&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=bded3fe883f172107f44d4abc1da1eca^sys_idNOT INf9ed3fe883f172107f44d4abc1da1ecb"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;bded3fe883f172107f44d4abc1da1eca&lt;/id&gt;&lt;name&gt;Charging Request Assigned Task&lt;/name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;f9ed3fe883f172107f44d4abc1da1ecb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:18&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f9ed3fe883f172107f44d4abc1da1ecb"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN79ed3fe883f172107f44d4abc1da1ee3,b5ed3fe883f172107f44d4abc1da1eea,bded3fe883f172107f44d4abc1da1ecc"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model&gt;&lt;model_id&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;79ed3fe883f172107f44d4abc1da1ee3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 01:25:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=79ed3fe883f172107f44d4abc1da1ee3"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model&gt;&lt;model_id&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;b5ed3fe883f172107f44d4abc1da1eea&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5ed3fe883f172107f44d4abc1da1eea"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model&gt;&lt;model_id&gt;bded3fe883f172107f44d4abc1da1eca&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;bded3fe883f172107f44d4abc1da1ecc&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bded3fe883f172107f44d4abc1da1ecc"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN4aed7fe883f172107f44d4abc1da1e02"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;4aed7fe883f172107f44d4abc1da1e02&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN08f88878833572107f44d4abc1da1eff,c2ed7fe883f172107f44d4abc1da1e02"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:31&lt;/sys_created_on&gt;&lt;sys_id&gt;08f88878833572107f44d4abc1da1eff&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:19:16&lt;/sys_updated_on&gt;&lt;ui_id&gt;7649e15d-03f5-439a-9c32-b853deba9d9d&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbeigQGCnQboEn70u0SFEnFRGlSJancDP97h6Ike20ltrAOkKCPHA7JMzPnDCl9X4WchuchnUWzbDYbT5MoGg6jaDIZEhyn6XBC0ijFo7AXSrxk4GlxKhgM77Ao3PgBESosRWSB9S0zyiCVM42t0ggbw2/lkklrYAHlJhf48Vu17qryCj78x4ssuKCayfD8+49emGMNp1qmw/PVztSxsAVOmQDXmwr3Thj2MW+GqJzztk/by4LPfkJp6qBEvZA9WCYpAwwZFob1wiWW1IXz2Fg0w/RKio1hwaWFHUPn/GD4E5w7jZxfxiAqwvxcM0RVwrw5u8QWX1tdEFvoypUsFCfM+HxQluFC2Ittm3e4yi1X0i/xYfvVShRL+dmnI2w2qOsDlsIACJa7QB3yKozseqHuv9Qo51yWOakmhSJYNCNsreZpYR2eVcgEc1VGS5znXN6iXKs7Xi4GLMv+rYBBPxPqHg51lOhj4oD3Ia+4Pwf7ZWn+hjV3UfwN28BiAMQFMAT5EhpV6DKVd4iIwpQTGkvj9wrXvdA8mgsB1NxEDilHvwqH2+ehihj5pLklRPPcfoAt7lgV3LpXK2f8IgVnG8oRJSl3KMyWfLxGGEVW/VPADnS1+ppDxGCJ+6TQkGTbb5xqaa3X/xqLbWH8mnq+NDJvi/cl96pndRTu4azVwr3YTltbKisJ79k+tW1QSTg+mYRHUfSeRAyHvz0Nd1elT8EBacb0RZLRDZ+M0hb5XG5pc19BnXl+BISa51eOmUH6+ByqiuYZZ4K23VRzN7FzUw3+zJvqTZIcAFHkq8el4LJ8dgDQ12L/+EXqpfEOz0p6bbhf2rAhLbdIYFXw1FkJR8CplXANZwc3Hk8LxLrfl5TZ7fW1sRLA8GQCGA5OI4BVE2aTyJac1y9NV83a/8n5411/oODWgnjdJrBOZ8Zdzxys9wU87KTgbbL5mctnOHfiJ+kziuy9ZgtYwNLqPOT1i+45vWV2c3rtRZW9x+Jn23zFOFQXqgzvFZ638YtfWOnW85ZnaAmV4zm8wjUjQA6DsGYoU4WkqHp/b4jkKplxbWzlvN9ovjDQjwwUCDOwCxaU3kHj3fEiPhxHncqPWVAHUp1mAggkKAMJmkC6hd2laY1O+Dg9ddOaYy7KasCnVb5VTqa10s80rgOFfIERR3a1I0HFJwX1/9temwRa298BrO/iO/30rYkwnI4GeJIM4ziK4ogm0TRJ4ukkzSY4GWUbjSJkJIFuCjtnQBXYHtXUqOvc8rlcNdtufeYIUDUDL5V0n8+DxAYOFZQ3qFEdxl31k1QpwbDcaSg3gPyveXkjNHQdv7mm8i5+WhX8ZjfT3tSa69d6NhT8q+S/CvbRUWzKosE0puRsmsTJ2Sijk7MZxeMzPEvHyZAyMspO+RL48Rs82EYjJBYAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment&gt;Create a task for the operator&lt;/comment&gt;&lt;compiled_snapshot&gt;2b3a6335531003003bf1d9109ec58759&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;c2ed7fe883f172107f44d4abc1da1e02&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 01:25:31&lt;/sys_updated_on&gt;&lt;ui_id&gt;fe68ab33-cc2e-4a05-8632-6b3f354ca99a&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1WXW/TMBT9K5GfS0hXurK+TZv6BJvEYDyMYbnxTWvhxJntdCtV/jvXsZOWrRstILFJSH3x/fI51+fe9GpFBCdjAqMBOxwMhsNBP0kG+JtmfX7UT44gHb4dDVPSIwXLASMtM9+oZVMJaFswWTnjHU25tJymc6ZnYJShqgTNrNKUGSNmRQ6FNZjAhSklW17um5fOheQaCjK+uu6RkmkEY0GT8eqea1c2kk1BYujHwGQbO7ssvQ2PtAnwtnebudGZdyjNHZ6kR+DOQsEBgWRMGuiRnBXccVqSsdUVGjQwfl7IZRcxF4XFgsTF3hnxHa99m7i4DJBZCt7XHWloozdnp8yyC6yc2kqH0HSuRArG94RDxippTzZtPuC8tEIVPsWz9tlKVnlx5ltCugLtq6GlMggCSsfTIQ80sou5uv3QopyIomlJcEqVMtmdmLVaTCvr8KzIlGG9FoB7A7wCJLjXpzkrS1HMaKnVQjQFEV8ezyQe4kyqWwTipBKz1JGJsdUsnqD9tDFfMi1c4fdYBpPrHjFLcyJRXmt+2Fh6Uzl0nm3gRX1rXEqqRWmP8YIFBAp1L4zOwZNiO5yuxZUJkJw2M2M2hscrHTi16kuF+Xy1+lQiC7T047TS2Ewbd0HtgNT1Vw03WMlSwR/PQ7Lox+BusNw7uEbtcVfc5mAdM1faupY3LenqHIecyKrIgF6guKJttVE4Os6ERtiuK3Xt0g9GJlrAXKQ4TsxuzWsRxD6rF0m8oTAQ4RxYiF5tTQo1TRyCaRNc1w8X0f83+AdvsN9S32HO2qU+cYMWXbaDtn382u0OeYPIO+5v+OD0tdZbvv/0lg+WXdb84TBJXtKm9x+w3170z2Wpb3znf7Hes+wp2Y1Ga33dMmE31nrycMs0lfcW/g4IWuF/9hB+BhSEPlVKAivuKxzf8/Uk4ArqPvhr6n7zkqT9p39inou2H1P09Q+t4n+97QsAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bded3fe883f172107f44d4abc1da1eca^sys_idNOT IN44f8c878833572107f44d4abc1da1e02,80f8c878833572107f44d4abc1da1e01"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;36e84878833572107f44d4abc1da1e61&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="End"&gt;d176605ea76103004f27b0d2187901c7&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:31&lt;/sys_created_on&gt;&lt;sys_id&gt;44f8c878833572107f44d4abc1da1e02&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;ui_id&gt;0d57f816-d821-49ae-ba19-a77a9900fd47&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;3ee84878833572107f44d4abc1da1e5e&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Charging Request Assigned Task"&gt;bded3fe883f172107f44d4abc1da1eca&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 01:25:31&lt;/sys_created_on&gt;&lt;sys_id&gt;80f8c878833572107f44d4abc1da1e01&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:35&lt;/sys_updated_on&gt;&lt;ui_id&gt;1dc06aad-342f-4980-8994-bc4eb7deab92&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1Vy27bMBD8FYFn2dDDciLfAgcBAqQN0AS5tIGwIqmYCE2qJGXHNfzvXephG4mLNm2OvZmzy92ZEQfeEt24unH2Xl9YK54UmX19DIlQHsPfW6JgycmMUK2YcEKrogVCsgLZ+MJ1FbgFD3TNDThtApCGA9sEC1jxAAIH9hkbwH1roig5s4HSLqBSW85wCBO2lrB5+IhZdCEkM7xXUINBno4bMtu+KgmGq6oIqjinMU2TaZrguPNJXE7TMk5YChxSHCih5BJb54P04KZFwl964ja1x60zQj3155t+yt0AasM8qzgKCX9xXDFkP6tAWh6SJSjmlW/2iDfgVskDsBDK4Tjim1+s+IELkyzzjRVHiZR3xf2x6D3u4OoSHCCVhrrG9K10oQXltjOH8Qoa6ebHWNdwW3up3RUHpRxua9ks1efOEbIfMHxSRBqLJHjtlXrqvY7qbqHXXwaWV0K1rvRFqSnI/Qkcelc2zvPZEi75EgcVS6hrdLSojV6J9jJyWY6fJB7GldRrXOpf9BioJz5GY2F8hfhlCz+AEV7FJxyDlzuaJVhBi/b14zi0iZNdSOzGziVYexCJ7hbfG0+xk9yLKzp//BVqRO0ucPOK9zp24dswHeVouz2bTnIeZ2wUpVU2mqQ5jHJ8nqPyPEsZLyFnORtbB66xu52PQMritxn66znvy08OWZXFUXY6P5PpqfycSM47Q5P8JjT+i/1hZqIo+h+afw6NsEX31Htt7fIPzMyjD0i3c+81FRap3Xvsevif8oUNPi5Bj6G1Ns9e1AHb/QScNwg48QYAAA==&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;71ed3fe883f172107f44d4abc1da1efb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:18&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;f9ed3fe883f172107f44d4abc1da1ed4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:18&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:18&lt;/sys_created_on&gt;&lt;sys_id&gt;fded3fe883f172107f44d4abc1da1ee7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ChargeSOS" source="x_cdltd_chargesos"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ChargeSOS"&gt;d0d97bb983e132107f44d4abc1da1e09&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 00:37:18&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bded3fe883f172107f44d4abc1da1eca"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/sys_id&gt;&lt;latest_snapshot&gt;bded3fe883f172107f44d4abc1da1eca&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=47dd27a483b172107f44d4abc1da1e50^sys_idNOT INc6ed7fe883f172107f44d4abc1da1e4a"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c6ed7fe883f172107f44d4abc1da1e4a","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;47dd27a483b172107f44d4abc1da1e50&lt;/plan_id&gt;&lt;snapshot&gt;bded3fe883f172107f44d4abc1da1eca&lt;/snapshot&gt;&lt;sys_created_by&gt;emmynem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-11 00:37:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c6ed7fe883f172107f44d4abc1da1e4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;emmynem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-11 02:23:36&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;b236187c837572107f44d4abc1da1e3c&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=47dd27a483b172107f44d4abc1da1e50"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>976719847</payload_hash>
+        <record_name>Charging Request Assigned Task</record_name>
+        <reverted_from/>
+        <source>8177f7f3832d32107f44d4abc1da1ebf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-11 02:40:59</sys_created_on>
+        <sys_id>ad3ad8b083b572107f44d4abc1da1e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b0b4881320000001</sys_recorded_at>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-11 02:40:59</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>253ad8b09bb5721046b8175bdf9fc02a</update_guid>
+        <update_guid_history>253ad8b09bb5721046b8175bdf9fc02a:976719847,cf36187c87757210ab6a24eef6efc84d:2098944830,6236d47ca675721008e82456f02f75bb:-2126261921,9d36947cb1757210b86e7b4dacfe25f4:-1244305893,3f355cf8977572102f95c09deecb1b72:549844277,53351cf88c757210d742c4cf9310c3dd:1899742937,efa2503842757210baa2f65472954439:718114965,42fe44b01e7572100553e5f7e94ba363:-682252491,9cf8c8788d357210244a4ad396122e5d:1248244619,44f8887869357210fe82816e2df3f6bb:2138361832,fae84878883572102105d2bd7fb2f77e:-933834251,c6ed7fe8bcf172105c1aee400fbc9356:-942099314,bded3fe8e5f17210bb859cc652b7d88d:1055062552,4fddfbe823f172105b1ecbe5f33d55b5:-1216239797,47dd23e453b172107fcb04d64ec86416:-689192634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emmynem</sys_created_by>
+        <sys_created_on>2025-12-17 09:26:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>22c667de859148e08899484ea9e18400</sys_id>
+        <sys_metadata>47dd27a483b172107f44d4abc1da1e50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Charging Request Assigned Task</sys_name>
+        <sys_package display_value="ChargeSOS" source="x_cdltd_chargesos">d0d97bb983e132107f44d4abc1da1e09</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ChargeSOS">d0d97bb983e132107f44d4abc1da1e09</sys_scope>
+        <sys_scope_delete display_value="">029eb48a2ab245a6803fba0c879fabe4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_47dd27a483b172107f44d4abc1da1e50</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_47dd27a483b172107f44d4abc1da1e50">ad3ad8b083b572107f44d4abc1da1e2a</sys_update_version>
+        <sys_updated_by>emmynem</sys_updated_by>
+        <sys_updated_on>2025-12-17 09:26:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
