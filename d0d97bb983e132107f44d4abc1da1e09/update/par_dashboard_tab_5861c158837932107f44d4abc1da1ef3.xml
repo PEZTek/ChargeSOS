@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="ChargeSOS, Turkiye">d861c9d4837932107f44d4abc1da1e26</dashboard>
+        <dashboard display_value="ChargeSOS Admin">d861c9d4837932107f44d4abc1da1e26</dashboard>
         <name>New Tab 1</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

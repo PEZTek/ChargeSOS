@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="42c2f0d2832532107f44d4abc1da1e03" extends="sys_import_set_row" label="Vehicle Imports" max_length="40" name="x_cdltd_chargesos_vehicle_imports" type="collection">
+    <element db_object_id="42c2f0d2832532107f44d4abc1da1e03" extends="sys_import_set_row" max_length="40" name="x_cdltd_chargesos_vehicle_imports" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="40" name="u_model" type="string"/>
         <element attributes="import_attribute_name=Battery Capacity" label="Battery Capacity" max_length="15" name="u_battery_capacity" type="decimal"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Make" label="Make" max_length="40" name="u_make" type="string"/>

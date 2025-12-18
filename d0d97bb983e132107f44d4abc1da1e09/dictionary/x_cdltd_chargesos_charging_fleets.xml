@@ -3,8 +3,8 @@
         <element label="Battery  Capacity" max_length="40" name="battery_capacity" type="integer"/>
         <element choice="3" label="Availability Status" max_length="40" name="availability_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
                 <element inactive_on_update="false" label="Offline" sequence="2" value="Offline"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
                 <element inactive_on_update="false" label="Busy" sequence="1" value="Busy"/>
             </choice>
         </element>
